@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import json
 from datetime import datetime
+import pytz
 import logging
 # Import edilecek modüller çalışma zamanında import edilecek
 import glob
@@ -14,6 +15,20 @@ app.config['SECRET_KEY'] = 'horse_racing_analysis_2025'
 # Logging ayarları
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# America Eastern Time Zone ayarı
+def get_american_time():
+    """Get current time in American Eastern Time (EST/EDT)"""
+    eastern = pytz.timezone('US/Eastern')
+    return datetime.now(eastern)
+
+def get_american_date_string():
+    """Get current date string in American Eastern Time"""
+    return get_american_time().strftime('%Y-%m-%d')
+
+def get_american_timestamp():
+    """Get timestamp string in American Eastern Time"""
+    return get_american_time().strftime('%Y%m%d_%H%M%S')
 
 # Mevcut track kodları - Güncel aktif pistler
 TRACK_MAPPING = {
@@ -38,7 +53,9 @@ TRACK_MAPPING = {
     'hawthorne-race-course': 'Hawthorne Race Course',
     'grants-pass-downs': 'Grants Pass Downs',
     'mountaineer': 'Mountaineer Casino Racetrack',
-    'los-alamitos': 'Los Alamitos Race Course'
+    'los-alamitos': 'Los Alamitos Race Course',
+    'horseshoe-indianapolis': 'Horseshoe Indianapolis',
+    'finger-lakes': 'Finger Lakes'
 }
 
 @app.route('/')
@@ -56,8 +73,8 @@ def check_saved_data():
         if not track_code:
             return jsonify({'has_data': False, 'message': 'Track seçilmedi'})
         
-        # Bugünün tarihini al
-        today = datetime.now().strftime('%Y_%m_%d')
+        # Bugünün tarihini al (Amerika saat dilimi)
+        today = get_american_time().strftime('%Y_%m_%d')
         
         # Essential dosya pattern
         essential_pattern = f"{track_code}_{today}_*_essential.csv"
@@ -112,8 +129,8 @@ def scrape_and_save():
         if not track_name:
             return jsonify({'success': False, 'message': 'Geçersiz track kodu'})
         
-        # Bugünün tarihini al
-        today = datetime.now().strftime('%Y-%m-%d')
+        # Bugünün tarihini al (Amerika saat dilimi)
+        today = get_american_date_string()
         today_formatted = today.replace('-', '_')
         
         # Dosya adlarını belirle
@@ -596,8 +613,8 @@ def calculate_from_saved():
         if not track_code:
             return jsonify({'success': False, 'message': 'Track seçilmedi'})
         
-        # Bugünün tarihini al
-        today = datetime.now().strftime('%Y_%m_%d')
+        # Bugünün tarihini al (Amerika saat dilimi)
+        today = get_american_time().strftime('%Y_%m_%d')
         
         # Essential dosyayı bul
         essential_pattern = f"{track_code}_{today}_*_essential.csv"
@@ -671,8 +688,8 @@ def scrape_and_calculate():
         if not track_code:
             return jsonify({'success': False, 'message': 'Track seçilmedi'})
         
-        # Bugünün tarihini al  
-        today = datetime.now().strftime('%Y-%m-%d')
+        # Bugünün tarihini al (Amerika saat dilimi)
+        today = get_american_date_string()
         track_name = TRACK_MAPPING.get(track_code, track_code)
         
         # Scraping ve hesaplama yap
@@ -803,8 +820,8 @@ def convert_to_web_format(grouped_results, all_results):
 def download_csv(track_code):
     """CSV dosyası indir"""
     try:
-        # En son hesaplanan dosyayı bul
-        today = datetime.now().strftime('%Y_%m_%d')
+        # En son hesaplanan dosyayı bul (Amerika saat dilimi)
+        today = get_american_time().strftime('%Y_%m_%d')
         pattern = f"american_{track_code}_{today}_*.csv"
         files = glob.glob(pattern)
         

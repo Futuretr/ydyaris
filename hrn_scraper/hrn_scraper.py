@@ -9,9 +9,20 @@ from bs4 import BeautifulSoup
 import json
 import time
 import re
+import pytz
 from datetime import datetime, timedelta
 from urllib.parse import urljoin, urlparse
 import logging
+
+# America Eastern Time Zone
+def get_american_time():
+    """Get current time in American Eastern Time (EST/EDT)"""
+    eastern = pytz.timezone('US/Eastern')
+    return datetime.now(eastern)
+
+def get_american_date_string():
+    """Get current date string in American Eastern Time"""
+    return get_american_time().strftime('%Y-%m-%d')
 
 # Logging ayarları
 logging.basicConfig(
@@ -39,7 +50,7 @@ class HorseRacingNationScraper:
         date_str format: 'YYYY-MM-DD' veya None (bugün için)
         """
         if date_str is None:
-            date_str = datetime.now().strftime('%Y-%m-%d')
+            date_str = get_american_date_string()  # Amerika saat dilimi
             
         url = f"{self.base_url}entries-results/{date_str}"
         
@@ -122,7 +133,7 @@ class HorseRacingNationScraper:
                 'track_info': track_info,
                 'races': races,
                 'total_races': len(races),
-                'scraped_at': datetime.now().isoformat()
+                'scraped_at': get_american_time().isoformat()  # Amerika saat dilimi
             }
             
         except requests.RequestException as e:
@@ -457,7 +468,7 @@ class HorseRacingNationScraper:
     def scrape_all_tracks_for_date(self, date_str=None):
         """Belirli bir tarih için tüm pistleri scrape eder"""
         if date_str is None:
-            date_str = datetime.now().strftime('%Y-%m-%d')
+            date_str = get_american_date_string()  # Amerika saat dilimi
         
         logger.info(f"Starting scrape for all tracks on {date_str}")
         
@@ -568,8 +579,8 @@ def main():
     """Ana fonksiyon - örnek kullanım"""
     scraper = HorseRacingNationScraper()
     
-    # Bugünün tarihini al
-    today = datetime.now().strftime('%Y-%m-%d')
+    # Bugünün tarihini al (Amerika saat dilimi)
+    today = get_american_date_string()
     
     print(f"Horse Racing Nation Scraper Starting...")
     print(f"Scraping data for {today}")

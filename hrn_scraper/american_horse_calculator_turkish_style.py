@@ -17,11 +17,18 @@ import json
 import re
 import math
 import logging
+import pytz
 from datetime import datetime
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# America Eastern Time Zone
+def get_american_time():
+    """Get current time in American Eastern Time (EST/EDT)"""
+    eastern = pytz.timezone('US/Eastern')
+    return datetime.now(eastern)
 
 def time_to_seconds(time_str):
     """Convert American time string to seconds"""
@@ -186,10 +193,10 @@ def calculate_position_penalty(finish_position, winner_time_per_100m, distance_m
         
         # Calculate penalty based on position and distance
         # Turkish system: Each position adds time based on distance
-        # 1st vs 2nd: 1.00 seconds per full race (10x penalty)
-        # 1st vs 3rd: 2.00 seconds per full race, etc.
+        # 1st vs 2nd: 0.30 seconds per full race (3x penalty)
+        # 1st vs 3rd: 0.60 seconds per full race, etc.
         
-        position_penalty_per_race = (pos - 1) * 1.00  # 1.00s per position (10x increased)
+        position_penalty_per_race = (pos - 1) * 0.30  # 0.30s per position (3x optimized)
         
         # Convert to per 100m penalty
         # If race is 1200m, penalty should be distributed over 12 x 100m segments
@@ -401,8 +408,8 @@ def save_results_to_csv(results, filename_prefix="american_horses_turkish_style"
         if 'calculation_details' in df.columns:
             df = df.drop('calculation_details', axis=1)
         
-        # Generate filename with timestamp
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        # Generate filename with timestamp (America Eastern Time)
+        timestamp = get_american_time().strftime('%Y%m%d_%H%M%S')
         filename = f"{filename_prefix}_{timestamp}.csv"
         
         # Save to CSV

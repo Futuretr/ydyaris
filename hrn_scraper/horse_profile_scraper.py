@@ -8,9 +8,16 @@ from bs4 import BeautifulSoup
 import csv
 import json
 import logging
+import pytz
 from datetime import datetime
 import time
 import re
+
+# America Eastern Time Zone
+def get_american_time():
+    """Get current time in American Eastern Time (EST/EDT)"""
+    eastern = pytz.timezone('US/Eastern')
+    return datetime.now(eastern)
 
 # Logging ayarı
 logging.basicConfig(
@@ -385,30 +392,33 @@ class HorseProfileScraper:
         logger.info(f"Saved horse profiles to {filename}")
     
     def _has_recent_races(self, race_history):
-        """Son 2 yıl içinde yarış olup olmadığını kontrol eder"""
+        """Son 3 yıl içinde yarış olup olmadığını kontrol eder (timezone fixed)"""
         from datetime import datetime, timedelta
         
         if not race_history:
             return False
         
-        current_date = datetime.now()
-        two_years_ago = current_date - timedelta(days=730)  # 2 yıl
+        current_date = get_american_time()  # Amerika saat dilimi
+        three_years_ago = current_date - timedelta(days=1095)  # 3 yıl (daha geniş aralık)
         
         for race in race_history:
             try:
-                # Tarih formatını parse et
-                race_date_str = race.get('date', '')  # 'race_date' değil 'date' anahtarı
+                # Tarih formatını parse et - farklı anahtarları dene
+                race_date_str = race.get('date', race.get('race_date', ''))
+                
                 if race_date_str and race_date_str != 'N/A':
                     # Farklı tarih formatlarını dene
                     for date_format in ['%Y-%m-%dT%H:%M:%SZ', '%m/%d/%y', '%m/%d/%Y', '%Y-%m-%d']:
                         try:
                             race_date = datetime.strptime(race_date_str, date_format)
-                            if race_date >= two_years_ago:
+                            # Timezone naive karşılaştırma için cutoff'u da naive yap
+                            three_years_ago_naive = three_years_ago.replace(tzinfo=None)
+                            if race_date >= three_years_ago_naive:
                                 return True
                             break
                         except ValueError:
                             continue
-            except Exception:
+            except Exception as e:
                 continue
         
         return False
