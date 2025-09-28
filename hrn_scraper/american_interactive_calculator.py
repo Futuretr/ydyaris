@@ -3,9 +3,10 @@
 
 """
 AMERICAN HORSE CALCULATOR - INTERACTIVE TERMINAL VERSION
+*** TURKISH STYLE CALCULATOR KULLANIR ***
 Amerika atları için interaktif terminal sistemi
-Kullanıcı track seçer, sistem otomatik veri çeker ve hesaplama yapar
-Zemin adaptasyonu ve kilo hesaplamaları kaldırılmıştır
+SADECE Turkish Style hesaplama yöntemi kullanılır
+Derece bazlı penalty sistemi ve zemin adaptasyonu içerir
 """
 
 import pandas as pd
@@ -16,6 +17,20 @@ import re
 import math
 from datetime import datetime
 import sys
+
+# Import Turkish Style Calculator - ZORUNLU!
+try:
+    from american_horse_calculator_turkish_style import (
+        process_horses_data_turkish_style,
+        group_by_race_and_sort,
+        save_results_to_csv,
+        print_race_summary
+    )
+    print("SUCCESS: Turkish Style Calculator loaded - ONLY Turkish Style will be used!")
+except ImportError as e:
+    print(f"ERROR CRITICAL: Turkish Style Calculator required but not found: {e}")
+    print("Make sure american_horse_calculator_turkish_style.py exists!")
+    sys.exit(1)
 
 # Import our scraper modules
 try:
@@ -149,7 +164,12 @@ def calculate_performance_score(horse_data):
         return None, f"Calculation error: {str(e)}"
 
 def process_horses_data(horses_list):
-    """Process list of horses and calculate performance scores"""
+    """Process list of horses - DELEGATES TO TURKISH STYLE"""
+    print("⚠️  DEPRECATED: Using Turkish Style calculator instead!")
+    return process_horses_data_turkish_style(horses_list)
+
+def process_horses_data_old(horses_list):
+    """OLD METHOD - Process list of horses and calculate performance scores - DEPRECATED"""
     results = []
     
     for horse in horses_list:
@@ -159,7 +179,7 @@ def process_horses_data(horses_list):
         race_number = horse.get('race_number', '')
         program_number = horse.get('program_number', '')
         
-        # Calculate performance score
+        # Calculate performance score - OLD WAY
         score, status = calculate_performance_score(horse)
         
         result = {

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amerika At Hesaplama Sistemi</title>
+    <title>Amerika At Hesaplama Sistemi - Turkish Style</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -253,7 +253,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>🏇 Amerika At Hesaplama Sistemi</h1>
+        <h1>🏇 Amerika At Hesaplama Sistemi - Turkish Style</h1>
+        <p style="text-align: center; margin-top: -10px; opacity: 0.8; font-size: 1.1em;">
+            🇹🇷 Türk Hesaplama Mantığı: Derece Bazlı Penalty Sistemi
+        </p>
         
         <div class="section">
             <h3>🎯 Tek Hipodrom Analizi</h3>
@@ -442,8 +445,17 @@
                             race.horses.forEach(horse => {
                                 const scoreClass = horse.valid_calculation ? 'performance-score' : 'invalid-score';
                                 const scoreText = horse.valid_calculation ? 
-                                    (horse.performance_score ? horse.performance_score.toFixed(2) : 'N/A') : 
+                                    (horse.performance_score ? horse.performance_score.toFixed(2) + ' s/100m' : 'N/A') : 
                                     'Veri Yok';
+                                
+                                // Position penalty info
+                                const positionInfo = horse.latest_finish_position ? 
+                                    `Geçmiş Sıra: ${horse.latest_finish_position}` : 
+                                    'Sıra Bilgisi Yok';
+                                
+                                const penaltyInfo = (horse.position_penalty_applied === true) ? 
+                                    '🔴 Derece Cezası Uygulandı' : 
+                                    (horse.latest_finish_position == 1) ? '🏆 Kazanan - Ceza Yok' : '';
                                 
                                 raceHtml += `
                                     <div class="horse-card">
@@ -451,8 +463,10 @@
                                         <div class="horse-stats">
                                             <div>Program No: ${horse.program_number}</div>
                                             <div>Performans: <span class="${scoreClass}">${scoreText}</span></div>
-                                            <div>Zemin: ${horse.surface}</div>
-                                            <div>Mesafe: ${horse.distance}</div>
+                                            <div>${positionInfo}</div>
+                                            ${penaltyInfo ? `<div style="font-size: 0.9em; color: #ffeb3b;">${penaltyInfo}</div>` : ''}
+                                            <div>Zemin: ${horse.surface} → ${horse.entry_surface || 'Bilinmiyor'}</div>
+                                            <div>Mesafe: ${horse.distance} → ${horse.entry_distance || 'Bilinmiyor'}</div>
                                             <div>Zaman: ${horse.time}</div>
                                         </div>
                                     </div>

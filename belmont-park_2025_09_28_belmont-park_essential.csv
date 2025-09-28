@@ -1,37 +1,37 @@
 race_number,program_number,horse_name,latest_surface,latest_distance,latest_time,latest_finish_position
-1,1,My Man Magoo,Dirt-Fast,1 m,1:38.82,4
-1,2,Nantz,Turf-Firm,1 1/16M,1:42.80,11
-1,3,Cyberbeast,Dirt-Fast,1 m,1:38.82,8
-1,4,Daytona Moonshine,Dirt-Fast,1 1/8 m,1:52.60,6
+1,1,My Man Magoo,Dirt-Fast,1 m,1:37.95,6
+1,2,Nantz,Dirt-Fast,1 m,1:37.95,1
+1,3,Cyberbeast,Dirt-Fast,1 m,1:37.95,3
+1,4,Daytona Moonshine,Dirt-Fast,1 m,1:37.95,4
 1,5,Remember the Chief,Dirt-Fast,6 1/2F,1:16.88,4
-1,6,Down the Line,Dirt-Fast,1 1/8 m,1:54.40,7
+1,6,Down the Line,Dirt-Fast,1 m,1:37.95,2
 1,7,Noguchi,Turf-Firm,1 1/16M,1:42.60,4
-1,8,Last Man Standing,Dirt-Fast,1 1/8 m,1:51.66,3
-2,1,Whistler's Style,Dirt-Fast,1 m,1:37.11,2
+1,8,Last Man Standing,Dirt-Fast,1 m,1:37.95,5
+2,1,Whistler's Style,Dirt-Fast,7 f,1:23.84,2
 2,2,Brzina,Dirt-Good,7 f,1:23.50,1
 2,3,She Makes a Point,Turf-Firm,1 m,1:35.60,5
-2,4,My First Love,Dirt-Fast,7 f,1:24.40,7
-2,5,Shezanarcticqueen,Dirt-Fast,1 m,1:37.11,4
-2,6,Lika Rolling Stone,Dirt-Fast,1 m,1:37.11,3
-2,7,Echo in Eternity,Dirt-Fast,6 1/2F,1:18.40,2
+2,4,My First Love,Dirt-Fast,7 f,1:23.84,1
+2,5,Shezanarcticqueen,Dirt-Fast,7 f,1:23.84,4
+2,6,Lika Rolling Stone,Dirt-Fast,7 f,1:23.84,3
+2,7,Echo in Eternity,Dirt-Fast,7 f,1:23.84,5
 2,8,Problematica,Dirt-Fast,6 1/2F,1:17.80,1
-3,1,Whocouldaskformo,Dirt-Fast,7 f,1:23.83,7
+3,1,Whocouldaskformo,Dirt-Fast,1 1/8 m,1:49.73,5
 3,2,Points Is Points,,,,
-3,3,Scarlett's Halo,Turf-Firm,1 1/16M,1:40.55,6
-3,4,Coquito,Dirt-,1 1/8 m,1:51.62,2
-3,5,Fully Subscribed,Dirt-Fast,1 m,1:38.33,3
-3,6,Danzit,Dirt-Fast,1 1/8 m,1:53.66,1
-3,7,Walk With Me,Dirt-Fast,1 m,1:38.33,5
-4,1,Dinghy Bar,Turf-Firm,5 1/2F,1:02.80,3
-4,2,Exhibition Only,Turf-Firm,5 1/2F,1:03.31,7
+3,3,Scarlett's Halo,Dirt-Fast,1 1/8 m,1:49.73,3
+3,4,Coquito,Dirt-Fast,1 1/8 m,1:49.73,7
+3,5,Fully Subscribed,Dirt-Fast,1 1/8 m,1:49.73,2
+3,6,Danzit,Dirt-Fast,1 1/8 m,1:49.73,4
+3,7,Walk With Me,Dirt-Fast,1 1/8 m,1:49.73,6
+4,1,Dinghy Bar,Turf-Firm,6 f,1:08.88,2nd
+4,2,Exhibition Only,Turf-Firm,6 f,1:08.88,5th
 4,3,The Last PageLeofric,,,,
-4,4,Glorious Boy,Dirt-Fast,6 f,1:10.87,6
+4,4,Glorious Boy,Turf-Firm,6 f,1:08.88,1st
 4,5,GrumblyrumhoganIndependence Hall,,,,
-4,6,Waitin'onasunnyday,Dirt-Fast,6 f,1:12.20,4
+4,6,Waitin'onasunnyday,Turf-Firm,6 f,1:08.88,9th
 4,7,Ogilvy,,,,
-4,8,Brass Nucks,Turf-Firm,5 1/2F,1:03.36,8
-4,9,One Last Bullet,Dirt-Fast,5 f,0:59.20,5
-4,10,Tactics,Dirt-Fast,6 f,1:12.64,5
+4,8,Brass Nucks,Turf-Firm,6 f,1:08.88,8th
+4,9,One Last Bullet,Turf-Firm,6 f,1:08.88,7th
+4,10,Tactics,Turf-Firm,6 f,1:08.88,10th
 4,11,Hong Kong Phooey,Dirt-Fast,6 f,1:12.20,3
 5,1,Artistic Success,Turf-Firm,1 m,1:35.17,2
 5,2,Competitive Threat,,,,
@@ -67,7 +67,7 @@ race_number,program_number,horse_name,latest_surface,latest_distance,latest_time
 7,2,Connect the Stars,Turf-Firm,1 1/16M,1:44.85,2
 7,3,All About You,Dirt-Fast,6 f,1:11.42,3
 7,4,Concurrently,Turf-Firm,1 1/16M,1:44.85,6
-7,5,Fancy Footwork,Dirt-Fast,7 f,1:23.93,4
+7,5,Fancy Footwork,Dirt-Fast,7F,1:23.93,4
 7,6,Light de Night,Dirt-Fast,6 f,1:09.97,8
 7,7,AppreciativelyGun Runner,,,,
 7,8,Asking,Dirt-,6 f,1:10.94,7

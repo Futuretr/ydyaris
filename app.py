@@ -622,15 +622,16 @@ def calculate_from_saved():
         hrn_scraper_path = os.path.join(current_dir, 'hrn_scraper')
         sys.path.insert(0, hrn_scraper_path)
         
-        from american_horse_calculator_with_position import load_horses_from_csv, process_horses_data, group_by_race_and_sort
+        # TURKISH STYLE CALCULATOR KULLAN - Sadece bu yöntem aktif!
+        from american_horse_calculator_turkish_style import load_horses_from_csv, process_horses_data_turkish_style, group_by_race_and_sort
         
         horses_list = load_horses_from_csv(essential_file)
-        logger.info(f"Loaded {len(horses_list) if horses_list else 0} horses from CSV")
+        logger.info(f"Loaded {len(horses_list) if horses_list else 0} horses from CSV - TURKISH STYLE CALCULATION")
         
         if not horses_list:
             return jsonify({'success': False, 'message': 'Veri okunamadı'})
         
-        # Column mapping
+        # Column mapping for Turkish Style
         for horse in horses_list:
             if 'latest_distance' in horse:
                 horse['profile_distance'] = horse['latest_distance']
@@ -640,10 +641,10 @@ def calculate_from_saved():
                 horse['profile_surface'] = horse['latest_surface']
             # latest_finish_position zaten doğru isimde, mapping gerekmez
         
-        # Hesaplamaları yap
-        logger.info("Starting horse data processing...")
-        results = process_horses_data(horses_list)
-        logger.info(f"Processed {len(results)} horses")
+        # TURKISH STYLE ile hesaplama yap
+        logger.info("Starting Turkish Style horse data processing...")
+        results = process_horses_data_turkish_style(horses_list)
+        logger.info(f"Turkish Style processed {len(results)} horses")
         
         logger.info("Starting race grouping...")
         grouped_results = group_by_race_and_sort(results)
@@ -681,6 +682,7 @@ def scrape_and_calculate():
         hrn_scraper_path = os.path.join(current_dir, 'hrn_scraper')
         sys.path.insert(0, hrn_scraper_path)
         
+        # Interactive calculator da Turkish Style kullanacak şekilde güncellenmiştir
         from american_interactive_calculator import scrape_and_calculate_track
         
         output_file = scrape_and_calculate_track(track_code, track_name, today)
@@ -838,7 +840,7 @@ def test_calculate():
         hrn_scraper_path = os.path.join(current_dir, 'hrn_scraper')
         sys.path.insert(0, hrn_scraper_path)
         
-        from american_horse_calculator_with_position import load_horses_from_csv, process_horses_data, group_by_race_and_sort
+        from american_horse_calculator_turkish_style import load_horses_from_csv, process_horses_data_turkish_style, group_by_race_and_sort
         
         # Santa Anita essential dosyasını test et
         essential_file = "santa-anita_2025_09_28_santa-anita_essential.csv"
@@ -858,7 +860,7 @@ def test_calculate():
             # latest_finish_position zaten doğru isimde, mapping gerekmez
         
         # Hesaplamaları yap
-        results = process_horses_data(horses_list)
+        results = process_horses_data_turkish_style(horses_list)
         grouped_results = group_by_race_and_sort(results)
         
         # Web formatına çevir

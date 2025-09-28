@@ -3,8 +3,10 @@
 
 """
 AMERICAN HORSE CALCULATOR WITH FINISH POSITION
-Amerika atları için finish position tabanlı hesaplama sistemi
-Her atın kendi derece bilgisiyle kazananla arasında zaman farkı hesaplar
+*** DEPRECATED - TURKISH STYLE KULLANIN! ***
+Bu dosya artık kullanılmıyor.
+Bunun yerine american_horse_calculator_turkish_style.py kullanın.
+Turkish Style daha gelişmiş position penalty sistemi içerir.
 """
 
 import pandas as pd
@@ -239,8 +241,19 @@ def save_results_to_csv(results, filename_prefix="american_horses_with_position"
         return None
 
 def main():
-    """Test fonksiyonu"""
-    print("🏇 American Horse Calculator with Finish Position Test")
+    """Test fonksiyonu - DEPRECATED"""
+    print("*** DEPRECATED CALCULATOR - USE TURKISH STYLE INSTEAD! ***")
+    print("==========================================================")
+    print("Bu calculator artık kullanılmıyor!")
+    print("Bunun yerine american_horse_calculator_turkish_style.py kullanın.")
+    
+    choice = input("Yine de test etmek istiyor musunuz? (y/N): ").strip().lower()
+    if choice != 'y':
+        print("İptal edildi. Turkish Style calculator'ı kullanın!")
+        return
+    
+    print("\n⚠️  WARNING: Deprecated calculator test başlıyor!")
+    print("American Horse Calculator with Finish Position Test - DEPRECATED")
     
     # Örnek test verisi - farklı mesafeler
     test_horses = [

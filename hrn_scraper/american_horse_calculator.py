@@ -18,6 +18,22 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Turkish style calculator'ı import et - ZORUNLU!
+try:
+    from american_horse_calculator_turkish_style import (
+        calculate_american_horse_performance_turkish_style,
+        process_horses_data_turkish_style,
+        group_by_race_and_sort
+    )
+    TURKISH_STYLE_AVAILABLE = True
+    calculate_american_horse_performance_turkish_style_func = calculate_american_horse_performance_turkish_style
+    logger.info("Turkish style calculator loaded successfully - ONLY Turkish Style will be used!")
+except ImportError as e:
+    TURKISH_STYLE_AVAILABLE = False
+    calculate_american_horse_performance_turkish_style_func = None
+    logger.error(f"CRITICAL: Turkish style calculator not available: {e}")
+    raise ImportError("Turkish Style Calculator is REQUIRED! Cannot proceed without it.")
+
 def clean_json_data(obj):
     """JSON serialize edilebilir hale getir - NaN ve None değerlerini temizle"""
     if isinstance(obj, dict):
@@ -34,22 +50,35 @@ def clean_json_data(obj):
         return obj
 
 def time_to_seconds(time_str):
-    """Zaman string'ini saniyeye çevir (1:25.61 -> 85.61)"""
-    try:
-        if not time_str or str(time_str).strip() == '' or str(time_str) == 'nan':
-            return 0
-        
-        time_str = str(time_str).strip()
-        
-        if ':' in time_str:
-            parts = time_str.split(':')
-            minutes = int(parts[0])
-            seconds = float(parts[1])
-            return minutes * 60 + seconds
-        else:
-            return float(time_str)
-    except:
+    """Convert American time string to seconds - Enhanced"""
+    if not time_str or str(time_str).strip() in ['', '-', '0', 'nan']:
         return 0
+    
+    time_str = str(time_str).strip()
+    
+    # American format: 1:25.61 (minutes:seconds.hundredths)
+    if ':' in time_str:
+        try:
+            parts = time_str.split(':')
+            if len(parts) == 2:
+                minutes = int(parts[0])
+                # Handle seconds with decimal
+                seconds_part = parts[1]
+                if '.' in seconds_part:
+                    seconds = float(seconds_part)
+                else:
+                    seconds = int(seconds_part)
+                return minutes * 60 + seconds
+        except Exception:
+            pass
+    
+    # Simple decimal format: 85.61 (total seconds)
+    try:
+        return float(time_str)
+    except Exception:
+        pass
+    
+    return 0
 
 def calculate_time_per_100m(total_seconds, distance_meters):
     """100m başına süre hesapla"""
@@ -57,7 +86,7 @@ def calculate_time_per_100m(total_seconds, distance_meters):
         if total_seconds <= 0 or distance_meters <= 0:
             return 0
         return total_seconds / (distance_meters / 100)
-    except:
+    except Exception:
         return 0
 
 def calculate_surface_adaptation(previous_surface, current_surface):
@@ -108,61 +137,45 @@ def distance_to_meters(distance_str):
         else:
             return float(distance_str)
             
-    except:
+    except Exception:
         return 1200
 
-def calculate_american_horse_performance(horse_data, race_data):
-    """Amerika atı için performans hesapla"""
+def calculate_position_penalty_american(finish_position, base_time_per_100m, distance_meters):
+    """
+    Calculate position penalty for American horses - Turkish style
+    """
     try:
-        # Gerekli veriler kontrolü
-        if not horse_data.get('time') or not horse_data.get('distance'):
+        if not finish_position or str(finish_position).strip() in ['', 'nan', '0']:
+            return base_time_per_100m
+        
+        pos = int(float(str(finish_position).strip()))
+        if pos <= 1:
+            return base_time_per_100m  # Winner, no penalty
+        
+        # Turkish system penalty: each position adds 0.10s per race
+        position_penalty_per_race = (pos - 1) * 0.10
+        
+        # Convert to per 100m penalty
+        segments_100m = distance_meters / 100.0
+        penalty_per_100m = position_penalty_per_race / segments_100m
+        
+        return base_time_per_100m + penalty_per_100m
+        
+    except Exception:
+        return base_time_per_100m
+
+def calculate_american_horse_performance(horse_data, race_data):
+    """Amerika atı için performans hesapla - SADECE Turkish Style kullanılır"""
+    # Turkish Style calculator'ı kullan - ZORUNLU!
+    if TURKISH_STYLE_AVAILABLE and calculate_american_horse_performance_turkish_style_func:
+        try:
+            logger.debug(f"Using Turkish Style for: {horse_data.get('horse_name', 'Unknown')}")
+            return calculate_american_horse_performance_turkish_style_func(horse_data, race_data)
+        except Exception as e:
+            logger.error(f"Turkish Style hesaplama hatası: {e}")
             return None
-        
-        # Zamanı saniyeye çevir
-        time_seconds = time_to_seconds(horse_data['time'])
-        if time_seconds <= 0:
-            return None
-        
-        # Mesafeyi metreye çevir
-        distance_meters = distance_to_meters(horse_data['distance'])
-        
-        # 100m başına süre hesapla
-        time_per_100m = calculate_time_per_100m(time_seconds, distance_meters)
-        
-        # Zemin adaptasyonu
-        prev_surface = horse_data.get('surface', 'Dirt')
-        current_surface = race_data.get('surface', 'Dirt')
-        surface_factor = calculate_surface_adaptation(prev_surface, current_surface)
-        
-        # Mesafe adaptasyonu
-        prev_distance = distance_meters
-        current_distance = distance_to_meters(race_data.get('distance', '6f'))
-        
-        distance_diff = current_distance - prev_distance
-        if distance_diff != 0:
-            # Mesafe farklılığı faktörü
-            if distance_diff > 0:  # Daha uzun mesafe
-                distance_factor = 1 + (abs(distance_diff) / current_distance) * 0.02
-            else:  # Daha kısa mesafe
-                distance_factor = 1 - (abs(distance_diff) / current_distance) * 0.015
-        else:
-            distance_factor = 1.0
-        
-        # Final performans skoru
-        performance_score = time_per_100m * surface_factor * distance_factor
-        
-        return {
-            'raw_time_per_100m': time_per_100m,
-            'surface_factor': surface_factor,
-            'distance_factor': distance_factor,
-            'final_score': performance_score,
-            'original_time': time_seconds,
-            'original_distance': distance_meters,
-            'target_distance': current_distance
-        }
-        
-    except Exception as e:
-        logger.error(f"Performans hesaplama hatası: {e}")
+    else:
+        logger.error("CRITICAL: Turkish Style calculator mevcut değil - sistem çalışamaz!")
         return None
 
 def load_horse_data_from_csv(csv_file):
@@ -261,8 +274,11 @@ def process_american_race_data(track_slug, race_date):
                     'horses': []
                 }
         
-        # At verilerini işle ve hesapla
-        calculated_horses = []
+        # TURKISH STYLE kullanarak at verilerini işle ve hesapla
+        logger.info("TURKISH STYLE CALCULATION STARTED - Diğer yöntemler devre dışı!")
+        
+        # Turkish Style için veri formatını hazırla
+        turkish_style_horses = []
         for entry in entries_data:
             horse_name = entry.get('horse_name', '')
             race_number = str(entry.get('race_number', '1'))
@@ -270,33 +286,55 @@ def process_american_race_data(track_slug, race_date):
             # Bu atın profil verilerini bul
             horse_profile = next((p for p in profile_data if p['horse_name'] == horse_name), {})
             
-            # Bu atın yarış bilgilerini bul
-            race_info = races.get(race_number, {}).get('race_info', {})
-            
-            # Performans hesapla
-            performance = None
-            if horse_profile and horse_profile.get('time'):
-                performance = calculate_american_horse_performance(horse_profile, race_info)
-            
-            horse_data = {
+            # Turkish Style format'ına uygun data structure oluştur
+            turkish_horse_data = {
                 'horse_name': horse_name,
-                'race_number': race_number,
-                'program_number': entry.get('program_number', ''),
-                'surface': horse_profile.get('surface', ''),
-                'distance': horse_profile.get('distance', ''),
-                'time': horse_profile.get('time', ''),
-                'performance_score': performance.get('final_score') if performance else None,
-                'raw_score': performance.get('raw_time_per_100m') if performance else None,
-                'surface_factor': performance.get('surface_factor') if performance else None,
-                'distance_factor': performance.get('distance_factor') if performance else None,
                 'track': track_slug,
                 'date': race_date,
-                'valid_calculation': performance is not None
+                'race_number': race_number,
+                'program_number': entry.get('program_number', ''),
+                'entry_distance': entry.get('distance', ''),
+                'entry_surface': entry.get('surface', ''),
+                'profile_distance': horse_profile.get('distance', ''),
+                'profile_time': horse_profile.get('time', ''),
+                'profile_surface': horse_profile.get('surface', ''),
+                'latest_finish_position': horse_profile.get('finish_position', '')  # Eğer varsa
+            }
+            turkish_style_horses.append(turkish_horse_data)
+        
+        # Turkish Style ile hesaplama yap
+        if TURKISH_STYLE_AVAILABLE:
+            turkish_results = process_horses_data_turkish_style(turkish_style_horses)
+            logger.info(f"Turkish Style hesaplama tamamlandı: {len(turkish_results)} at işlendi")
+        else:
+            logger.error("CRITICAL: Turkish Style mevcut değil!")
+            return None, "Turkish Style calculator gerekli ama mevcut değil"
+        
+        # Sonuçları eski format'a dönüştür (backward compatibility için)
+        calculated_horses = []
+        for result in turkish_results:
+            horse_data = {
+                'horse_name': result['horse_name'],
+                'race_number': result['race_number'],
+                'program_number': result['program_number'],
+                'surface': result['profile_surface'],
+                'distance': result['profile_distance'],
+                'time': result['profile_time'],
+                'performance_score': result['performance_score'] if result['performance_score'] != 'Invalid' else None,
+                'raw_score': result.get('calculation_details', {}).get('raw_time_per_100m') if result.get('calculation_details') else None,
+                'surface_factor': result.get('calculation_details', {}).get('surface_factor') if result.get('calculation_details') else None,
+                'distance_factor': result.get('calculation_details', {}).get('distance_factor') if result.get('calculation_details') else None,
+                'finish_position': result.get('latest_finish_position', ''),
+                'position_penalty_applied': result.get('calculation_details', {}).get('position_penalty_applied') if result.get('calculation_details') else False,
+                'track': track_slug,
+                'date': race_date,
+                'valid_calculation': result['performance_score'] != 'Invalid'
             }
             
             calculated_horses.append(horse_data)
             
             # Yarış grubuna ekle
+            race_number = result['race_number']
             if race_number in races:
                 races[race_number]['horses'].append(horse_data)
         

@@ -3,9 +3,9 @@
 
 """
 AMERICAN HORSE CALCULATOR - PURE CALCULATION ONLY
-Amerika atları için saf hesaplama sistemi
-Web'den veri çekmez, sadece hesaplama yapar
-Zemin adaptasyonu ve kilo hesaplamaları kaldırılmıştır
+*** DEPRECATED - TURKISH STYLE KULLANIN! ***
+Bu dosya artık kullanılmıyor. 
+Bunun yerine american_horse_calculator_turkish_style.py kullanın.
 """
 
 import pandas as pd
@@ -330,11 +330,22 @@ def load_horses_from_csv(csv_file_path):
 
 def main():
     """Main function to run the calculation"""
-    print("AMERICAN HORSE PERFORMANCE CALCULATOR")
-    print("=====================================")
-    print("This calculator processes American horse racing data")
-    print("and calculates performance scores based on time and distance only.")
-    print("No surface or weight adjustments are applied.\n")
+    print("*** DEPRECATED CALCULATOR - USE TURKISH STYLE INSTEAD! ***")
+    print("==========================================================")
+    print("Bu calculator artık kullanılmıyor!")
+    print("Bunun yerine american_horse_calculator_turkish_style.py kullanın.")
+    print("Turkish Style daha doğru ve gelişmiş hesaplama yapar.\n")
+    
+    choice = input("Yine de devam etmek istiyor musunuz? (y/N): ").strip().lower()
+    if choice != 'y':
+        print("İptal edildi. Turkish Style calculator'ı kullanın!")
+        return
+    
+    print("\n⚠️  WARNING: Eski hesaplama sistemi kullanılıyor!")
+    print("AMERICAN HORSE PERFORMANCE CALCULATOR - DEPRECATED")
+    print("==================================================")
+    print("This calculator is deprecated. Performance scores")
+    print("may not be accurate. Use Turkish Style instead.\n")
     
     # Ask user for input file
     csv_file = input("Enter CSV file path (or press Enter for default test): ").strip()
