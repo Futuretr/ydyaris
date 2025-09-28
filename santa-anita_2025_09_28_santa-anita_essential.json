@@ -1,0 +1,830 @@
+[
+  {
+    "race_number": "1",
+    "program_number": "1",
+    "horse_name": "Kiss for Lulu",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.91",
+    "latest_finish_position": "11"
+  },
+  {
+    "race_number": "1",
+    "program_number": "2",
+    "horse_name": "Irish Element",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.91",
+    "latest_finish_position": "7"
+  },
+  {
+    "race_number": "1",
+    "program_number": "3",
+    "horse_name": "Star of Delhi",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.91",
+    "latest_finish_position": "9"
+  },
+  {
+    "race_number": "1",
+    "program_number": "4",
+    "horse_name": "Fleet Brotato",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:35.94",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "1",
+    "program_number": "5",
+    "horse_name": "Fight Back",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.91",
+    "latest_finish_position": "6"
+  },
+  {
+    "race_number": "1",
+    "program_number": "6",
+    "horse_name": "Mav Man",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.91",
+    "latest_finish_position": "2"
+  },
+  {
+    "race_number": "1",
+    "program_number": "7",
+    "horse_name": "Zagreus",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:39.26",
+    "latest_finish_position": "5"
+  },
+  {
+    "race_number": "1",
+    "program_number": "8",
+    "horse_name": "Foreroyal",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.84",
+    "latest_finish_position": "6"
+  },
+  {
+    "race_number": "1",
+    "program_number": "9",
+    "horse_name": "Crime Lord",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.84",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "1",
+    "program_number": "10",
+    "horse_name": "Benny's Puzzle",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.91",
+    "latest_finish_position": "5"
+  },
+  {
+    "race_number": "1",
+    "program_number": "11",
+    "horse_name": "Brahms Mendelssohn",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.91",
+    "latest_finish_position": "10"
+  },
+  {
+    "race_number": "2",
+    "program_number": "1",
+    "horse_name": "A Friend of Mine",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 1/2F",
+    "latest_time": "1:15.70",
+    "latest_finish_position": "5"
+  },
+  {
+    "race_number": "2",
+    "program_number": "2",
+    "horse_name": "Deep BlueEcho Town",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "2",
+    "program_number": "3",
+    "horse_name": "Joyful Mischief",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 f",
+    "latest_time": "1:10.62",
+    "latest_finish_position": "5"
+  },
+  {
+    "race_number": "2",
+    "program_number": "4",
+    "horse_name": "Gathered",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:37.21",
+    "latest_finish_position": "7"
+  },
+  {
+    "race_number": "2",
+    "program_number": "5",
+    "horse_name": "Music LadyAlways Dreaming",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "3",
+    "program_number": "1",
+    "horse_name": "Ivory Moon",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:38.21",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "3",
+    "program_number": "2",
+    "horse_name": "Violet Storm",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:38.21",
+    "latest_finish_position": "9"
+  },
+  {
+    "race_number": "3",
+    "program_number": "3",
+    "horse_name": "Twilight Empire",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:38.21",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "3",
+    "program_number": "4",
+    "horse_name": "Ole Silver",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:38.21",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "4",
+    "program_number": "1",
+    "horse_name": "Ariri",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "4",
+    "program_number": "2",
+    "horse_name": "Chai",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:42.15",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "4",
+    "program_number": "3",
+    "horse_name": "Princesa Moche",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "4",
+    "program_number": "4",
+    "horse_name": "Madonna of Loreto",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.50",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "4",
+    "program_number": "5",
+    "horse_name": "Sunglow",
+    "latest_surface": "Turf",
+    "latest_distance": "6 f",
+    "latest_time": "1:08.41",
+    "latest_finish_position": "3rd"
+  },
+  {
+    "race_number": "4",
+    "program_number": "6",
+    "horse_name": "Dare to Fly",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 1/2F",
+    "latest_time": "1:15.10",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "4",
+    "program_number": "7",
+    "horse_name": "Yellow Sun Dress",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:35.47",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "4",
+    "program_number": "8",
+    "horse_name": "The Wild Grazer",
+    "latest_surface": "Turf",
+    "latest_distance": "6 1/2 f",
+    "latest_time": "1:13.82",
+    "latest_finish_position": "7th"
+  },
+  {
+    "race_number": "4",
+    "program_number": "9",
+    "horse_name": "Invincible Molly",
+    "latest_surface": "Turf",
+    "latest_distance": "1 mile",
+    "latest_time": "1:35.87",
+    "latest_finish_position": "7th"
+  },
+  {
+    "race_number": "4",
+    "program_number": "10",
+    "horse_name": "Tight Squeeze",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.45",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "5",
+    "program_number": "1",
+    "horse_name": "Lil' Boom Boom",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 f",
+    "latest_time": "1:11.34",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "5",
+    "program_number": "2",
+    "horse_name": "Lena Lindgard",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 1/2F",
+    "latest_time": "1:17.97",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "5",
+    "program_number": "3",
+    "horse_name": "Empress of Grace",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 1/2F",
+    "latest_time": "1:18.10",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "5",
+    "program_number": "4",
+    "horse_name": "Misty Heart",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 1/2F",
+    "latest_time": "1:17.43",
+    "latest_finish_position": "10"
+  },
+  {
+    "race_number": "5",
+    "program_number": "5",
+    "horse_name": "Approval Rating",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 f",
+    "latest_time": "1:10.10",
+    "latest_finish_position": "7"
+  },
+  {
+    "race_number": "5",
+    "program_number": "6",
+    "horse_name": "Sei Bella",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 f",
+    "latest_time": "1:10.10",
+    "latest_finish_position": "8"
+  },
+  {
+    "race_number": "5",
+    "program_number": "7",
+    "horse_name": "Headstrong Ways",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 f",
+    "latest_time": "1:10.61",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "5",
+    "program_number": "8",
+    "horse_name": "Maximun Gold",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 f",
+    "latest_time": "1:10.10",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "5",
+    "program_number": "9",
+    "horse_name": "Kool Tap Dancer",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 f",
+    "latest_time": "1:11.65",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "6",
+    "program_number": "1",
+    "horse_name": "Debbies Gettinghot",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.87",
+    "latest_finish_position": "5"
+  },
+  {
+    "race_number": "6",
+    "program_number": "2",
+    "horse_name": "Mo Holland Drive",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.67",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "6",
+    "program_number": "3",
+    "horse_name": "Sagunto",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.64",
+    "latest_finish_position": "6"
+  },
+  {
+    "race_number": "6",
+    "program_number": "4",
+    "horse_name": "Booked Clubhouse",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.67",
+    "latest_finish_position": "2"
+  },
+  {
+    "race_number": "6",
+    "program_number": "5",
+    "horse_name": "Dark BlueMaxfield",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "6",
+    "program_number": "6",
+    "horse_name": "Mystic Moses",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.67",
+    "latest_finish_position": "7"
+  },
+  {
+    "race_number": "6",
+    "program_number": "7",
+    "horse_name": "ScatalotadingdongSir Prancealot",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "6",
+    "program_number": "8",
+    "horse_name": "Eye of the Smiley",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.87",
+    "latest_finish_position": "2"
+  },
+  {
+    "race_number": "6",
+    "program_number": "9",
+    "horse_name": "Cal's GoalCairo Prince",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "6",
+    "program_number": "10",
+    "horse_name": "Senor Tequilas",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 f",
+    "latest_time": "1:11.90",
+    "latest_finish_position": "7"
+  },
+  {
+    "race_number": "6",
+    "program_number": "11",
+    "horse_name": "Another Bulleit",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "5 1/2F",
+    "latest_time": "1:03.59",
+    "latest_finish_position": "6"
+  },
+  {
+    "race_number": "6",
+    "program_number": "12",
+    "horse_name": "Throwthefirstpunch",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.67",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "7",
+    "program_number": "1",
+    "horse_name": "Sugar Fish",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:34.55",
+    "latest_finish_position": "5"
+  },
+  {
+    "race_number": "7",
+    "program_number": "2",
+    "horse_name": "La Kika",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "7",
+    "program_number": "3",
+    "horse_name": "Cavalieri",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:34.96",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "7",
+    "program_number": "4",
+    "horse_name": "Howin",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.99",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "7",
+    "program_number": "5",
+    "horse_name": "Richi",
+    "latest_surface": "Dirt",
+    "latest_distance": "1 1/16 m",
+    "latest_time": "1:42.33",
+    "latest_finish_position": "3rd"
+  },
+  {
+    "race_number": "8",
+    "program_number": "1",
+    "horse_name": "Waltz Across Texas",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:57.94",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "8",
+    "program_number": "2",
+    "horse_name": "Hello Kid O Kid O",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.72",
+    "latest_finish_position": "5"
+  },
+  {
+    "race_number": "8",
+    "program_number": "3",
+    "horse_name": "Princesa Del Tigre",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.59",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "8",
+    "program_number": "4",
+    "horse_name": "Practical Dazzle",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.72",
+    "latest_finish_position": "9"
+  },
+  {
+    "race_number": "8",
+    "program_number": "5",
+    "horse_name": "We the Hobby",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.23",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "8",
+    "program_number": "6",
+    "horse_name": "Lady Mendelssohn",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:38.25",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "8",
+    "program_number": "7",
+    "horse_name": "Lavender Love",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.72",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "8",
+    "program_number": "8",
+    "horse_name": "Miss Will",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.59",
+    "latest_finish_position": "9"
+  },
+  {
+    "race_number": "8",
+    "program_number": "9",
+    "horse_name": "California Rocks",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:34.92",
+    "latest_finish_position": "7"
+  },
+  {
+    "race_number": "8",
+    "program_number": "10",
+    "horse_name": "Quantum Innergy",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.59",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "8",
+    "program_number": "11",
+    "horse_name": "Garden Party",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.72",
+    "latest_finish_position": "2"
+  },
+  {
+    "race_number": "8",
+    "program_number": "12",
+    "horse_name": "True Patriot",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.72",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "8",
+    "program_number": "13",
+    "horse_name": "Dontmesswithtess",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:36.59",
+    "latest_finish_position": "6"
+  },
+  {
+    "race_number": "8",
+    "program_number": "14",
+    "horse_name": "Issa Court",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:38.25",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "9",
+    "program_number": "1",
+    "horse_name": "Dr. Venkman",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "7 f",
+    "latest_time": "1:21.53",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "9",
+    "program_number": "2",
+    "horse_name": "Straight No Chaser",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "9",
+    "program_number": "3",
+    "horse_name": "Awesome Rhythm",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "6 f",
+    "latest_time": "1:08.85",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "9",
+    "program_number": "4",
+    "horse_name": "Smooth Cruisein",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 m",
+    "latest_time": "1:35.12",
+    "latest_finish_position": "2"
+  },
+  {
+    "race_number": "9",
+    "program_number": "5",
+    "horse_name": "Speed Boat Beach",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "7 f",
+    "latest_time": "1:21.53",
+    "latest_finish_position": "5"
+  },
+  {
+    "race_number": "9",
+    "program_number": "6",
+    "horse_name": "Wound Up",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "5 f",
+    "latest_time": "0:55.90",
+    "latest_finish_position": "12"
+  },
+  {
+    "race_number": "9",
+    "program_number": "7",
+    "horse_name": "Mbagnick",
+    "latest_surface": "",
+    "latest_distance": "",
+    "latest_time": "",
+    "latest_finish_position": ""
+  },
+  {
+    "race_number": "9",
+    "program_number": "8",
+    "horse_name": "Imagination",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 1/8 m",
+    "latest_time": "1:51.36",
+    "latest_finish_position": "4"
+  },
+  {
+    "race_number": "10",
+    "program_number": "1",
+    "horse_name": "Edge of Mali",
+    "latest_surface": "Turf",
+    "latest_distance": "1 1/8 m",
+    "latest_time": "1:48.45",
+    "latest_finish_position": "9th"
+  },
+  {
+    "race_number": "10",
+    "program_number": "2",
+    "horse_name": "Slick",
+    "latest_surface": "Turf",
+    "latest_distance": "1 1/8 m",
+    "latest_time": "1:48.45",
+    "latest_finish_position": "6th"
+  },
+  {
+    "race_number": "10",
+    "program_number": "3",
+    "horse_name": "Cat The Confidante",
+    "latest_surface": "Turf",
+    "latest_distance": "6 f",
+    "latest_time": "1:10.39",
+    "latest_finish_position": "3rd"
+  },
+  {
+    "race_number": "10",
+    "program_number": "4",
+    "horse_name": "Take A Breath",
+    "latest_surface": "Turf",
+    "latest_distance": "1 1/8 m",
+    "latest_time": "1:48.45",
+    "latest_finish_position": "4th"
+  },
+  {
+    "race_number": "10",
+    "program_number": "5",
+    "horse_name": "Atia",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 3/8 m",
+    "latest_time": "2:16.29",
+    "latest_finish_position": "8"
+  },
+  {
+    "race_number": "10",
+    "program_number": "6",
+    "horse_name": "Miss Artois",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.30",
+    "latest_finish_position": "1"
+  },
+  {
+    "race_number": "10",
+    "program_number": "7",
+    "horse_name": "Resolve",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/8 m",
+    "latest_time": "1:48.45",
+    "latest_finish_position": "10"
+  },
+  {
+    "race_number": "10",
+    "program_number": "8",
+    "horse_name": "Ribbons",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.50",
+    "latest_finish_position": "2"
+  },
+  {
+    "race_number": "10",
+    "program_number": "9",
+    "horse_name": "Hey Jessie",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.50",
+    "latest_finish_position": "7"
+  },
+  {
+    "race_number": "10",
+    "program_number": "10",
+    "horse_name": "Lila",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:43.50",
+    "latest_finish_position": "3"
+  },
+  {
+    "race_number": "10",
+    "program_number": "11",
+    "horse_name": "Hey Lil Lady",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:35.47",
+    "latest_finish_position": "6"
+  },
+  {
+    "race_number": "10",
+    "program_number": "12",
+    "horse_name": "Aleramo",
+    "latest_surface": "Turf",
+    "latest_distance": "1 mile",
+    "latest_time": "1:34.14",
+    "latest_finish_position": "5th"
+  },
+  {
+    "race_number": "10",
+    "program_number": "13",
+    "horse_name": "Delightful Laura",
+    "latest_surface": "Turf-Firm",
+    "latest_distance": "1 m",
+    "latest_time": "1:35.47",
+    "latest_finish_position": "2"
+  },
+  {
+    "race_number": "10",
+    "program_number": "14",
+    "horse_name": "Precise Timing",
+    "latest_surface": "Dirt-Fast",
+    "latest_distance": "1 1/16M",
+    "latest_time": "1:45.80",
+    "latest_finish_position": "5"
+  }
+]

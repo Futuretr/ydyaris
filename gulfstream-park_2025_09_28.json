@@ -1,0 +1,1209 @@
+{
+  "gulfstream-park": {
+    "track_info": {
+      "name": "gulfstream-park",
+      "race_date": "Sunday, September 28, 2025"
+    },
+    "races": [
+      {
+        "race_number": 1,
+        "post_time": "12:50 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "Fifteen Hundred RBismarck Tullio",
+              "horse_name": "Fifteen Hundred RBismarck Tullio"
+            },
+            "trainer_jockey": "Eduardo M. VazquezLuis Fuenmayor",
+            "morning_line": "30/1"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "Don't Go Astray(33)Bullet Gone Astray",
+              "speed_figure": 33,
+              "horse_name": "Don't Go Astray",
+              "sire": "Bullet Gone Astray"
+            },
+            "trainer_jockey": "Henry CollazoLeonel Reyes",
+            "morning_line": "30/1"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "Candy Road(57)Gone Astray",
+              "speed_figure": 57,
+              "horse_name": "Candy Road",
+              "sire": "Gone Astray"
+            },
+            "trainer_jockey": "Arnoud W. DobberMia Nicholls",
+            "morning_line": "20/1"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "I'm Sam(70)Mendelssohn",
+              "speed_figure": 70,
+              "horse_name": "I'm Sam",
+              "sire": "Mendelssohn"
+            },
+            "trainer_jockey": "Rohan G. CrichtonAnthony Thomas",
+            "morning_line": "8/5"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "AwegodAwesome Slew",
+              "horse_name": "AwegodAwesome Slew"
+            },
+            "trainer_jockey": "Mary LightnerMicah J. Husbands",
+            "morning_line": "5/1"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "Illustration(22)Three Rules",
+              "speed_figure": 22,
+              "horse_name": "Illustration",
+              "sire": "Three Rules"
+            },
+            "trainer_jockey": "Robert G. SmithSkyler Spanabel",
+            "morning_line": "15/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "Ristre(39)Gunnevera",
+              "speed_figure": 39,
+              "horse_name": "Ristre",
+              "sire": "Gunnevera"
+            },
+            "trainer_jockey": "Ronald CoyJesus M. Rios",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 8,
+            "program_number": 8,
+            "horse_info": {
+              "raw_text": "LovethisbizzBismarck Tullio",
+              "horse_name": "LovethisbizzBismarck Tullio"
+            },
+            "trainer_jockey": "Jose GaroffaloJose E. Morelos",
+            "morning_line": "10/1"
+          },
+          {
+            "post_position": 9,
+            "program_number": 9,
+            "horse_info": {
+              "raw_text": "Golden Ambition(76)Mendelssohn",
+              "speed_figure": 76,
+              "horse_name": "Golden Ambition",
+              "sire": "Mendelssohn"
+            },
+            "trainer_jockey": "Ramon MinguetYolber Torres",
+            "morning_line": "2/1"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "5 1/2F",
+          "surface": "Dirt",
+          "purse": "29,000",
+          "race_type": "5 1/2F,\nDirt,\n$17,500 Maiden ClaimingOpen | 2 Year OldsPurse: $29,000"
+        }
+      },
+      {
+        "race_number": 2,
+        "post_time": "1:21 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "Seeking a Prayer(79)Catholic Boy",
+              "speed_figure": 79,
+              "horse_name": "Seeking a Prayer",
+              "sire": "Catholic Boy"
+            },
+            "trainer_jockey": "Saffie A. Joseph, Jr.Reylu Gutierrez",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "Prayed for Girl(80)American Pharoah",
+              "speed_figure": 80,
+              "horse_name": "Prayed for Girl",
+              "sire": "American Pharoah"
+            },
+            "trainer_jockey": "Arnoud W. DobberMia Nicholls",
+            "morning_line": "30/1"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "Smart Style(89)Awesome Slew",
+              "speed_figure": 89,
+              "horse_name": "Smart Style",
+              "sire": "Awesome Slew"
+            },
+            "trainer_jockey": "Roger LaurinJonathan Ocasio",
+            "morning_line": "20/1"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "Beentee(85)Kitten's Joy",
+              "speed_figure": 85,
+              "horse_name": "Beentee",
+              "sire": "Kitten's Joy"
+            },
+            "trainer_jockey": "Lisa L. LewisLeonel Reyes",
+            "morning_line": "10/1"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "Zo Zucchera(95)Collected",
+              "speed_figure": 95,
+              "horse_name": "Zo Zucchera",
+              "sire": "Collected"
+            },
+            "trainer_jockey": "Mark PassleyMiguel Angel Vasquez",
+            "morning_line": "2/1"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "Vino Limone(89)Vino Rosso",
+              "speed_figure": 89,
+              "horse_name": "Vino Limone",
+              "sire": "Vino Rosso"
+            },
+            "trainer_jockey": "Armando De La CerdaJose E. Morelos",
+            "morning_line": "4/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "Gulfstream Mary D(79)Authentic",
+              "speed_figure": 79,
+              "horse_name": "Gulfstream Mary D",
+              "sire": "Authentic"
+            },
+            "trainer_jockey": "Steven DwoskinJose C. Ferrer",
+            "morning_line": "5/1"
+          },
+          {
+            "post_position": 8,
+            "program_number": 8,
+            "horse_info": {
+              "raw_text": "Latte Lizzie(94)Catalina Cruiser",
+              "speed_figure": 94,
+              "horse_name": "Latte Lizzie",
+              "sire": "Catalina Cruiser"
+            },
+            "trainer_jockey": "Jeff EnglerEmisael Jaramillo",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 9,
+            "program_number": 9,
+            "horse_info": {
+              "raw_text": "Princess Irene(89)Omaha Beach",
+              "speed_figure": 89,
+              "horse_name": "Princess Irene",
+              "sire": "Omaha Beach"
+            },
+            "trainer_jockey": "Jorge DelgadoRajiv Maragh",
+            "morning_line": "10/1"
+          },
+          {
+            "post_position": 10,
+            "program_number": 10,
+            "horse_info": {
+              "raw_text": "Smooth Claret(94)Vino Rosso",
+              "speed_figure": 94,
+              "horse_name": "Smooth Claret",
+              "sire": "Vino Rosso"
+            },
+            "trainer_jockey": "Jennifer P. YoungEdgar Perez",
+            "morning_line": "15/1"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "1 1/16M",
+          "surface": "Turf",
+          "purse": "36,000",
+          "race_type": "1 1/16M,\nTurf,\n$25,000 ClaimingFillies & Mares | 3 Year Olds And UpPurse: $36,000"
+        }
+      },
+      {
+        "race_number": 3,
+        "post_time": "1:52 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "Girl in Blue(74)Air Force Blue",
+              "speed_figure": 74,
+              "horse_name": "Girl in Blue",
+              "sire": "Air Force Blue"
+            },
+            "trainer_jockey": "Lisa L. LewisLeonel Reyes",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "Derby Hangover(72)Violence",
+              "speed_figure": 72,
+              "horse_name": "Derby Hangover",
+              "sire": "Violence"
+            },
+            "trainer_jockey": "David FawkesEmisael Jaramillo",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "Tiz for MattNyquist",
+              "horse_name": "Tiz for MattNyquist"
+            },
+            "trainer_jockey": "Saffie A. Joseph, Jr.Micah J. Husbands",
+            "morning_line": "9/2"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "Maranta(80)Bernardini",
+              "speed_figure": 80,
+              "horse_name": "Maranta",
+              "sire": "Bernardini"
+            },
+            "trainer_jockey": "Murat SancalMiguel Angel Vasquez",
+            "morning_line": "5/2"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "Money Battle(78)Ten Sovereigns (IRE)",
+              "speed_figure": 78,
+              "horse_name": "Money Battle",
+              "sire": "Ten Sovereigns (IRE)"
+            },
+            "trainer_jockey": "Jena M. AntonucciJesus M. Rios",
+            "morning_line": "9/5"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "Top Pocket Pick(72)Bucchero",
+              "speed_figure": 72,
+              "horse_name": "Top Pocket Pick",
+              "sire": "Bucchero"
+            },
+            "trainer_jockey": "John G VinsonSamy Camacho",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "Starship Maximus(73)Maximus Mischief",
+              "speed_figure": 73,
+              "horse_name": "Starship Maximus",
+              "sire": "Maximus Mischief"
+            },
+            "trainer_jockey": "Heather SmullenYolber Torres",
+            "morning_line": "12/1"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "5 1/2F",
+          "purse": "34,000",
+          "race_type": "5 1/2F,\nAll Weather Track,\n$25,000 Maiden ClaimingFillies & Mares | 3 Year Olds And UpPurse: $34,000"
+        }
+      },
+      {
+        "race_number": 4,
+        "post_time": "2:23 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "My Lady James(76)Valiant Minister",
+              "speed_figure": 76,
+              "horse_name": "My Lady James",
+              "sire": "Valiant Minister"
+            },
+            "trainer_jockey": "Amador Merei SanchezMarcos Meneses",
+            "morning_line": "5/2"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "Dove in Charge(89)Kantharos",
+              "speed_figure": 89,
+              "horse_name": "Dove in Charge",
+              "sire": "Kantharos"
+            },
+            "trainer_jockey": "Collin MaraghRajiv Maragh",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "Efficacious(61)Cairo Prince",
+              "speed_figure": 61,
+              "horse_name": "Efficacious",
+              "sire": "Cairo Prince"
+            },
+            "trainer_jockey": "Jose Francisco D'AngeloLeonel Reyes",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "Foxy Lady(83)Brethren",
+              "speed_figure": 83,
+              "horse_name": "Foxy Lady",
+              "sire": "Brethren"
+            },
+            "trainer_jockey": "Pedro Garcia, Jr.Yolber Torres",
+            "morning_line": "20/1"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "Chloe's Toy(87)Jimmy Creed",
+              "speed_figure": 87,
+              "horse_name": "Chloe's Toy",
+              "sire": "Jimmy Creed"
+            },
+            "trainer_jockey": "Oscar M. GonzalezJose E. Morelos",
+            "morning_line": "4/1"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "Cajun Fantasy(81)Cajun Breeze",
+              "speed_figure": 81,
+              "horse_name": "Cajun Fantasy",
+              "sire": "Cajun Breeze"
+            },
+            "trainer_jockey": "David FawkesCipriano Gil",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "Current Situation(90)Carpe Diem",
+              "speed_figure": 90,
+              "horse_name": "Current Situation",
+              "sire": "Carpe Diem"
+            },
+            "trainer_jockey": "Benny C. CadahiaLuis Fuenmayor",
+            "morning_line": "30/1"
+          },
+          {
+            "post_position": 8,
+            "program_number": 8,
+            "horse_info": {
+              "raw_text": "Misprint(88)Take Charge Indy",
+              "speed_figure": 88,
+              "horse_name": "Misprint",
+              "sire": "Take Charge Indy"
+            },
+            "trainer_jockey": "David FawkesEmisael Jaramillo",
+            "morning_line": "7/2"
+          },
+          {
+            "post_position": 9,
+            "program_number": 9,
+            "horse_info": {
+              "raw_text": "Fulminate(75)Get Stormy",
+              "speed_figure": 75,
+              "horse_name": "Fulminate",
+              "sire": "Get Stormy"
+            },
+            "trainer_jockey": "Armando De La CerdaMiguel Angel Vasquez",
+            "morning_line": "20/1"
+          },
+          {
+            "post_position": 10,
+            "program_number": 10,
+            "horse_info": {
+              "raw_text": "No Action(79)Uncaptured",
+              "speed_figure": 79,
+              "horse_name": "No Action",
+              "sire": "Uncaptured"
+            },
+            "trainer_jockey": "Javier NegreteRenzo Rojas",
+            "morning_line": "15/1"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "5 1/2F",
+          "purse": "27,000",
+          "race_type": "5 1/2F,\nAll Weather Track,\n$10,000 ClaimingFillies & Mares | 3 Year Olds And UpPurse: $27,000"
+        }
+      },
+      {
+        "race_number": 5,
+        "post_time": "2:55 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "Bakers Street(95)Candy Ride (ARG)",
+              "speed_figure": 95,
+              "horse_name": "Bakers Street",
+              "sire": "Candy Ride (ARG)"
+            },
+            "trainer_jockey": "Antonio SanoSamy Camacho",
+            "morning_line": "3/1"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "Maruvy(102)Omaha Beach",
+              "speed_figure": 102,
+              "horse_name": "Maruvy",
+              "sire": "Omaha Beach"
+            },
+            "trainer_jockey": "Jose Francisco D'AngeloLeonel Reyes",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "Classic of Course(110)Awesome of Course",
+              "speed_figure": 110,
+              "horse_name": "Classic of Course",
+              "sire": "Awesome of Course"
+            },
+            "trainer_jockey": "Patrick L. BianconeJonathan Ocasio",
+            "morning_line": "9/5"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "Win With Faith(102)Win Win Win",
+              "speed_figure": 102,
+              "horse_name": "Win With Faith",
+              "sire": "Win Win Win"
+            },
+            "trainer_jockey": "Ronald B. SpatzEmisael Jaramillo",
+            "morning_line": "7/2"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "Sigan Viendo(108)Bee Jersey",
+              "speed_figure": 108,
+              "horse_name": "Sigan Viendo",
+              "sire": "Bee Jersey"
+            },
+            "trainer_jockey": "Jose Francisco D'AngeloMarcos Meneses",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "I Know I Know(104)Jess's Dream",
+              "speed_figure": 104,
+              "horse_name": "I Know I Know",
+              "sire": "Jess's Dream"
+            },
+            "trainer_jockey": "Patrick L. BianconeRajiv Maragh",
+            "morning_line": "12/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "Piquant(102)Medaglia d'Oro",
+              "speed_figure": 102,
+              "horse_name": "Piquant",
+              "sire": "Medaglia d'Oro"
+            },
+            "trainer_jockey": "Nolan RamseyMiguel Angel Vasquez",
+            "morning_line": "6/1"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "1 m",
+          "surface": "Turf",
+          "purse": "58,000",
+          "race_type": "1 m,\nTurf,\nAllowanceOpen | 3 Year OldsPurse: $58,000"
+        }
+      },
+      {
+        "race_number": 6,
+        "post_time": "3:29 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "Grand Jefe(80)Instagrand",
+              "speed_figure": 80,
+              "horse_name": "Grand Jefe",
+              "sire": "Instagrand"
+            },
+            "trainer_jockey": "Georgina BaxterYolber Torres",
+            "morning_line": "15/1"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "Bullet Blues(79)Bullet Gone Astray",
+              "speed_figure": 79,
+              "horse_name": "Bullet Blues",
+              "sire": "Bullet Gone Astray"
+            },
+            "trainer_jockey": "Luis M. RamirezMarcos Meneses",
+            "morning_line": "9/2"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "Saybrook(81)Jess's Dream",
+              "speed_figure": 81,
+              "horse_name": "Saybrook",
+              "sire": "Jess's Dream"
+            },
+            "trainer_jockey": "Carlos Luis PerezEdgar Perez",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "Garrincha(101)Mo Town",
+              "speed_figure": 101,
+              "horse_name": "Garrincha",
+              "sire": "Mo Town"
+            },
+            "trainer_jockey": "Angel M. RodriguezLuis Fuenmayor",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "Sweet Cha Cha(97)Sweetontheladies",
+              "speed_figure": 97,
+              "horse_name": "Sweet Cha Cha",
+              "sire": "Sweetontheladies"
+            },
+            "trainer_jockey": "Leon J. McKanasJonathan Ocasio",
+            "morning_line": "7/2"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "Mustang Bay(90)Instagrand",
+              "speed_figure": 90,
+              "horse_name": "Mustang Bay",
+              "sire": "Instagrand"
+            },
+            "trainer_jockey": "Marcial CornejoJesus M. Rios",
+            "morning_line": "12/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "Sixteen Cigarettes(94)Kantharos",
+              "speed_figure": 94,
+              "horse_name": "Sixteen Cigarettes",
+              "sire": "Kantharos"
+            },
+            "trainer_jockey": "Frank J. RegalbutoLeonel Reyes",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 8,
+            "program_number": 8,
+            "horse_info": {
+              "raw_text": "Imapeppa(96)Secret Circle",
+              "speed_figure": 96,
+              "horse_name": "Imapeppa",
+              "sire": "Secret Circle"
+            },
+            "trainer_jockey": "Jose M. CastroSamy Camacho",
+            "morning_line": "2/1"
+          },
+          {
+            "post_position": 9,
+            "program_number": 9,
+            "horse_info": {
+              "raw_text": "Thingsrgettinharry(83)Midnight Storm",
+              "speed_figure": 83,
+              "horse_name": "Thingsrgettinharry",
+              "sire": "Midnight Storm"
+            },
+            "trainer_jockey": "Frank SantillanaCarlos D. Lugo",
+            "morning_line": "50/1"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "7 f",
+          "surface": "Dirt",
+          "purse": "24,500",
+          "race_type": "7 f,\nDirt,\n$8,000 ClaimingOpen | 3 Year Olds And UpPurse: $24,500"
+        }
+      },
+      {
+        "race_number": 7,
+        "post_time": "4:04 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "BlackmailNot This Time",
+              "horse_name": "BlackmailNot This Time"
+            },
+            "trainer_jockey": "Mark E. CasseReylu Gutierrez",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "Chingu(64)Leinster",
+              "speed_figure": 64,
+              "horse_name": "Chingu",
+              "sire": "Leinster"
+            },
+            "trainer_jockey": "Cathy RountreeJonathan Ocasio",
+            "morning_line": "30/1"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "Uncle Aldo(77)More Than Ready",
+              "speed_figure": 77,
+              "horse_name": "Uncle Aldo",
+              "sire": "More Than Ready"
+            },
+            "trainer_jockey": "Jose Francisco D'AngeloLeonel Reyes",
+            "morning_line": "5/2"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "Coach Kain(75)Knicks Go",
+              "speed_figure": 75,
+              "horse_name": "Coach Kain",
+              "sire": "Knicks Go"
+            },
+            "trainer_jockey": "Mark E. CasseMiguel Angel Vasquez",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "Raasil(75)Tonalist",
+              "speed_figure": 75,
+              "horse_name": "Raasil",
+              "sire": "Tonalist"
+            },
+            "trainer_jockey": "Antonio SanoMarcos Meneses",
+            "morning_line": "10/1"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "Antonino(81)Candy Ride (ARG)",
+              "speed_figure": 81,
+              "horse_name": "Antonino",
+              "sire": "Candy Ride (ARG)"
+            },
+            "trainer_jockey": "Antonio SanoSamy Camacho",
+            "morning_line": "20/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "Principote(48)Candy Ride (ARG)",
+              "speed_figure": 48,
+              "horse_name": "Principote",
+              "sire": "Candy Ride (ARG)"
+            },
+            "trainer_jockey": "Todd A. PletcherJoe Bravo",
+            "morning_line": "12/1"
+          },
+          {
+            "post_position": 8,
+            "program_number": 8,
+            "horse_info": {
+              "raw_text": "Knoty Knicks(72)Knicks Go",
+              "speed_figure": 72,
+              "horse_name": "Knoty Knicks",
+              "sire": "Knicks Go"
+            },
+            "trainer_jockey": "Jeff EnglerJose E. Morelos",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 9,
+            "program_number": 9,
+            "horse_info": {
+              "raw_text": "BrentwoodEssential Quality",
+              "horse_name": "BrentwoodEssential Quality"
+            },
+            "trainer_jockey": "Todd A. PletcherEmisael Jaramillo",
+            "morning_line": "9/2"
+          },
+          {
+            "post_position": 10,
+            "program_number": 10,
+            "horse_info": {
+              "raw_text": "RawayanaCaracaro",
+              "horse_name": "RawayanaCaracaro"
+            },
+            "trainer_jockey": "Gustavo DelgadoRajiv Maragh",
+            "morning_line": "10/1"
+          },
+          {
+            "post_position": 11,
+            "program_number": 11,
+            "horse_info": {
+              "raw_text": "Win Winnie WinUpstart",
+              "horse_name": "Win Winnie WinUpstart"
+            },
+            "trainer_jockey": "Armando De La CerdaEdgar Perez",
+            "morning_line": "15/1"
+          },
+          {
+            "post_position": 12,
+            "program_number": 12,
+            "horse_info": {
+              "raw_text": "Hard StormHard Spun",
+              "horse_name": "Hard StormHard Spun"
+            },
+            "trainer_jockey": "Jose Francisco D'AngeloYolber Torres",
+            "morning_line": "10/1"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "1 m",
+          "surface": "Turf",
+          "purse": "70,000",
+          "race_type": "1 m,\nTurf,\nMaiden Special WeightOpen | 2 Year OldsPurse: $70,000"
+        }
+      },
+      {
+        "race_number": 8,
+        "post_time": "4:35 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "Speed Control(100)Mendelssohn",
+              "speed_figure": 100,
+              "horse_name": "Speed Control",
+              "sire": "Mendelssohn"
+            },
+            "trainer_jockey": "Javier NegreteHeriberto Figueroa",
+            "morning_line": "15/1"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "Blast Radius(107)Awesome Slew",
+              "speed_figure": 107,
+              "horse_name": "Blast Radius",
+              "sire": "Awesome Slew"
+            },
+            "trainer_jockey": "Luis M. RamirezYolber Torres",
+            "morning_line": "3/1"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "Raging Fury(103)Ami's Flatter",
+              "speed_figure": 103,
+              "horse_name": "Raging Fury",
+              "sire": "Ami's Flatter"
+            },
+            "trainer_jockey": "Nolan RamseyMiguel Angel Vasquez",
+            "morning_line": "7/2"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "Lucky Old Son(104)Breaking Lucky",
+              "speed_figure": 104,
+              "horse_name": "Lucky Old Son",
+              "sire": "Breaking Lucky"
+            },
+            "trainer_jockey": "David FawkesEmisael Jaramillo",
+            "morning_line": "2/1"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "Mr. Peeks(91)California Chrome",
+              "speed_figure": 91,
+              "horse_name": "Mr. Peeks",
+              "sire": "California Chrome"
+            },
+            "trainer_jockey": "Beau ChapmanMarcos Meneses",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "Neshume(100)Instagrand",
+              "speed_figure": 100,
+              "horse_name": "Neshume",
+              "sire": "Instagrand"
+            },
+            "trainer_jockey": "Laura CazaresJose E. Morelos",
+            "morning_line": "4/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "El Guty(102)Practical Joke",
+              "speed_figure": 102,
+              "horse_name": "El Guty",
+              "sire": "Practical Joke"
+            },
+            "trainer_jockey": "Ronald CoyCipriano Gil",
+            "morning_line": "10/1"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "7 f",
+          "surface": "Dirt",
+          "purse": "40,000",
+          "race_type": "7 f,\nDirt,\n$25,000 Starter AllowanceOpen | 3 Year Olds And UpPurse: $40,000"
+        }
+      },
+      {
+        "race_number": 9,
+        "post_time": "5:07 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "Vindicate Cha Cha(88)Adios Charlie",
+              "speed_figure": 88,
+              "horse_name": "Vindicate Cha Cha",
+              "sire": "Adios Charlie"
+            },
+            "trainer_jockey": "Michael LermanYolber Torres",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "The Dove Rules(86)Bucchero",
+              "speed_figure": 86,
+              "horse_name": "The Dove Rules",
+              "sire": "Bucchero"
+            },
+            "trainer_jockey": "Saffie A. Joseph, Jr.Micah J. Husbands",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "Le Amazonia(85)Practical Joke",
+              "speed_figure": 85,
+              "horse_name": "Le Amazonia",
+              "sire": "Practical Joke"
+            },
+            "trainer_jockey": "Victor Barboza, Jr.Emisael Jaramillo",
+            "morning_line": "9/2"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "Love Actually(85)Caravaggio",
+              "speed_figure": 85,
+              "horse_name": "Love Actually",
+              "sire": "Caravaggio"
+            },
+            "trainer_jockey": "Joseph F. OrsenoCipriano Gil",
+            "morning_line": "7/2"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "Super Freaky Girl(90)Bucchero",
+              "speed_figure": 90,
+              "horse_name": "Super Freaky Girl",
+              "sire": "Bucchero"
+            },
+            "trainer_jockey": "Carlos A. DavidReylu Gutierrez",
+            "morning_line": "3/1"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "Breezey Z(70)Cajun Breeze",
+              "speed_figure": 70,
+              "horse_name": "Breezey Z",
+              "sire": "Cajun Breeze"
+            },
+            "trainer_jockey": "Michael YatesLuis Fuenmayor",
+            "morning_line": "30/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "Granka(63)Liam's Map",
+              "speed_figure": 63,
+              "horse_name": "Granka",
+              "sire": "Liam's Map"
+            },
+            "trainer_jockey": "Antonio SanoSamy Camacho",
+            "morning_line": "15/1"
+          },
+          {
+            "post_position": 8,
+            "program_number": 8,
+            "horse_info": {
+              "raw_text": "Royally Blue(93)Palace",
+              "speed_figure": 93,
+              "horse_name": "Royally Blue",
+              "sire": "Palace"
+            },
+            "trainer_jockey": "Steve KlesarisRajiv Maragh",
+            "morning_line": "4/1"
+          },
+          {
+            "post_position": 9,
+            "program_number": 9,
+            "horse_info": {
+              "raw_text": "One of One(93)Classic Empire",
+              "speed_figure": 93,
+              "horse_name": "One of One",
+              "sire": "Classic Empire"
+            },
+            "trainer_jockey": "Jennifer P. YoungEdgar Perez",
+            "morning_line": "20/1"
+          },
+          {
+            "post_position": 10,
+            "program_number": 10,
+            "horse_info": {
+              "raw_text": "Check the Grade(66)Valiant Minister",
+              "speed_figure": 66,
+              "horse_name": "Check the Grade",
+              "sire": "Valiant Minister"
+            },
+            "trainer_jockey": "Javier NegreteHeriberto Figueroa",
+            "morning_line": "30/1"
+          },
+          {
+            "post_position": 11,
+            "program_number": 11,
+            "horse_info": {
+              "raw_text": "Laila Bella Girl(89)Girvin",
+              "speed_figure": 89,
+              "horse_name": "Laila Bella Girl",
+              "sire": "Girvin"
+            },
+            "trainer_jockey": "J. David BraddyLeonel Reyes",
+            "morning_line": "20/1"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "5 f",
+          "surface": "Turf",
+          "purse": "57,000",
+          "race_type": "5 f,\nTurf,\n$25,000 Allowance Optional ClaimingFillies & Mares | 3 Year Olds And UpPurse: $57,000"
+        }
+      },
+      {
+        "race_number": 10,
+        "post_time": "5:39 PM",
+        "entries": [
+          {
+            "post_position": 1,
+            "program_number": 1,
+            "horse_info": {
+              "raw_text": "Lil Bit Sideways(71)St Patrick's Day",
+              "speed_figure": 71,
+              "horse_name": "Lil Bit Sideways",
+              "sire": "St Patrick's Day"
+            },
+            "trainer_jockey": "David FawkesEmisael Jaramillo",
+            "morning_line": "3/1"
+          },
+          {
+            "post_position": 2,
+            "program_number": 2,
+            "horse_info": {
+              "raw_text": "Alabama SleeperBucchero",
+              "horse_name": "Alabama SleeperBucchero"
+            },
+            "trainer_jockey": "Joseph F. OrsenoMiguel Angel Vasquez",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 3,
+            "program_number": 3,
+            "horse_info": {
+              "raw_text": "The Great EmpireClassic Empire",
+              "horse_name": "The Great EmpireClassic Empire"
+            },
+            "trainer_jockey": "Andy P. WilliamsBrandon Chance Boulanger",
+            "morning_line": "30/1"
+          },
+          {
+            "post_position": 4,
+            "program_number": 4,
+            "horse_info": {
+              "raw_text": "Adios Mate(55)Adios Charlie",
+              "speed_figure": 55,
+              "horse_name": "Adios Mate",
+              "sire": "Adios Charlie"
+            },
+            "trainer_jockey": "Oscar M. GonzalezCipriano Gil",
+            "morning_line": "7/2"
+          },
+          {
+            "post_position": 5,
+            "program_number": 5,
+            "horse_info": {
+              "raw_text": "San Quintin(68)Gunnevera",
+              "speed_figure": 68,
+              "horse_name": "San Quintin",
+              "sire": "Gunnevera"
+            },
+            "trainer_jockey": "Benny C. CadahiaLuis Fuenmayor",
+            "morning_line": "6/1"
+          },
+          {
+            "post_position": 6,
+            "program_number": 6,
+            "horse_info": {
+              "raw_text": "Amaury M. V. P.(76)Tapitgold",
+              "speed_figure": 76,
+              "horse_name": "Amaury M. V. P.",
+              "sire": "Tapitgold"
+            },
+            "trainer_jockey": "Hernan ParraJonathan Ocasio",
+            "morning_line": "8/1"
+          },
+          {
+            "post_position": 7,
+            "program_number": 7,
+            "horse_info": {
+              "raw_text": "Gourmet Dinner(55)Global Campaign",
+              "speed_figure": 55,
+              "horse_name": "Gourmet Dinner",
+              "sire": "Global Campaign"
+            },
+            "trainer_jockey": "J. David BraddyYolber Torres",
+            "morning_line": "30/1"
+          },
+          {
+            "post_position": 8,
+            "program_number": 8,
+            "horse_info": {
+              "raw_text": "Hooray for Me(29)Hard Spun",
+              "speed_figure": 29,
+              "horse_name": "Hooray for Me",
+              "sire": "Hard Spun"
+            },
+            "trainer_jockey": "Joseph C. Catanese IIIJose E. Morelos",
+            "morning_line": "12/1"
+          },
+          {
+            "post_position": 9,
+            "program_number": 9,
+            "horse_info": {
+              "raw_text": "G Speedy(77)Enticed",
+              "speed_figure": 77,
+              "horse_name": "G Speedy",
+              "sire": "Enticed"
+            },
+            "trainer_jockey": "Rafael RomeroLeonel Reyes",
+            "morning_line": "5/2"
+          }
+        ],
+        "results": {},
+        "race_info": {
+          "distance": "5 1/2F",
+          "purse": "26,500",
+          "race_type": "5 1/2F,\nAll Weather Track,\n$12,500 Maiden ClaimingOpen | 3 Year Olds And UpPurse: $26,500"
+        }
+      }
+    ],
+    "total_races": 10,
+    "scraped_at": "2025-09-28T05:04:09.230502"
+  }
+}

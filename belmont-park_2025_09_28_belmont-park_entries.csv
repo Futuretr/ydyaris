@@ -1,0 +1,97 @@
+track_name,race_number,post_position,program_number,horse_name,speed_figure,sire,trainer_jockey,morning_line
+belmont-park,1,1,1,My Man Magoo,90,Munnings,Rudy R. RodriguezRuben Silvera,15/1
+belmont-park,1,2,2,Nantz,79,Tapit,"Carlos F. MartinRicardo Santana, Jr.",8/1
+belmont-park,1,3,3,Cyberbeast,14,Global Campaign,Gregory D. SaccoChristopher Elliott,15/1
+belmont-park,1,4,4,Daytona Moonshine,52,Audible,Norman C. FollettDalton Brown,30/1
+belmont-park,1,5,5,Remember the Chief,80,Army Mule,"Patrick J. QuickLuis R. Rivera, Jr.",15/1
+belmont-park,1,6,6,Down the Line,49,Audible,Patrick J. QuickOmar Hernandez Moreno,30/1
+belmont-park,1,7,7,Noguchi,99,Authentic,Linda RiceFlavien Prat,7/5
+belmont-park,1,8,8,Last Man Standing,97,McKinzie,Linda RiceKendrick Carmouche,1/1
+belmont-park,2,1,1,Whistler's Style,95,Tonalist,Linda RiceDylan Davis,5/1
+belmont-park,2,2,2,Brzina,103,Great Notion,Rudy R. RodriguezChristopher Elliott,7/2
+belmont-park,2,3,3,She Makes a Point,96,Point of Entry,Robert J.W. JohnstonRuben Silvera,5/2
+belmont-park,2,4,4,My First Love,83,First Samurai,"Richard E. Dutrow, Jr.Eric Cancel",12/1
+belmont-park,2,5,5,Shezanarcticqueen,90,Keen Ice,Eduardo E. JonesOmar Hernandez Moreno,30/1
+belmont-park,2,6,6,Lika Rolling Stone,89,Bustin Stones,Antonio ArriagaChristian Maragh,12/1
+belmont-park,2,7,7,Echo in Eternity,103,Connect,"Bruce N. LevineRicardo Santana, Jr.",9/2
+belmont-park,2,8,8,Problematica,99,World of Trouble,Linda RiceKendrick Carmouche,7/2
+belmont-park,3,1,1,Whocouldaskformo,102,Uncle Mo,Claude R. McGaughey IIIKendrick Carmouche,8/1
+belmont-park,3,2,2,Points Is Points,101,Constitution,Brad H. CoxManuel Franco,3/1
+belmont-park,3,3,3,Scarlett's Halo,110,Practical Joke,Chad C. BrownFlavien Prat,5/1
+belmont-park,3,4,4,Coquito,106,Connect,"Linda RiceRicardo Santana, Jr.",8/1
+belmont-park,3,5,5,Fully Subscribed,101,Tiz the Law,Chad C. BrownDylan Davis,2/1
+belmont-park,3,6,6,Danzit,94,Tapit,Todd A. PletcherEdgard J. Zayas,7/2
+belmont-park,3,7,7,Walk With Me,96,Central Banker,David P. DugganRomero Ramsay Maragh,12/1
+belmont-park,4,1,1,Dinghy Bar,68,Galilean,John P. Terranova IIKatie Davis,5/1
+belmont-park,4,2,2,Exhibition Only,58,Complexity,Rudy R. RodriguezRuben Silvera,10/1
+belmont-park,4,3,3,The Last PageLeofric,,,George WeaverFlavien Prat,4/1
+belmont-park,4,4,4,Glorious Boy,72,Independence Hall,Carlos F. MartinJavier Castellano,10/1
+belmont-park,4,5,5,GrumblyrumhoganIndependence Hall,,,Edward R. BarkerDylan Davis,8/1
+belmont-park,4,6,6,Waitin'onasunnyday,80,Mendelssohn,"John C. KimmelRicardo Santana, Jr.",3/1
+belmont-park,4,7,7,Ogilvy,,Advertise (GB),D. Whitworth BeckmanJunior Alvarado,6/1
+belmont-park,4,8,8,Brass Nucks,48,Collected,David G. DonkJose Antonio Gomez,20/1
+belmont-park,4,9,9,One Last Bullet,48,Omaha Beach,Joseph F. OrsenoChristian Maragh,15/1
+belmont-park,4,10,10,Tactics,77,Tacitus,Todd A. PletcherEdgard J. Zayas,8/1
+belmont-park,4,11,11,Hong Kong Phooey,86,Complexity,Rudy R. RodriguezRider TBA,5/2MTO
+belmont-park,5,1,1,Artistic Success,97,Freud,"Joe SharpRicardo Santana, Jr.",5/1
+belmont-park,5,2,2,Competitive Threat,97,(97)Dark Angel (IRE),Chad C. BrownFlavien Prat,7/2
+belmont-park,5,3,3,Sassy Princess,91,Cairo Prince,Amelia J. GreenChristopher Elliott,8/1
+belmont-park,5,4,4,Turf Rocket,113,More Than Ready,Michael J. TrombettaKendrick Carmouche,10/1
+belmont-park,5,5,5,Stamp of Approval,96,Nyquist,Mark A. HennigJavier Castellano,12/1
+belmont-park,5,6,6,Blame the Banker,99,Goldencents,Panagiotis A. SynnefiasDylan Davis,8/1
+belmont-park,5,7,7,Bedford the Brave,101,Omaha Beach,David G. DonkJose Antonio Gomez,12/1
+belmont-park,5,8,8,Victoria's Dancer,103,Munnings,Juan Carlos AvilaChristian Maragh,12/1
+belmont-park,5,9,9,Aviso,93,Hightail,"Kenneth G. McPeekLuis R. Rivera, Jr.",12/1
+belmont-park,5,10,10,Tuck Check,102,Divisidero,Lindsay SchultzManuel Franco,10/1
+belmont-park,5,11,11,Broadway Lights,96,Twirling Candy,Michael J. MakerJoel Rosario,15/1
+belmont-park,5,12,12,War Siren,112,(112)War Front,Michael J. MakerDylan Davis,8/1AE
+belmont-park,5,13,13,Cararra,89,Street Sense,Rob AtrasRider TBA,8/1MTO
+belmont-park,5,14,14,Sight to See,83,Munnings,"Richard E. Dutrow, Jr.Rider TBA",10/1MTO
+belmont-park,5,15,15,Adrian,102,Global Campaign,Linda RiceKendrick Carmouche,5/1MTO
+belmont-park,6,1,1,Combat Mission,78,Combatant,John C. KimmelKendrick Carmouche,5/1
+belmont-park,6,2,2,Kaz DominatorName Changer,,,Dimitrios K. SynnefiasRuben Silvera,10/1
+belmont-park,6,3,3,BravaroUpstart,,,"Saffie A. Joseph, Jr.Dylan Davis",5/1
+belmont-park,6,4,4,Tuscan ThunderSolomini,,,David G. DonkJose Antonio Gomez,20/1
+belmont-park,6,5,5,Power Speed,53,Yaupon,Todd A. PletcherEdgard J. Zayas,6/1
+belmont-park,6,6,6,Charlie Hustle,53,Munnings,"Jorge R. AbreuRicardo Santana, Jr.",20/1
+belmont-park,6,7,7,Max Money,74,Maxfield,Michael J. MakerJoel Rosario,12/1
+belmont-park,6,8,8,Diamond Life,67,Central Banker,"Michelle GiangiulioLuis R. Rivera, Jr.",15/1
+belmont-park,6,9,9,George's GoldMedaglia d'Oro,,,Horacio De PazManuel Franco,12/1
+belmont-park,6,10,10,The Toy CannonBolt d'Oro,,,Chad SummersChristopher Elliott,6/1
+belmont-park,6,11,11,Fourth and One,83,Maxfield,Jeremiah C. EnglehartFlavien Prat,7/2
+belmont-park,6,12,12,Pure MischiefHonest Mischief,,,Adrianne DeVauxJavier Castellano,30/1
+belmont-park,6,13,13,Pride of the Union,75,Union Rags,Jorge R. AbreuManuel Franco,8/1AE
+belmont-park,6,14,14,Wamo,76,Yaupon,Michael J. MakerKatie Davis,10/1AE
+belmont-park,6,15,15,Mission Critical,51,Midnight Lute,Jeremiah C. EnglehartJunior Alvarado,20/1AE
+belmont-park,7,1,1,JadorlinijaCurlin,,,Miguel ClementManuel Franco,6/1
+belmont-park,7,2,2,Connect the Stars,86,Connect,Mark E. CasseDylan Davis,5/1
+belmont-park,7,3,3,All About You,95,Maclean's Music,Kenneth G. McPeekJavier Castellano,4/1
+belmont-park,7,4,4,Concurrently,79,American Pharoah,Chad C. BrownFlavien Prat,6/1
+belmont-park,7,5,5,Fancy Footwork,87,Curlin,"Amelia J. GreenRicardo Santana, Jr.",9/2
+belmont-park,7,6,6,Light de Night,24,City of Light,"Jorge Duarte, Jr.Romero Ramsay Maragh",30/1
+belmont-park,7,7,7,AppreciativelyGun Runner,,,William I. MottJose Antonio Gomez,20/1
+belmont-park,7,8,8,Asking,72,Lookin At Lucky,William I. MottJunior Alvarado,12/1
+belmont-park,7,9,9,ChartistTonalist,,,Miguel ClementJoel Rosario,10/1
+belmont-park,7,10,10,BelievableCurlin,,,Todd A. PletcherKendrick Carmouche,6/1
+belmont-park,7,11,11,Noisetomakenoise,83,Audible,Amelia J. GreenChristopher Elliott,20/1
+belmont-park,8,1,1,Church and State,108,Caravaggio,Dale A. DesruisseauxJoel Rosario,8/1
+belmont-park,8,2,2,Magic Pathway,98,Quality Road,Michael J. TrombettaKendrick Carmouche,5/1
+belmont-park,8,3,3,X Y Prime,91,Vekoma,Jorge DelgadoJavier Castellano,20/1
+belmont-park,8,4,4,Griffin's Wharf,104,Constitution,"Thomas MorleyRicardo Santana, Jr.",6/1
+belmont-park,8,5,5,Candytown,117,Speightstown,Todd A. PletcherEdgard J. Zayas,7/2
+belmont-park,8,6,6,Capitol Hill,104,Into Mischief,William I. MottJunior Alvarado,5/2
+belmont-park,8,7,7,Salamis,98,Speightstown,Chad C. BrownFlavien Prat,3/1
+belmont-park,8,8,8,Snookie Bear,126,More Than Ready,"Richard E. Dutrow, Jr.Dylan Davis",20/1
+belmont-park,9,1,1,Scotia BobLookin At Lee,,,David G. DonkJose Antonio Gomez,20/1
+belmont-park,9,2,2,Lets Fight,92,Fog of War,Michael J. MakerFlavien Prat,9/2
+belmont-park,9,3,3,Dominican Pirate,72,McKinzie,Leandro Moreno-BarbanInoel Beato,30/1
+belmont-park,9,4,4,Deemer,99,Slumber (GB),Cherie DeVauxManuel Franco,7/5
+belmont-park,9,5,5,Arch's Assault,84,Laoban,Charlton BakerJoel Rosario,8/1
+belmont-park,9,6,6,Solo Dancing,70,Solomini,Mark A. HennigChristian Maragh,15/1
+belmont-park,9,7,7,I Can See That,96,War Dancer,"Bruce N. LevineRicardo Santana, Jr.",5/1
+belmont-park,9,8,8,Blue Pill,95,Honor Code,"James W. FerraroLuis R. Rivera, Jr.",30/1
+belmont-park,9,9,9,Lucky Dragon,67,Lookin At Lucky,Michael MiceliDylan Davis,15/1
+belmont-park,9,10,10,Inspeightofcharlie,88,Speightster,Barclay TaggKatie Davis,12/1
+belmont-park,9,11,11,Sunshine Dancer,82,War Dancer,Michelle NevinKendrick Carmouche,15/1
+belmont-park,9,12,12,Sol the Frank,46,Frank Conversation,Ricardo E. LegallOmar Hernandez Moreno,50/1
+belmont-park,9,13,13,Wind Dancer,85,War Dancer,David G. DonkDylan Davis,15/1AE

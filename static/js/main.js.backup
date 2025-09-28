@@ -1,0 +1,711 @@
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('🏇 At Yarışı Analizi başlatılıyor...');
+
+    // DOM elementleri
+    const raceTypeSelect = document.getElementById('raceTypeSelect');
+    const citySelect = document.getElementById('citySelect');
+    const checkDataBtn = document.getElementById('checkDataBtn');
+    const scrapeAndSaveBtn = document.getElementById('scrapeAndSaveBtn');
+    const quickCalculateBtn = document.getElementById('quickCalculateBtn');
+    const scrapeBtn = document.getElementById('scrapeBtn');
+    const downloadBtn = document.getElementById('downloadBtn');
+    const statusMessage = document.        try {
+            const raceType = raceTypeSelect.value;
+            const apiPrefix = raceType === 'domestic' ? '/api/domestic' : '/api/international';
+            
+            const response = await fetch(`${apiPrefix}/scrape_and_calculate`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ city: city })
+            });mentById('statusMessage');
+    const resultsContainer = document.getElementById('resultsContainer');
+    const summaryStats = document.getElementById('summaryStats');
+    const results = document.getElementById('results');
+
+    let currentData = null;
+
+    // Track listeleri
+    const internationalTracks = `
+        <option value="">Track Seçin</option>
+        <option value="aqueduct">Aqueduct</option>
+        <option value="belmont-park">Belmont Park</option>
+        <option value="churchill-downs">Churchill Downs</option>
+        <option value="del-mar">Del Mar</option>
+        <option value="gulfstream-park">Gulfstream Park</option>
+        <option value="keeneland">Keeneland</option>
+        <option value="laurel-park">Laurel Park</option>
+        <option value="oaklawn-park">Oaklawn Park</option>
+        <option value="pimlico">Pimlico</option>
+        <option value="santa-anita">Santa Anita</option>
+        <option value="saratoga">Saratoga</option>
+        <option value="woodbine">Woodbine</option>
+    `;
+
+    const domesticTracks = `
+        <option value="">Hipodrom Seçin</option>
+        <option value="istanbul">İstanbul</option>
+        <option value="ankara">Ankara</option>
+        <option value="izmir">İzmir</option>
+        <option value="adana">Adana</option>
+        <option value="bursa">Bursa</option>
+        <option value="konya">Konya</option>
+        <option value="elazig">Elazığ</option>
+        <option value="sanliurfa">Şanlıurfa</option>
+        <option value="diyarbakir">Diyarbakır</option>
+    `;
+
+    // Yarış türü değiştiğinde track listesini güncelle
+    raceTypeSelect.addEventListener('change', function() {
+        const raceType = this.value;
+        if (raceType === 'international') {
+            citySelect.innerHTML = internationalTracks;
+            document.title = '🌍 Yurtdışı At Yarışı Analizi';
+        } else if (raceType === 'domestic') {
+            citySelect.innerHTML = domesticTracks;
+            document.title = '🇹🇷 Yurtiçi At Yarışı Analizi';
+            showStatus('⚠️ Yurtiçi yarışlar henüz aktif değil. Geliştirme aşamasında...', 'warning');
+        }
+        
+        // Butonları sıfırla
+        checkDataBtn.disabled = true;
+        scrapeAndSaveBtn.disabled = true;
+        quickCalculateBtn.disabled = true;
+        scrapeBtn.disabled = true;
+        downloadBtn.disabled = true;
+    });
+
+    // Mobil cihaz kontrolü
+    function isMobileDevice() {
+        return window.innerWidth <= 768 || 
+               /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    // Mobil optimizasyonları
+    if (isMobileDevice()) {
+        // Touch eventi optimizasyonları
+        document.body.style.webkitTouchCallout = 'none';
+        document.body.style.webkitUserSelect = 'none';
+        
+        // Mobil scroll optimizasyonu
+        document.addEventListener('touchstart', function() {}, {passive: true});
+        document.addEventListener('touchmove', function() {}, {passive: true});
+    }
+
+    // Ekran yönlendirme değişikliği
+    window.addEventListener('orientationchange', function() {
+        setTimeout(function() {
+            // Tablo genişliğini yeniden hesapla
+            const tables = document.querySelectorAll('.horse-table');
+            tables.forEach(table => {
+                table.style.width = 'auto';
+                setTimeout(() => table.style.width = '100%', 100);
+            });
+        }, 500);
+    });
+
+    // Şehir seçimi değiştiğinde butonları aktif et
+    citySelect.addEventListener('change', function() {
+        const hasCity = this.value !== '';
+        const raceType = raceTypeSelect.value;
+        
+        // Hem yurtdışı hem yurtiçi için butonları aktif et
+        checkDataBtn.disabled = !hasCity;
+        scrapeAndSaveBtn.disabled = !hasCity;
+        quickCalculateBtn.disabled = !hasCity;
+        scrapeBtn.disabled = !hasCity;
+        
+        // Yurtiçi seçildiğinde uyarı
+        if (raceType === 'domestic' && hasCity) {
+            showStatus('🇹🇷 Yurtiçi yarışlar aktif! Test için "Veri Kontrol" butonunu deneyin.', 'info');
+        }
+    });
+
+    // Yükleme göstergesi
+    function showLoading(show, message = 'İşlem yapılıyor...') {
+        if (show) {
+            statusMessage.innerHTML = `
+                <div class="alert alert-info">
+                    <div class="d-flex align-items-center">
+                        <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+                        <span>${message}</span>
+                    </div>
+                </div>
+            `;
+        } else {
+            statusMessage.innerHTML = '';
+        }
+    }
+
+    // Durum mesajı göster
+    function showStatus(message, type = 'info') {
+        const alertClass = type === 'success' ? 'alert-success' : 
+                          type === 'danger' ? 'alert-danger' : 
+                          type === 'warning' ? 'alert-warning' : 'alert-info';
+        
+        statusMessage.innerHTML = `
+            <div class="alert ${alertClass}" role="alert">
+                ${message}
+            </div>
+        `;
+    }
+
+    // Özet istatistikler göster
+    function showSummaryStats(data) {
+        const totalHorses = data.total_horses;
+        const validHorses = data.valid_horses;
+        const successRate = data.success_rate;
+        
+        summaryStats.innerHTML = `
+            <div class="col-md-3">
+                <div class="stats-card">
+                    <span class="stats-number">${totalHorses}</span>
+                    <small>Toplam At</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stats-card">
+                    <span class="stats-number">${validHorses}</span>
+                    <small>Geçerli Veri</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stats-card">
+                    <span class="stats-number">%${successRate}</span>
+                    <small>Başarı Oranı</small>
+                </div>
+            </div>
+        `;
+        summaryStats.style.display = 'flex';
+    }
+
+    // Pist türü mapping
+    function getPistType(pistCode) {
+        const pistMap = {
+            '1': 'Çim',
+            '2': 'Kum', 
+            '3': 'Sentetik',
+            'Çim': 'Çim',
+            'Kum': 'Kum',
+            'Sentetik': 'Sentetik',
+            'çim': 'Çim',
+            'kum': 'Kum',
+            'sentetik': 'Sentetik',
+            'Turf-Firm': 'Çim',
+            'Dirt-Fast': 'Kum',
+            'Synthetic': 'Sentetik'
+        };
+        return pistMap[pistCode] || pistCode || '-';
+    }
+
+    // Koşu sonuçlarını göster
+    function showRaceResults(data) {
+        console.log('📊 showRaceResults BAŞLADI...', data);
+        console.log('📊 Races array length:', data.races?.length);
+        console.log('📊 Results element exists:', !!results);
+        console.log('📊 Results element:', results);
+        
+        if (!data.races || data.races.length === 0) {
+            console.log('❌ Koşu verisi bulunamadı!');
+            return;
+        }
+        
+        console.log('🔄 Gerçek tablo oluşturuluyor...');
+        console.log('📊 Toplam koşu sayısı:', data.races.length);
+        
+        let tabsHtml = '<div class="race-tabs-container"><div class="race-tabs">';
+        let contentHtml = '<div class="race-content-container">';
+
+        // Her koşu için sekme ve içerik oluştur
+        data.races.forEach((race, index) => {
+            const raceNumber = index + 1;
+            console.log(`🔍 Race ${raceNumber} has ${race.horses.length} horses`);
+            console.log(`🔍 First horse in race ${raceNumber}:`, race.horses[0]);
+            const validHorses = race.horses.filter(h => h.skor !== null && h.skor !== 'Veri yok');
+            console.log(`🔍 Valid horses in race ${raceNumber}: ${validHorses.length}`);
+            
+            // Koşu saati hesapla (16:45'ten başlayarak her koşu 30dk sonra)
+            const startHour = 16;
+            const startMinute = 45;
+            const totalMinutes = startMinute + (index * 30);
+            const raceHour = startHour + Math.floor(totalMinutes / 60);
+            const raceMinute = totalMinutes % 60;
+            const raceTime = `${raceHour}:${raceMinute.toString().padStart(2, '0')}`;
+            
+            // Sekme
+            tabsHtml += `
+                <button class="race-tab ${index === 0 ? 'active' : ''}" onclick="showRaceTab(${index})" id="tab-${index}">
+                    ${raceNumber}. Koşu ${raceTime}
+                </button>
+            `;
+
+            // İçerik
+            contentHtml += `
+                <div class="race-content-tab ${index === 0 ? 'active' : ''}" id="race-tab-content-${index}">
+                    <!-- Ana Tablo -->
+                    <div class="table-responsive">
+                        <table class="horse-table">
+                            <thead>
+                                <tr>
+                                    <th width="25">Sıra</th>
+                                    <th width="25">No</th>
+                                    <th width="150">At İsmi</th>
+                                    <th width="60">Yarış No</th>
+                                    <th width="50">Score</th>
+                                    <th width="80">Distance</th>
+                                    <th width="60">Surface</th>
+                                    <th width="60">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+            `;
+
+            // Atları performance score'a göre sırala (düşük skor daha iyi)
+            const sortedHorses = [...race.horses].sort((a, b) => {
+                const scoreA = typeof a.skor === 'number' ? a.skor : 9999;
+                const scoreB = typeof b.skor === 'number' ? b.skor : 9999;
+                return scoreA - scoreB; // En düşük skor en iyi
+            });
+
+            sortedHorses.forEach((horse, horseIndex) => {
+                const rank = horseIndex + 1;
+                const scoreText = typeof horse.skor === 'number' ? horse.skor.toFixed(2) : '-';
+                const ciktiText = typeof horse.cikti_degeri === 'number' ? horse.cikti_degeri.toFixed(2) : (horse.cikti_degeri || '-');
+                
+                // Skor renklendirme
+                const scoreColor = typeof horse.skor === 'number' ? '#28a745' : '#dc3545';
+                const status = typeof horse.skor === 'number' ? 'Valid' : 'Invalid';
+
+                contentHtml += `
+                    <tr>
+                        <td><strong>${rank}</strong></td>
+                        <td><strong>${horse.program_number || horseIndex + 1}</strong></td>
+                        <td class="horse-name"><strong>${horse.at_adi || 'Unknown'}</strong></td>
+                        <td><strong>${raceNumber}</strong></td>
+                        <td><strong style="color: ${scoreColor}">${scoreText}</strong></td>
+                        <td>${horse.son_mesafe || '-'}</td>
+                        <td>${getPistType(horse.son_pist)}</td>
+                        <td><span style="color: ${scoreColor}; font-size: 10px;">${status}</span></td>
+                    </tr>
+                `;
+            });
+
+            contentHtml += `
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        });
+
+        // "Tüm Koşular" sekmesi ekle
+        tabsHtml += `
+            <button class="race-tab" onclick="showAllRaces()" id="tab-all">
+                Tüm Koşular
+            </button>
+        `;
+
+        // Tüm koşular içeriği
+        contentHtml += `
+            <div class="race-content-tab" id="race-tab-content-all">
+                <div class="row all-races-grid">
+        `;
+        
+        data.races.forEach((race, index) => {
+            const raceNumber = index + 1;
+            const validHorses = race.horses.filter(h => h.skor !== null && h.skor !== 'Veri yok');
+            const topHorse = race.horses.sort((a, b) => {
+                const scoreA = typeof a.skor === 'number' ? a.skor : 9999;
+                const scoreB = typeof b.skor === 'number' ? b.skor : 9999;
+                return scoreA - scoreB; // En düşük skor en iyi
+            })[0];
+            
+            const startHour = 16;
+            const startMinute = 45;
+            const totalMinutes = startMinute + (index * 30);
+            const raceHour = startHour + Math.floor(totalMinutes / 60);
+            const raceMinute = totalMinutes % 60;
+            const raceTime = `${raceHour}:${raceMinute.toString().padStart(2, '0')}`;
+            
+            contentHtml += `
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="race-overview-card">
+                        <h6>${raceNumber}. Koşu ${raceTime}</h6>
+                        <p class="card-text">
+                            <strong>En İyi:</strong> ${topHorse?.at_adi || 'Veri yok'}<br>
+                            <strong>Skor:</strong> ${typeof topHorse?.skor === 'number' ? topHorse.skor.toFixed(2) : 'Veri yok'}<br>
+                            <strong>Atlar:</strong> ${race.horses.length} / Geçerli: ${validHorses.length}
+                        </p>
+                        <button class="btn btn-primary btn-sm" onclick="showRaceTab(${index})">
+                            Detay Gör
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+        
+        contentHtml += `
+                </div>
+            </div>
+        `;
+
+        tabsHtml += '</div></div>';
+        contentHtml += '</div>';
+
+        console.log('🔄 Setting results.innerHTML...');
+        console.log('📝 TabsHtml length:', tabsHtml.length);
+        console.log('📝 ContentHtml length:', contentHtml.length);
+        
+        results.innerHTML = tabsHtml + contentHtml;
+        
+                console.log('✅ innerHTML SET! New content length:', results.innerHTML.length);
+                console.log('🔍 Results element children count:', results.children.length);
+                
+                // Emergency fallback - basit HTML ekle eğer içerik yoksa
+                if (results.children.length === 0) {
+                    console.log('🚨 NO CHILDREN FOUND! Adding emergency content...');
+                    results.innerHTML = `
+                        <div style="background: yellow; padding: 20px; border: 2px solid red;">
+                            <h3>🏇 ACIL TEST - Yarış Sonuçları</h3>
+                            <p><strong>Toplam Yarış:</strong> ${data.races.length}</p>
+                            <p><strong>İlk At:</strong> ${data.races[0]?.horses[0]?.at_adi || 'Bulunamadı'}</p>
+                            <p><strong>Skor:</strong> ${data.races[0]?.horses[0]?.skor || 'Yok'}</p>
+                        </div>
+                    `;
+                }        // Mobil optimizasyonları uygula
+        setTimeout(() => {
+            addTouchSupport();
+            optimizeTableScroll();
+        }, 100);
+    }
+
+    // Koşu sekmesi göster
+    window.showRaceTab = function(raceIndex) {
+        // Tüm sekmeleri pasif yap
+        document.querySelectorAll('.race-tab').forEach(tab => {
+            tab.classList.remove('active');
+        });
+        document.querySelectorAll('.race-content-tab').forEach(content => {
+            content.classList.remove('active');
+        });
+        
+        // Seçili sekmeyi aktif yap
+        document.getElementById(`tab-${raceIndex}`).classList.add('active');
+        document.getElementById(`race-tab-content-${raceIndex}`).classList.add('active');
+    };
+
+    // Tüm koşuları göster
+    window.showAllRaces = function() {
+        // Tüm sekmeleri pasif yap
+        document.querySelectorAll('.race-tab').forEach(tab => {
+            tab.classList.remove('active');
+        });
+        document.querySelectorAll('.race-content-tab').forEach(content => {
+            content.classList.remove('active');
+        });
+        
+        // "Tüm Koşular" sekmesini aktif yap
+        document.getElementById('tab-all').classList.add('active');
+        document.getElementById('race-tab-content-all').classList.add('active');
+    };
+
+    // Mobil için dokunmatik sekme geçişi
+    function addTouchSupport() {
+        const raceTabsContainer = document.querySelector('.race-tabs');
+        if (raceTabsContainer && isMobileDevice()) {
+            let startX = 0;
+            let currentX = 0;
+            let isDragging = false;
+
+            raceTabsContainer.addEventListener('touchstart', function(e) {
+                startX = e.touches[0].clientX;
+                isDragging = true;
+            }, {passive: true});
+
+            raceTabsContainer.addEventListener('touchmove', function(e) {
+                if (!isDragging) return;
+                currentX = e.touches[0].clientX;
+                const diffX = startX - currentX;
+                
+                // Yatay scroll
+                raceTabsContainer.scrollLeft += diffX * 0.5;
+                startX = currentX;
+            }, {passive: true});
+
+            raceTabsContainer.addEventListener('touchend', function() {
+                isDragging = false;
+            }, {passive: true});
+        }
+    }
+
+    // Mobil için tablo scroll optimizasyonu
+    function optimizeTableScroll() {
+        const tables = document.querySelectorAll('.table-responsive');
+        tables.forEach(table => {
+            if (isMobileDevice()) {
+                table.style.overflowX = 'auto';
+                table.style.webkitOverflowScrolling = 'touch';
+                
+                // Scroll ipucu göster
+                const scrollHint = document.createElement('div');
+                scrollHint.style.cssText = `
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
+                    background: rgba(0,0,0,0.7);
+                    color: white;
+                    padding: 2px 6px;
+                    border-radius: 3px;
+                    font-size: 10px;
+                    pointer-events: none;
+                    z-index: 10;
+                `;
+                scrollHint.textContent = '← → Kaydır';
+                table.style.position = 'relative';
+                table.appendChild(scrollHint);
+                
+                // 3 saniye sonra gizle
+                setTimeout(() => {
+                    if (scrollHint.parentNode) {
+                        scrollHint.style.opacity = '0';
+                        scrollHint.style.transition = 'opacity 0.5s';
+                        setTimeout(() => scrollHint.remove(), 500);
+                    }
+                }, 3000);
+            }
+        });
+    }
+
+    // Veri kontrol butonu
+    checkDataBtn.addEventListener('click', async function() {
+        const city = citySelect.value;
+        if (!city) {
+            showStatus('❌ Lütfen bir track seçin!', 'warning');
+            return;
+        }
+
+        showLoading(true, 'Kaydedilmiş veriler kontrol ediliyor...');
+
+        try {
+            const raceType = raceTypeSelect.value;
+            const apiPrefix = raceType === 'domestic' ? '/api/domestic' : '/api/international';
+            
+            const response = await fetch(`${apiPrefix}/check_saved_data`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ city: city })
+            });
+
+            const result = await response.json();
+
+            if (response.ok && result.has_data) {
+                showStatus(`
+                    ✅ ${result.data.city} için bugünkü veri mevcut!<br>
+                    📊 Toplam ${result.data.total_horses} at, ${result.data.successful_horses} başarılı veri<br>
+                    📈 Başarı oranı: %${result.data.success_rate}
+                `, 'success');
+                
+                quickCalculateBtn.disabled = false;
+                downloadBtn.disabled = false;
+            } else {
+                showStatus(`❌ ${result.message}`, 'warning');
+                quickCalculateBtn.disabled = true;
+            }
+        } catch (error) {
+            showStatus('❌ Veri kontrolü sırasında hata oluştu: ' + error.message, 'danger');
+        } finally {
+            showLoading(false);
+        }
+    });
+
+    // Veri çekme butonu
+    scrapeAndSaveBtn.addEventListener('click', async function() {
+        const city = citySelect.value;
+        if (!city) {
+            showStatus('❌ Lütfen bir track seçin!', 'warning');
+            return;
+        }
+
+        showLoading(true, 'Veriler çekiliyor ve kaydediliyor...');
+
+        try {
+            const raceType = raceTypeSelect.value;
+            const apiPrefix = raceType === 'domestic' ? '/api/domestic' : '/api/international';
+            
+            const response = await fetch(`${apiPrefix}/scrape_and_save`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ city: city, debug: false })
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                showStatus(`
+                    ✅ ${result.data.city} verileri başarıyla çekildi!<br>
+                    📊 Toplam ${result.data.total_horses} at, ${result.data.successful_horses} başarılı veri<br>
+                    📈 Başarı oranı: %${result.data.success_rate}<br>
+                    💾 Ham veri: <a href="${result.data.raw_download_url}" class="alert-link">${result.data.raw_filename}</a>
+                `, 'success');
+                
+                quickCalculateBtn.disabled = false;
+            } else {
+                showStatus('❌ Veri çekme hatası: ' + (result.message || 'Bilinmeyen hata'), 'danger');
+            }
+        } catch (error) {
+            showStatus('❌ Veri çekme sırasında hata oluştu: ' + error.message, 'danger');
+        } finally {
+            showLoading(false);
+        }
+    });
+
+    // Hızlı hesaplama butonu
+    quickCalculateBtn.addEventListener('click', async function() {
+        console.log('🔥 ANALİZ YAP BUTONUNA BASILDI!');
+        const city = citySelect.value;
+        console.log('🔥 Seçilen track:', city);
+        if (!city) {
+            showStatus('❌ Lütfen bir track seçin!', 'warning');
+            return;
+        }
+
+        console.log('🔥 showLoading çağrılıyor...');
+        showLoading(true, 'Kaydedilmiş verilerle analiz yapılıyor...');
+        console.log('🔥 fetch başlatılıyor...');
+
+        try {
+            console.log('🔥 fetch isteği gönderiliyor...');
+            const raceType = raceTypeSelect.value;
+            const apiPrefix = raceType === 'domestic' ? '/api/domestic' : '/api/international';
+            
+            const response = await fetch(`${apiPrefix}/calculate_from_saved`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ city: city })
+            });
+
+            console.log('🔥 Response alındı:', response.status);
+            
+            let result;
+            try {
+                console.log('🔥 JSON parse başlatılıyor...');
+                result = await response.json();
+                console.log('🔥 JSON parse başarılı!');
+            } catch (error) {
+                console.error('❌ JSON parse hatası:', error);
+                const text = await response.text();
+                console.log('📝 Response text (ilk 1000 karakter):', text.substring(0, 1000));
+                showStatus('❌ Sunucu yanıt formatı hatası', 'danger');
+                return;
+            }
+            
+            console.log('📊 Backend Response:', result);
+            console.log('📊 Response keys:', Object.keys(result));
+            console.log('📊 Races array:', result.races);
+            console.log('📊 Races length:', result.races ? result.races.length : 'races field yok');
+
+            if (response.ok && result.success) {
+                console.log('✅ Response OK, races count:', result.races?.length);
+                console.log('✅ resultsContainer element:', resultsContainer);
+                console.log('✅ results element:', results);
+                console.log('✅ Full result data:', result);
+                console.log('🔍 First race data:', result.races[0]);
+                console.log('🔍 First horse in first race:', result.races[0]?.horses[0]);
+                
+                currentData = result;
+                
+                console.log('🔄 Calling showSummaryStats...');
+                showSummaryStats(result);
+                
+                console.log('🔄 Calling showRaceResults...');
+                showRaceResults(result);
+                
+                if (resultsContainer) {
+                    console.log('🔄 Making resultsContainer visible...');
+                    // CSS override yapamıyoruz, className değiştir
+                    resultsContainer.style.cssText = 'display: block !important; visibility: visible !important; opacity: 1; min-height: 200px; background-color: #f8f9fa; border: 1px solid #ddd; padding: 20px;';
+                    resultsContainer.classList.remove('d-none');
+                    resultsContainer.removeAttribute('hidden');
+                    
+                    // Alternative - setAttribute kullan
+                    resultsContainer.setAttribute('style', 'display: block !important; visibility: visible !important; opacity: 1; min-height: 200px; background-color: #f8f9fa; border: 1px solid #ddd; padding: 20px;');
+                    
+                    console.log('✅ resultsContainer MEGA FORCE görünür yapıldı');
+                    console.log('🔍 resultsContainer final style:', {
+                        display: resultsContainer.style.display,
+                        visibility: resultsContainer.style.visibility,
+                        opacity: resultsContainer.style.opacity,
+                        cssText: resultsContainer.style.cssText
+                    });
+                } else {
+                    console.log('❌ resultsContainer bulunamadı!');
+                }
+                
+                downloadBtn.disabled = false;
+                showStatus('✅ Analiz tamamlandı! Koşulara tıklayarak detayları görüntüleyebilirsiniz.', 'success');
+            } else {
+                console.log('❌ Response Error:', result);
+                showStatus('❌ Analiz hatası: ' + (result.message || 'Bilinmeyen hata'), 'danger');
+            }
+        } catch (error) {
+            console.error('❌ Fetch hatası:', error);
+            showStatus('❌ Analiz sırasında hata oluştu: ' + error.message, 'danger');
+        } finally {
+            showLoading(false);
+        }
+    });
+
+    // Çek ve analiz butonu
+    scrapeBtn.addEventListener('click', async function() {
+        const city = citySelect.value;
+        if (!city) {
+            showStatus('❌ Lütfen bir track seçin!', 'warning');
+            return;
+        }
+
+        showLoading(true, 'Veriler çekiliyor ve analiz yapılıyor...');
+
+        try {
+            const response = await fetch('/api/scrape_and_calculate', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ city: city, debug: false })
+            });
+
+            const result = await response.json();
+
+            if (response.ok && result.success) {
+                currentData = result;
+                showSummaryStats(result);
+                showRaceResults(result);
+                resultsContainer.style.display = 'block';
+                downloadBtn.disabled = false;
+                showStatus('✅ Analiz tamamlandı! Koşulara tıklayarak detayları görüntüleyebilirsiniz.', 'success');
+            } else {
+                showStatus('❌ Analiz hatası: ' + (result.message || 'Bilinmeyen hata'), 'danger');
+            }
+        } catch (error) {
+            showStatus('❌ Analiz sırasında hata oluştu: ' + error.message, 'danger');
+        } finally {
+            showLoading(false);
+        }
+    });
+
+    // CSV indirme butonu
+    downloadBtn.addEventListener('click', function() {
+        const city = citySelect.value;
+        if (!city || !currentData) {
+            showStatus('❌ Önce bir analiz yapın!', 'warning');
+            return;
+        }
+
+        const url = `/download_csv/${city}`;
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${city}_analiz_sonuclari.csv`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        
+        showStatus('📥 CSV dosyası indiriliyor...', 'info');
+    });
+});

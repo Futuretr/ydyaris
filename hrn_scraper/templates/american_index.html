@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amerika At Hesaplama Sistemi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .section h3 {
+            color: #fff;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #fff;
+        }
+        
+        select, input {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+        }
+        
+        button {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 10px 5px;
+            min-width: 150px;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        button:disabled {
+            background: #666;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(45deg, #3742fa, #2f3542);
+        }
+        
+        .btn-success {
+            background: linear-gradient(45deg, #2ed573, #1e90ff);
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 4px solid #fff;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .results {
+            display: none;
+            margin-top: 20px;
+        }
+        
+        .race-card {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 5px solid #ff6b6b;
+        }
+        
+        .horse-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .horse-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .horse-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        
+        .horse-stats {
+            font-size: 0.9em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .performance-score {
+            font-weight: bold;
+            color: #2ed573;
+            font-size: 1.1em;
+        }
+        
+        .invalid-score {
+            color: #ff4757;
+        }
+        
+        .stats-summary {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .stat-item {
+            display: inline-block;
+            margin: 0 20px;
+            padding: 10px;
+        }
+        
+        .stat-value {
+            display: block;
+            font-size: 2em;
+            font-weight: bold;
+            color: #2ed573;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .download-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .download-btn {
+            background: linear-gradient(45deg, #2ed573, #17c0eb);
+        }
+        
+        .track-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .track-checkbox {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .track-checkbox input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        .alert {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .alert-success {
+            background: rgba(46, 213, 115, 0.3);
+            border: 1px solid #2ed573;
+            color: #fff;
+        }
+        
+        .alert-error {
+            background: rgba(255, 71, 87, 0.3);
+            border: 1px solid #ff4757;
+            color: #fff;
+        }
+        
+        .alert-info {
+            background: rgba(23, 192, 235, 0.3);
+            border: 1px solid #17c0eb;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏇 Amerika At Hesaplama Sistemi</h1>
+        
+        <div class="section">
+            <h3>🎯 Tek Hipodrom Analizi</h3>
+            <div class="form-group">
+                <label for="single_track">Hipodrom Seç:</label>
+                <select id="single_track">
+                    <option value="">Hipodrom Seçin...</option>
+                    <option value="aqueduct">Aqueduct</option>
+                    <option value="belmont-park">Belmont Park</option>
+                    <option value="churchill-downs">Churchill Downs</option>
+                    <option value="del-mar">Del Mar</option>
+                    <option value="gulfstream-park">Gulfstream Park</option>
+                    <option value="keeneland">Keeneland</option>
+                    <option value="laurel-park">Laurel Park</option>
+                    <option value="oaklawn-park">Oaklawn Park</option>
+                    <option value="pimlico">Pimlico</option>
+                    <option value="santa-anita">Santa Anita</option>
+                    <option value="saratoga">Saratoga</option>
+                    <option value="woodbine">Woodbine</option>
+                    <option value="remington-park">Remington Park</option>
+                    <option value="fair-grounds">Fair Grounds</option>
+                    <option value="tampa-bay-downs">Tampa Bay Downs</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="single_date">Tarih:</label>
+                <input type="date" id="single_date" value="">
+            </div>
+            
+            <button onclick="scrapeSingleTrack()" id="single_scrape_btn">
+                🔄 Analiz Et
+            </button>
+            
+            <button onclick="checkSavedData()" class="btn-secondary" id="check_saved_btn">
+                📋 Kaydedilmiş Veri Kontrol Et
+            </button>
+        </div>
+        
+        <div class="section">
+            <h3>🌟 Çoklu Hipodrom Analizi</h3>
+            <div class="form-group">
+                <label>Hipodromları Seç:</label>
+                <div class="track-grid">
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_aqueduct" value="aqueduct">
+                        <label for="multi_aqueduct">Aqueduct</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_belmont" value="belmont-park">
+                        <label for="multi_belmont">Belmont Park</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_churchill" value="churchill-downs">
+                        <label for="multi_churchill">Churchill Downs</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_delmar" value="del-mar">
+                        <label for="multi_delmar">Del Mar</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_gulfstream" value="gulfstream-park">
+                        <label for="multi_gulfstream">Gulfstream Park</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_keeneland" value="keeneland">
+                        <label for="multi_keeneland">Keeneland</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_laurel" value="laurel-park">
+                        <label for="multi_laurel">Laurel Park</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_oaklawn" value="oaklawn-park">
+                        <label for="multi_oaklawn">Oaklawn Park</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_pimlico" value="pimlico">
+                        <label for="multi_pimlico">Pimlico</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_santa" value="santa-anita">
+                        <label for="multi_santa">Santa Anita</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_saratoga" value="saratoga">
+                        <label for="multi_saratoga">Saratoga</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_woodbine" value="woodbine">
+                        <label for="multi_woodbine">Woodbine</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_remington" value="remington-park">
+                        <label for="multi_remington">Remington Park</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_fair" value="fair-grounds">
+                        <label for="multi_fair">Fair Grounds</label>
+                    </div>
+                    <div class="track-checkbox">
+                        <input type="checkbox" id="multi_tampa" value="tampa-bay-downs">
+                        <label for="multi_tampa">Tampa Bay Downs</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="multi_date">Tarih:</label>
+                <input type="date" id="multi_date" value="">
+            </div>
+            
+            <button onclick="scrapeMultipleTracks()" class="btn-success" id="multi_scrape_btn">
+                🚀 Toplu Analiz Et
+            </button>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Veriler çekiliyor ve hesaplanıyor...</p>
+        </div>
+        
+        <div class="results" id="results">
+            <!-- Sonuçlar burada gösterilecek -->
+        </div>
+    </div>
+
+    <script>
+        // Bugünkü tarihi default olarak ayarla
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('single_date').value = today;
+        document.getElementById('multi_date').value = today;
+        
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+        }
+        
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+        
+        function showResults(data) {
+            hideLoading();
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+            resultsDiv.style.display = 'block';
+            
+            if (data.status === 'success') {
+                // Başarı mesajı
+                resultsDiv.innerHTML += `
+                    <div class="alert alert-success">
+                        ✅ ${data.message}
+                    </div>
+                `;
+                
+                // İstatistikler
+                if (data.data) {
+                    const stats = data.data;
+                    resultsDiv.innerHTML += `
+                        <div class="stats-summary">
+                            <div class="stat-item">
+                                <span class="stat-value">${stats.total_horses || 0}</span>
+                                <span class="stat-label">Toplam At</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">${stats.valid_calculations || 0}</span>
+                                <span class="stat-label">Geçerli Hesaplama</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">${stats.success_rate || 0}%</span>
+                                <span class="stat-label">Başarı Oranı</span>
+                            </div>
+                        </div>
+                    `;
+                    
+                    // Yarış sonuçları
+                    if (stats.races) {
+                        stats.races.forEach(race => {
+                            let raceHtml = `
+                                <div class="race-card">
+                                    <h4>🏁 ${race.race_number}. Yarış</h4>
+                                    <div class="horse-list">
+                            `;
+                            
+                            race.horses.forEach(horse => {
+                                const scoreClass = horse.valid_calculation ? 'performance-score' : 'invalid-score';
+                                const scoreText = horse.valid_calculation ? 
+                                    (horse.performance_score ? horse.performance_score.toFixed(2) : 'N/A') : 
+                                    'Veri Yok';
+                                
+                                raceHtml += `
+                                    <div class="horse-card">
+                                        <div class="horse-name">${horse.horse_name}</div>
+                                        <div class="horse-stats">
+                                            <div>Program No: ${horse.program_number}</div>
+                                            <div>Performans: <span class="${scoreClass}">${scoreText}</span></div>
+                                            <div>Zemin: ${horse.surface}</div>
+                                            <div>Mesafe: ${horse.distance}</div>
+                                            <div>Zaman: ${horse.time}</div>
+                                        </div>
+                                    </div>
+                                `;
+                            });
+                            
+                            raceHtml += `
+                                    </div>
+                                </div>
+                            `;
+                            
+                            resultsDiv.innerHTML += raceHtml;
+                        });
+                    }
+                    
+                    // İndirme butonu
+                    if (stats.download_url) {
+                        resultsDiv.innerHTML += `
+                            <div class="download-section">
+                                <a href="${stats.download_url}" download>
+                                    <button class="download-btn">📥 CSV İndir</button>
+                                </a>
+                            </div>
+                        `;
+                    }
+                }
+            } else {
+                resultsDiv.innerHTML += `
+                    <div class="alert alert-error">
+                        ❌ ${data.message}
+                    </div>
+                `;
+            }
+        }
+        
+        async function scrapeSingleTrack() {
+            const track = document.getElementById('single_track').value;
+            const date = document.getElementById('single_date').value;
+            
+            if (!track) {
+                alert('Lütfen bir hipodrom seçin!');
+                return;
+            }
+            
+            showLoading();
+            
+            try {
+                const response = await fetch('/api/scrape_track', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ track, date })
+                });
+                
+                const data = await response.json();
+                showResults(data);
+            } catch (error) {
+                hideLoading();
+                showResults({
+                    status: 'error',
+                    message: `Hata: ${error.message}`
+                });
+            }
+        }
+        
+        async function scrapeMultipleTracks() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            const tracks = Array.from(checkboxes).map(cb => cb.value);
+            const date = document.getElementById('multi_date').value;
+            
+            if (tracks.length === 0) {
+                alert('Lütfen en az bir hipodrom seçin!');
+                return;
+            }
+            
+            showLoading();
+            
+            try {
+                const response = await fetch('/api/scrape_multiple_tracks', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ tracks, date })
+                });
+                
+                const data = await response.json();
+                showResults(data);
+            } catch (error) {
+                hideLoading();
+                showResults({
+                    status: 'error',
+                    message: `Hata: ${error.message}`
+                });
+            }
+        }
+        
+        async function checkSavedData() {
+            const track = document.getElementById('single_track').value;
+            const date = document.getElementById('single_date').value;
+            
+            if (!track) {
+                alert('Lütfen bir hipodrom seçin!');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/check_saved_data', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ track, date })
+                });
+                
+                const data = await response.json();
+                
+                if (data.has_data) {
+                    showResults({
+                        status: 'success',
+                        message: data.message,
+                        data: data.data
+                    });
+                } else {
+                    showResults({
+                        status: 'info',
+                        message: data.message
+                    });
+                }
+            } catch (error) {
+                showResults({
+                    status: 'error',
+                    message: `Hata: ${error.message}`
+                });
+            }
+        }
+    </script>
+</body>
+</html>

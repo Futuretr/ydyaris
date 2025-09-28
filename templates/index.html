@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>🏇 At Yarışı Analizi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <!-- Üst Kontrol Paneli -->
+        <div class="top-control-bar p-2 bg-light border-bottom">
+            <div class="d-flex align-items-center gap-2">
+                <select id="citySelect" class="form-select form-select-sm" style="width: 150px;">
+                    <option value="">Pist Seçin</option>
+                    <optgroup label="🏇 Major Tracks">
+                        <option value="aqueduct">Aqueduct</option>
+                        <option value="belmont-park">Belmont Park</option>
+                        <option value="churchill-downs">Churchill Downs</option>
+                        <option value="gulfstream-park">Gulfstream Park</option>
+                        <option value="laurel-park">Laurel Park</option>
+                        <option value="santa-anita">Santa Anita</option>
+                        <option value="woodbine">Woodbine</option>
+                        <option value="remington-park">Remington Park</option>
+                    </optgroup>
+                    <optgroup label="🎯 Regional Tracks">
+                        <option value="delaware-park">Delaware Park</option>
+                        <option value="del-mar">Del Mar</option>
+                        <option value="keeneland">Keeneland</option>
+                        <option value="oaklawn-park">Oaklawn Park</option>
+                        <option value="pimlico">Pimlico</option>
+                        <option value="saratoga">Saratoga</option>
+                        <option value="mountaineer">Mountaineer</option>
+                        <option value="hawthorne-race-course">Hawthorne</option>
+                        <option value="los-alamitos">Los Alamitos</option>
+                    </optgroup>
+                    <optgroup label="🌎 International & Others">
+                        <option value="will-rogers-downs">Will Rogers Downs</option>
+                        <option value="camarero-race-track">Camarero</option>
+                        <option value="lethbridge-rmtc">Lethbridge</option>
+                        <option value="albuquerque-downs">Albuquerque</option>
+                        <option value="grants-pass-downs">Grants Pass</option>
+                    </optgroup>
+                </select>
+                
+                <button id="checkDataBtn" class="btn btn-outline-info btn-sm" disabled>
+                    <span class="d-none d-md-inline">Veri </span>Kontrol
+                </button>
+                <button id="scrapeAndSaveBtn" class="btn btn-outline-primary btn-sm" disabled>
+                    <span class="d-none d-md-inline">Veri </span>Çek
+                </button>
+                <button id="quickCalculateBtn" class="btn btn-primary btn-sm" disabled>
+                    <span class="d-none d-md-inline">Analiz </span>Yap
+                </button>
+                <button id="scrapeBtn" class="btn btn-success btn-sm" disabled>
+                    <span class="d-none d-md-inline">Çek ve </span>Analiz
+                </button>
+                <button id="downloadBtn" class="btn btn-outline-secondary btn-sm" disabled>
+                    CSV<span class="d-none d-md-inline"> İndir</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Durum Mesajları -->
+        <div class="p-2">
+            <div id="statusMessage"></div>
+        </div>
+
+        <!-- Sonuçlar -->
+        <div id="resultsContainer" style="display: block; min-height: 100px;">
+            <!-- Özet İstatistikler -->
+            <div id="summaryStats" class="row mb-3 p-2" style="display: none;"></div>
+            
+            <!-- Koşu Sonuçları -->
+            <div id="results" class="race-results"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

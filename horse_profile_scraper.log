@@ -1,0 +1,779 @@
+2025-09-28 03:17:12,973 - INFO - Processing horse 1/1: Tiger of the Sea
+2025-09-28 03:17:12,974 - INFO - Trying URL for Tiger of the Sea: https://www.horseracingnation.com/horse/Tiger_of_the_Sea
+2025-09-28 03:17:14,375 - INFO - Extracted horse info for Tiger of the Sea
+2025-09-28 03:17:14,376 - INFO - Found 2 race history rows
+2025-09-28 03:17:14,376 - INFO - Extracted race from 2025-09-27
+2025-09-28 03:17:14,376 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:17:14,379 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Tiger_of_the_Sea
+2025-09-28 03:17:14,380 - INFO - Saved 1 race records to horse_profiles.csv
+2025-09-28 03:17:14,381 - INFO - Saved horse profiles to horse_profiles.json
+2025-09-28 03:17:23,907 - INFO - Processing horse 1/1: Tiger of the Sea
+2025-09-28 03:17:23,907 - INFO - Trying URL for Tiger of the Sea: https://www.horseracingnation.com/horse/Tiger_of_the_Sea
+2025-09-28 03:17:25,103 - INFO - Extracted horse info for Tiger of the Sea
+2025-09-28 03:17:25,104 - INFO - Found 2 race history rows
+2025-09-28 03:17:25,104 - INFO - Extracted race from 2025-09-27
+2025-09-28 03:17:25,105 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:17:25,108 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Tiger_of_the_Sea
+2025-09-28 03:17:25,109 - INFO - Saved 1 race records to horse_profiles.csv
+2025-09-28 03:17:25,110 - INFO - Saved horse profiles to horse_profiles.json
+2025-09-28 03:46:48,678 - INFO - Trying URL for Holy MirageMitole: https://www.horseracingnation.com/horse/Holy_MirageMitole
+2025-09-28 03:46:49,695 - WARNING - Error fetching https://www.horseracingnation.com/horse/Holy_MirageMitole: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Holy_MirageMitole
+2025-09-28 03:46:49,695 - INFO - Trying URL for Holy MirageMitole: https://www.horseracingnation.com/horse/Holy_MirageMitole_1
+2025-09-28 03:46:49,835 - WARNING - Error fetching https://www.horseracingnation.com/horse/Holy_MirageMitole_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Holy_MirageMitole_1
+2025-09-28 03:46:49,836 - INFO - Trying URL for Holy MirageMitole: https://www.horseracingnation.com/horse/Holy_MirageMitole_2
+2025-09-28 03:46:49,981 - WARNING - Error fetching https://www.horseracingnation.com/horse/Holy_MirageMitole_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Holy_MirageMitole_2
+2025-09-28 03:46:49,982 - INFO - Trying URL for Holy MirageMitole: https://www.horseracingnation.com/horse/Holy_MirageMitole_3
+2025-09-28 03:46:50,123 - WARNING - Error fetching https://www.horseracingnation.com/horse/Holy_MirageMitole_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Holy_MirageMitole_3
+2025-09-28 03:46:50,123 - INFO - Trying URL for Holy MirageMitole: https://www.horseracingnation.com/horse/Holy_MirageMitole_4
+2025-09-28 03:46:50,273 - WARNING - Error fetching https://www.horseracingnation.com/horse/Holy_MirageMitole_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Holy_MirageMitole_4
+2025-09-28 03:46:50,273 - INFO - Trying URL for Holy MirageMitole: https://www.horseracingnation.com/horse/Holy_MirageMitole_5
+2025-09-28 03:46:50,412 - WARNING - Error fetching https://www.horseracingnation.com/horse/Holy_MirageMitole_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Holy_MirageMitole_5
+2025-09-28 03:46:50,412 - ERROR - No valid horse profile found for Holy MirageMitole after trying all variants
+2025-09-28 03:46:50,412 - INFO - Trying URL for Balboni's Crew: https://www.horseracingnation.com/horse/Balbonis_Crew
+2025-09-28 03:46:50,715 - INFO - Extracted horse info for Balboni's Crew
+2025-09-28 03:46:50,716 - INFO - Found 4 race history rows
+2025-09-28 03:46:50,717 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:46:50,717 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:50,720 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Balbonis_Crew
+2025-09-28 03:46:50,720 - INFO - Trying URL for Fire and Wine: https://www.horseracingnation.com/horse/Fire_and_Wine
+2025-09-28 03:46:51,004 - INFO - Extracted horse info for Fire and Wine
+2025-09-28 03:46:51,005 - INFO - Found 4 race history rows
+2025-09-28 03:46:51,005 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:46:51,005 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:51,006 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Fire_and_Wine
+2025-09-28 03:46:51,006 - INFO - Trying URL for Full Star: https://www.horseracingnation.com/horse/Full_Star
+2025-09-28 03:46:51,278 - INFO - Extracted horse info for Full Star
+2025-09-28 03:46:51,279 - INFO - Found 2 race history rows
+2025-09-28 03:46:51,279 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:46:51,279 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:51,280 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Full_Star
+2025-09-28 03:46:51,280 - INFO - Trying URL for SanhedrinImprobable: https://www.horseracingnation.com/horse/SanhedrinImprobable
+2025-09-28 03:46:51,417 - WARNING - Error fetching https://www.horseracingnation.com/horse/SanhedrinImprobable: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/SanhedrinImprobable
+2025-09-28 03:46:51,417 - INFO - Trying URL for SanhedrinImprobable: https://www.horseracingnation.com/horse/SanhedrinImprobable_1
+2025-09-28 03:46:51,558 - WARNING - Error fetching https://www.horseracingnation.com/horse/SanhedrinImprobable_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/SanhedrinImprobable_1
+2025-09-28 03:46:51,559 - INFO - Trying URL for SanhedrinImprobable: https://www.horseracingnation.com/horse/SanhedrinImprobable_2
+2025-09-28 03:46:51,698 - WARNING - Error fetching https://www.horseracingnation.com/horse/SanhedrinImprobable_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/SanhedrinImprobable_2
+2025-09-28 03:46:51,699 - INFO - Trying URL for SanhedrinImprobable: https://www.horseracingnation.com/horse/SanhedrinImprobable_3
+2025-09-28 03:46:51,837 - WARNING - Error fetching https://www.horseracingnation.com/horse/SanhedrinImprobable_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/SanhedrinImprobable_3
+2025-09-28 03:46:51,837 - INFO - Trying URL for SanhedrinImprobable: https://www.horseracingnation.com/horse/SanhedrinImprobable_4
+2025-09-28 03:46:51,976 - WARNING - Error fetching https://www.horseracingnation.com/horse/SanhedrinImprobable_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/SanhedrinImprobable_4
+2025-09-28 03:46:51,976 - INFO - Trying URL for SanhedrinImprobable: https://www.horseracingnation.com/horse/SanhedrinImprobable_5
+2025-09-28 03:46:52,113 - WARNING - Error fetching https://www.horseracingnation.com/horse/SanhedrinImprobable_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/SanhedrinImprobable_5
+2025-09-28 03:46:52,113 - ERROR - No valid horse profile found for SanhedrinImprobable after trying all variants
+2025-09-28 03:46:52,113 - INFO - Trying URL for Holy Rambo: https://www.horseracingnation.com/horse/Holy_Rambo
+2025-09-28 03:46:52,624 - INFO - Extracted horse info for Holy Rambo
+2025-09-28 03:46:52,625 - INFO - Found 1 race history rows
+2025-09-28 03:46:52,625 - INFO - Extracted race from 2025-08-17
+2025-09-28 03:46:52,625 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:52,625 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Holy_Rambo
+2025-09-28 03:46:52,625 - INFO - Trying URL for Amore Mio: https://www.horseracingnation.com/horse/Amore_Mio
+2025-09-28 03:46:53,128 - INFO - Extracted horse info for Amore Mio
+2025-09-28 03:46:53,129 - INFO - Found 2 race history rows
+2025-09-28 03:46:53,129 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:46:53,129 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:53,129 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Amore_Mio
+2025-09-28 03:46:53,130 - INFO - Trying URL for Conacher: https://www.horseracingnation.com/horse/Conacher
+2025-09-28 03:46:53,850 - INFO - Extracted horse info for Conacher
+2025-09-28 03:46:53,851 - INFO - Found 9 race history rows
+2025-09-28 03:46:53,852 - INFO - Extracted race from 2025-09-01
+2025-09-28 03:46:53,852 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:53,852 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Conacher
+2025-09-28 03:46:53,852 - INFO - Trying URL for American Decision: https://www.horseracingnation.com/horse/American_Decision
+2025-09-28 03:46:55,485 - INFO - Extracted horse info for American Decision
+2025-09-28 03:46:55,486 - INFO - Found 18 race history rows
+2025-09-28 03:46:55,486 - INFO - Extracted race from 2025-09-12
+2025-09-28 03:46:55,486 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:55,487 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/American_Decision
+2025-09-28 03:46:55,487 - INFO - Trying URL for Isaac Leo: https://www.horseracingnation.com/horse/Isaac_Leo
+2025-09-28 03:46:57,621 - INFO - Extracted horse info for Isaac Leo
+2025-09-28 03:46:57,622 - INFO - Found 11 race history rows
+2025-09-28 03:46:57,623 - INFO - Extracted race from 2025-08-23
+2025-09-28 03:46:57,623 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:57,623 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Isaac_Leo
+2025-09-28 03:46:57,623 - INFO - Trying URL for Prime Plus One: https://www.horseracingnation.com/horse/Prime_Plus_One
+2025-09-28 03:46:57,934 - INFO - Extracted horse info for Prime Plus One
+2025-09-28 03:46:57,935 - INFO - Found 0 race history rows
+2025-09-28 03:46:57,935 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:46:57,935 - INFO - No recent races at https://www.horseracingnation.com/horse/Prime_Plus_One, trying next variant...
+2025-09-28 03:46:57,935 - INFO - Trying URL for Prime Plus One: https://www.horseracingnation.com/horse/Prime_Plus_One_1
+2025-09-28 03:46:58,401 - INFO - Extracted horse info for Prime Plus One
+2025-09-28 03:46:58,402 - INFO - Found 6 race history rows
+2025-09-28 03:46:58,402 - INFO - Extracted race from 2025-09-01
+2025-09-28 03:46:58,402 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:58,402 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Prime_Plus_One_1
+2025-09-28 03:46:58,403 - INFO - Trying URL for Blondina's Boy: https://www.horseracingnation.com/horse/Blondinas_Boy
+2025-09-28 03:46:59,819 - INFO - Extracted horse info for Blondina's Boy
+2025-09-28 03:46:59,821 - INFO - Found 21 race history rows
+2025-09-28 03:46:59,821 - INFO - Extracted race from 2025-09-12
+2025-09-28 03:46:59,821 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:46:59,821 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Blondinas_Boy
+2025-09-28 03:46:59,821 - INFO - Trying URL for Ethnic Soul: https://www.horseracingnation.com/horse/Ethnic_Soul
+2025-09-28 03:47:00,693 - INFO - Extracted horse info for Ethnic Soul
+2025-09-28 03:47:00,695 - INFO - Found 22 race history rows
+2025-09-28 03:47:00,695 - INFO - Extracted race from 2025-09-05
+2025-09-28 03:47:00,695 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:00,695 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Ethnic_Soul
+2025-09-28 03:47:00,695 - INFO - Trying URL for Good King Sam: https://www.horseracingnation.com/horse/Good_King_Sam
+2025-09-28 03:47:01,257 - INFO - Extracted horse info for Good King Sam
+2025-09-28 03:47:01,257 - INFO - Found 8 race history rows
+2025-09-28 03:47:01,258 - INFO - Extracted race from 2025-08-24
+2025-09-28 03:47:01,258 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:01,258 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Good_King_Sam
+2025-09-28 03:47:01,258 - INFO - Trying URL for Globetrotting: https://www.horseracingnation.com/horse/Globetrotting
+2025-09-28 03:47:01,747 - INFO - Extracted horse info for Globetrotting
+2025-09-28 03:47:01,748 - INFO - Found 7 race history rows
+2025-09-28 03:47:01,748 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:47:01,748 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:01,749 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Globetrotting
+2025-09-28 03:47:01,749 - INFO - Trying URL for Countryboysurvive: https://www.horseracingnation.com/horse/Countryboysurvive
+2025-09-28 03:47:02,690 - INFO - Extracted horse info for Countryboysurvive
+2025-09-28 03:47:02,691 - INFO - Found 8 race history rows
+2025-09-28 03:47:02,691 - INFO - Extracted race from 2025-09-05
+2025-09-28 03:47:02,691 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:02,691 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Countryboysurvive
+2025-09-28 03:47:02,692 - INFO - Trying URL for Blameless Ghost: https://www.horseracingnation.com/horse/Blameless_Ghost
+2025-09-28 03:47:04,318 - INFO - Extracted horse info for Blameless Ghost
+2025-09-28 03:47:04,319 - INFO - Found 11 race history rows
+2025-09-28 03:47:04,319 - INFO - Extracted race from 2025-07-26
+2025-09-28 03:47:04,319 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:04,319 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Blameless_Ghost
+2025-09-28 03:47:04,320 - INFO - Trying URL for Bedazzle Me: https://www.horseracingnation.com/horse/Bedazzle_Me
+2025-09-28 03:47:05,519 - INFO - Extracted horse info for Bedazzle Me
+2025-09-28 03:47:05,520 - INFO - Found 32 race history rows
+2025-09-28 03:47:05,520 - INFO - Extracted race from 2025-08-15
+2025-09-28 03:47:05,520 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:05,520 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Bedazzle_Me
+2025-09-28 03:47:05,521 - INFO - Trying URL for Ella It Is: https://www.horseracingnation.com/horse/Ella_It_Is
+2025-09-28 03:47:06,276 - INFO - Extracted horse info for Ella It Is
+2025-09-28 03:47:06,277 - INFO - Found 9 race history rows
+2025-09-28 03:47:06,277 - INFO - Extracted race from 2025-07-20
+2025-09-28 03:47:06,277 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:06,277 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Ella_It_Is
+2025-09-28 03:47:06,278 - INFO - Trying URL for Miss Pierre: https://www.horseracingnation.com/horse/Miss_Pierre
+2025-09-28 03:47:07,259 - INFO - Extracted horse info for Miss Pierre
+2025-09-28 03:47:07,260 - INFO - Found 9 race history rows
+2025-09-28 03:47:07,261 - INFO - Extracted race from 2025-09-09
+2025-09-28 03:47:07,261 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:07,261 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Miss_Pierre
+2025-09-28 03:47:07,261 - INFO - Trying URL for Go Giffen: https://www.horseracingnation.com/horse/Go_Giffen
+2025-09-28 03:47:08,435 - INFO - Extracted horse info for Go Giffen
+2025-09-28 03:47:08,435 - INFO - Found 14 race history rows
+2025-09-28 03:47:08,436 - INFO - Extracted race from 2025-07-26
+2025-09-28 03:47:08,436 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:08,436 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Go_Giffen
+2025-09-28 03:47:08,436 - INFO - Trying URL for Magical Trick: https://www.horseracingnation.com/horse/Magical_Trick
+2025-09-28 03:47:09,689 - INFO - Extracted horse info for Magical Trick
+2025-09-28 03:47:09,690 - INFO - Found 23 race history rows
+2025-09-28 03:47:09,690 - INFO - Extracted race from 2025-09-04
+2025-09-28 03:47:09,690 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:09,690 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Magical_Trick
+2025-09-28 03:47:09,691 - INFO - Trying URL for Category FiveMaximum Security: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security
+2025-09-28 03:47:09,834 - WARNING - Error fetching https://www.horseracingnation.com/horse/Category_FiveMaximum_Security: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security
+2025-09-28 03:47:09,835 - INFO - Trying URL for Category FiveMaximum Security: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_1
+2025-09-28 03:47:09,971 - WARNING - Error fetching https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_1
+2025-09-28 03:47:09,972 - INFO - Trying URL for Category FiveMaximum Security: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_2
+2025-09-28 03:47:10,111 - WARNING - Error fetching https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_2
+2025-09-28 03:47:10,111 - INFO - Trying URL for Category FiveMaximum Security: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_3
+2025-09-28 03:47:10,253 - WARNING - Error fetching https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_3
+2025-09-28 03:47:10,253 - INFO - Trying URL for Category FiveMaximum Security: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_4
+2025-09-28 03:47:10,389 - WARNING - Error fetching https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_4
+2025-09-28 03:47:10,390 - INFO - Trying URL for Category FiveMaximum Security: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_5
+2025-09-28 03:47:10,527 - WARNING - Error fetching https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Category_FiveMaximum_Security_5
+2025-09-28 03:47:10,527 - ERROR - No valid horse profile found for Category FiveMaximum Security after trying all variants
+2025-09-28 03:47:10,527 - INFO - Trying URL for Quadzilla: https://www.horseracingnation.com/horse/Quadzilla
+2025-09-28 03:47:10,889 - INFO - Extracted horse info for Quadzilla
+2025-09-28 03:47:10,890 - INFO - Found 2 race history rows
+2025-09-28 03:47:10,890 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:47:10,890 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:10,891 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Quadzilla
+2025-09-28 03:47:10,891 - INFO - Trying URL for Celestial HeartBond Street: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street
+2025-09-28 03:47:11,029 - WARNING - Error fetching https://www.horseracingnation.com/horse/Celestial_HeartBond_Street: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street
+2025-09-28 03:47:11,029 - INFO - Trying URL for Celestial HeartBond Street: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_1
+2025-09-28 03:47:11,172 - WARNING - Error fetching https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_1
+2025-09-28 03:47:11,172 - INFO - Trying URL for Celestial HeartBond Street: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_2
+2025-09-28 03:47:11,315 - WARNING - Error fetching https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_2
+2025-09-28 03:47:11,315 - INFO - Trying URL for Celestial HeartBond Street: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_3
+2025-09-28 03:47:11,462 - WARNING - Error fetching https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_3
+2025-09-28 03:47:11,463 - INFO - Trying URL for Celestial HeartBond Street: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_4
+2025-09-28 03:47:11,605 - WARNING - Error fetching https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_4
+2025-09-28 03:47:11,605 - INFO - Trying URL for Celestial HeartBond Street: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_5
+2025-09-28 03:47:11,741 - WARNING - Error fetching https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Celestial_HeartBond_Street_5
+2025-09-28 03:47:11,741 - ERROR - No valid horse profile found for Celestial HeartBond Street after trying all variants
+2025-09-28 03:47:11,742 - INFO - Trying URL for Fog d'Oro: https://www.horseracingnation.com/horse/Fog_dOro
+2025-09-28 03:47:12,362 - INFO - Extracted horse info for Fog d'Oro
+2025-09-28 03:47:12,363 - INFO - Found 4 race history rows
+2025-09-28 03:47:12,363 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:47:12,363 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:12,363 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Fog_dOro
+2025-09-28 03:47:12,364 - INFO - Trying URL for Hot Potato: https://www.horseracingnation.com/horse/Hot_Potato
+2025-09-28 03:47:13,358 - INFO - Extracted horse info for Hot Potato
+2025-09-28 03:47:13,358 - INFO - Found 4 race history rows
+2025-09-28 03:47:13,359 - INFO - Extracted race from 2025-08-24
+2025-09-28 03:47:13,359 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:13,359 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Hot_Potato
+2025-09-28 03:47:13,359 - INFO - Trying URL for Digital Security: https://www.horseracingnation.com/horse/Digital_Security
+2025-09-28 03:47:14,253 - INFO - Extracted horse info for Digital Security
+2025-09-28 03:47:14,254 - INFO - Found 2 race history rows
+2025-09-28 03:47:14,254 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:47:14,254 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:14,254 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Digital_Security
+2025-09-28 03:47:14,255 - INFO - Trying URL for Dri Saddle: https://www.horseracingnation.com/horse/Dri_Saddle
+2025-09-28 03:47:14,805 - INFO - Extracted horse info for Dri Saddle
+2025-09-28 03:47:14,806 - INFO - Found 4 race history rows
+2025-09-28 03:47:14,807 - INFO - Extracted race from 2025-08-26T00:00:00Z
+2025-09-28 03:47:14,807 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:14,807 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Dri_Saddle
+2025-09-28 03:47:14,807 - INFO - Trying URL for Rainbows HeroPoint of Entry: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry
+2025-09-28 03:47:14,963 - WARNING - Error fetching https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry
+2025-09-28 03:47:14,963 - INFO - Trying URL for Rainbows HeroPoint of Entry: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_1
+2025-09-28 03:47:15,101 - WARNING - Error fetching https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_1
+2025-09-28 03:47:15,102 - INFO - Trying URL for Rainbows HeroPoint of Entry: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_2
+2025-09-28 03:47:15,243 - WARNING - Error fetching https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_2
+2025-09-28 03:47:15,244 - INFO - Trying URL for Rainbows HeroPoint of Entry: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_3
+2025-09-28 03:47:15,424 - WARNING - Error fetching https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_3
+2025-09-28 03:47:15,424 - INFO - Trying URL for Rainbows HeroPoint of Entry: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_4
+2025-09-28 03:47:15,658 - WARNING - Error fetching https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_4
+2025-09-28 03:47:15,659 - INFO - Trying URL for Rainbows HeroPoint of Entry: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_5
+2025-09-28 03:47:15,797 - WARNING - Error fetching https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Rainbows_HeroPoint_of_Entry_5
+2025-09-28 03:47:15,797 - ERROR - No valid horse profile found for Rainbows HeroPoint of Entry after trying all variants
+2025-09-28 03:47:15,798 - INFO - Trying URL for Gone Hunting: https://www.horseracingnation.com/horse/Gone_Hunting
+2025-09-28 03:47:16,200 - INFO - Extracted horse info for Gone Hunting
+2025-09-28 03:47:16,200 - INFO - Found 4 race history rows
+2025-09-28 03:47:16,201 - WARNING - Skipping old race from 2003-05-17T00:00:00Z (year: 2003)
+2025-09-28 03:47:16,201 - WARNING - Skipping old race from 2002-08-25T00:00:00Z (year: 2002)
+2025-09-28 03:47:16,201 - WARNING - Skipping old race from 2002-08-09T00:00:00Z (year: 2002)
+2025-09-28 03:47:16,201 - WARNING - Skipping old race from 2002-06-16T00:00:00Z (year: 2002)
+2025-09-28 03:47:16,201 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:16,201 - INFO - No recent races at https://www.horseracingnation.com/horse/Gone_Hunting, trying next variant...
+2025-09-28 03:47:16,202 - INFO - Trying URL for Gone Hunting: https://www.horseracingnation.com/horse/Gone_Hunting_1
+2025-09-28 03:47:16,591 - INFO - Extracted horse info for Gone Hunting
+2025-09-28 03:47:16,591 - INFO - Found 2 race history rows
+2025-09-28 03:47:16,592 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:47:16,592 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:16,592 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Gone_Hunting_1
+2025-09-28 03:47:16,592 - INFO - Trying URL for Bee Me: https://www.horseracingnation.com/horse/Bee_Me
+2025-09-28 03:47:17,697 - INFO - Extracted horse info for Bee Me
+2025-09-28 03:47:17,698 - INFO - Found 15 race history rows
+2025-09-28 03:47:17,698 - INFO - Extracted race from 2025-09-05
+2025-09-28 03:47:17,698 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:17,699 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Bee_Me
+2025-09-28 03:47:17,699 - INFO - Trying URL for Red Weaver: https://www.horseracingnation.com/horse/Red_Weaver
+2025-09-28 03:47:18,120 - INFO - Extracted horse info for Red Weaver
+2025-09-28 03:47:18,121 - INFO - Found 5 race history rows
+2025-09-28 03:47:18,122 - INFO - Extracted race from 2025-08-10
+2025-09-28 03:47:18,122 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:18,122 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Red_Weaver
+2025-09-28 03:47:18,122 - INFO - Trying URL for Reloaded FormReload: https://www.horseracingnation.com/horse/Reloaded_FormReload
+2025-09-28 03:47:18,262 - WARNING - Error fetching https://www.horseracingnation.com/horse/Reloaded_FormReload: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Reloaded_FormReload
+2025-09-28 03:47:18,262 - INFO - Trying URL for Reloaded FormReload: https://www.horseracingnation.com/horse/Reloaded_FormReload_1
+2025-09-28 03:47:18,415 - WARNING - Error fetching https://www.horseracingnation.com/horse/Reloaded_FormReload_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Reloaded_FormReload_1
+2025-09-28 03:47:18,415 - INFO - Trying URL for Reloaded FormReload: https://www.horseracingnation.com/horse/Reloaded_FormReload_2
+2025-09-28 03:47:18,679 - WARNING - Error fetching https://www.horseracingnation.com/horse/Reloaded_FormReload_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Reloaded_FormReload_2
+2025-09-28 03:47:18,679 - INFO - Trying URL for Reloaded FormReload: https://www.horseracingnation.com/horse/Reloaded_FormReload_3
+2025-09-28 03:47:18,818 - WARNING - Error fetching https://www.horseracingnation.com/horse/Reloaded_FormReload_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Reloaded_FormReload_3
+2025-09-28 03:47:18,818 - INFO - Trying URL for Reloaded FormReload: https://www.horseracingnation.com/horse/Reloaded_FormReload_4
+2025-09-28 03:47:18,956 - WARNING - Error fetching https://www.horseracingnation.com/horse/Reloaded_FormReload_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Reloaded_FormReload_4
+2025-09-28 03:47:18,957 - INFO - Trying URL for Reloaded FormReload: https://www.horseracingnation.com/horse/Reloaded_FormReload_5
+2025-09-28 03:47:19,207 - WARNING - Error fetching https://www.horseracingnation.com/horse/Reloaded_FormReload_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Reloaded_FormReload_5
+2025-09-28 03:47:19,207 - ERROR - No valid horse profile found for Reloaded FormReload after trying all variants
+2025-09-28 03:47:19,208 - INFO - Trying URL for Scant's DynaformerDanish Dynaformer: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer
+2025-09-28 03:47:19,346 - WARNING - Error fetching https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer
+2025-09-28 03:47:19,347 - INFO - Trying URL for Scant's DynaformerDanish Dynaformer: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_1
+2025-09-28 03:47:19,610 - WARNING - Error fetching https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_1
+2025-09-28 03:47:19,611 - INFO - Trying URL for Scant's DynaformerDanish Dynaformer: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_2
+2025-09-28 03:47:19,750 - WARNING - Error fetching https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_2
+2025-09-28 03:47:19,750 - INFO - Trying URL for Scant's DynaformerDanish Dynaformer: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_3
+2025-09-28 03:47:20,018 - WARNING - Error fetching https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_3
+2025-09-28 03:47:20,019 - INFO - Trying URL for Scant's DynaformerDanish Dynaformer: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_4
+2025-09-28 03:47:20,165 - WARNING - Error fetching https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_4
+2025-09-28 03:47:20,165 - INFO - Trying URL for Scant's DynaformerDanish Dynaformer: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_5
+2025-09-28 03:47:20,420 - WARNING - Error fetching https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Scants_DynaformerDanish_Dynaformer_5
+2025-09-28 03:47:20,420 - ERROR - No valid horse profile found for Scant's DynaformerDanish Dynaformer after trying all variants
+2025-09-28 03:47:20,420 - INFO - Trying URL for Strawberry Again: https://www.horseracingnation.com/horse/Strawberry_Again
+2025-09-28 03:47:20,569 - WARNING - Error fetching https://www.horseracingnation.com/horse/Strawberry_Again: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Strawberry_Again
+2025-09-28 03:47:20,570 - INFO - Trying URL for Strawberry Again: https://www.horseracingnation.com/horse/Strawberry_Again_1
+2025-09-28 03:47:20,823 - WARNING - Error fetching https://www.horseracingnation.com/horse/Strawberry_Again_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Strawberry_Again_1
+2025-09-28 03:47:20,823 - INFO - Trying URL for Strawberry Again: https://www.horseracingnation.com/horse/Strawberry_Again_2
+2025-09-28 03:47:20,966 - WARNING - Error fetching https://www.horseracingnation.com/horse/Strawberry_Again_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Strawberry_Again_2
+2025-09-28 03:47:20,967 - INFO - Trying URL for Strawberry Again: https://www.horseracingnation.com/horse/Strawberry_Again_3
+2025-09-28 03:47:21,227 - WARNING - Error fetching https://www.horseracingnation.com/horse/Strawberry_Again_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Strawberry_Again_3
+2025-09-28 03:47:21,227 - INFO - Trying URL for Strawberry Again: https://www.horseracingnation.com/horse/Strawberry_Again_4
+2025-09-28 03:47:21,367 - WARNING - Error fetching https://www.horseracingnation.com/horse/Strawberry_Again_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Strawberry_Again_4
+2025-09-28 03:47:21,367 - INFO - Trying URL for Strawberry Again: https://www.horseracingnation.com/horse/Strawberry_Again_5
+2025-09-28 03:47:21,510 - WARNING - Error fetching https://www.horseracingnation.com/horse/Strawberry_Again_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Strawberry_Again_5
+2025-09-28 03:47:21,510 - ERROR - No valid horse profile found for Strawberry Again after trying all variants
+2025-09-28 03:47:21,510 - INFO - Trying URL for Signature Sir: https://www.horseracingnation.com/horse/Signature_Sir
+2025-09-28 03:47:22,183 - INFO - Extracted horse info for Signature Sir
+2025-09-28 03:47:22,184 - INFO - Found 6 race history rows
+2025-09-28 03:47:22,185 - INFO - Extracted race from 2025-09-05
+2025-09-28 03:47:22,185 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:22,185 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Signature_Sir
+2025-09-28 03:47:22,185 - INFO - Trying URL for Wild Card: https://www.horseracingnation.com/horse/Wild_Card
+2025-09-28 03:47:22,699 - INFO - Extracted horse info for Wild Card
+2025-09-28 03:47:22,700 - INFO - Found 4 race history rows
+2025-09-28 03:47:22,700 - INFO - Extracted race from 2020-08-09T00:00:00Z
+2025-09-28 03:47:22,701 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:22,701 - INFO - No recent races at https://www.horseracingnation.com/horse/Wild_Card, trying next variant...
+2025-09-28 03:47:22,701 - INFO - Trying URL for Wild Card: https://www.horseracingnation.com/horse/Wild_Card_1
+2025-09-28 03:47:23,464 - INFO - Extracted horse info for Wild Card
+2025-09-28 03:47:23,465 - INFO - Found 5 race history rows
+2025-09-28 03:47:23,465 - INFO - Extracted race from 2025-07-13
+2025-09-28 03:47:23,465 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:23,466 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Wild_Card_1
+2025-09-28 03:47:23,466 - INFO - Trying URL for Highly Potent: https://www.horseracingnation.com/horse/Highly_Potent
+2025-09-28 03:47:23,965 - INFO - Extracted horse info for Highly Potent
+2025-09-28 03:47:23,966 - INFO - Found 6 race history rows
+2025-09-28 03:47:23,966 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:47:23,966 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:23,966 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Highly_Potent
+2025-09-28 03:47:23,967 - INFO - Trying URL for Hunt Master: https://www.horseracingnation.com/horse/Hunt_Master
+2025-09-28 03:47:25,133 - INFO - Extracted horse info for Hunt Master
+2025-09-28 03:47:25,134 - INFO - Found 31 race history rows
+2025-09-28 03:47:25,134 - INFO - Extracted race from 2025-09-13
+2025-09-28 03:47:25,134 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:25,134 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Hunt_Master
+2025-09-28 03:47:25,134 - INFO - Trying URL for Awesome Bourbon: https://www.horseracingnation.com/horse/Awesome_Bourbon
+2025-09-28 03:47:26,348 - INFO - Extracted horse info for Awesome Bourbon
+2025-09-28 03:47:26,349 - INFO - Found 18 race history rows
+2025-09-28 03:47:26,349 - INFO - Extracted race from 2025-09-13
+2025-09-28 03:47:26,349 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:26,350 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Awesome_Bourbon
+2025-09-28 03:47:26,350 - INFO - Trying URL for Never Surprised: https://www.horseracingnation.com/horse/Never_Surprised
+2025-09-28 03:47:27,683 - INFO - Extracted horse info for Never Surprised
+2025-09-28 03:47:27,684 - INFO - Found 22 race history rows
+2025-09-28 03:47:27,685 - INFO - Extracted race from 2025-08-02
+2025-09-28 03:47:27,685 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:27,685 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Never_Surprised
+2025-09-28 03:47:27,685 - INFO - Trying URL for Piper's Factor: https://www.horseracingnation.com/horse/Pipers_Factor
+2025-09-28 03:47:28,800 - INFO - Extracted horse info for Piper's Factor
+2025-09-28 03:47:28,802 - INFO - Found 18 race history rows
+2025-09-28 03:47:28,802 - INFO - Extracted race from 2025-08-16
+2025-09-28 03:47:28,802 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:28,802 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Pipers_Factor
+2025-09-28 03:47:28,802 - INFO - Trying URL for Ice Chocolat: https://www.horseracingnation.com/horse/Ice_Chocolat
+2025-09-28 03:47:29,424 - INFO - Extracted horse info for Ice Chocolat
+2025-09-28 03:47:29,425 - INFO - Found 18 race history rows
+2025-09-28 03:47:29,426 - INFO - Extracted race from 2025-08-16T00:00:00Z
+2025-09-28 03:47:29,426 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:29,426 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Ice_Chocolat
+2025-09-28 03:47:29,426 - INFO - Trying URL for Rapid Test: https://www.horseracingnation.com/horse/Rapid_Test
+2025-09-28 03:47:30,372 - INFO - Extracted horse info for Rapid Test
+2025-09-28 03:47:30,373 - INFO - Found 15 race history rows
+2025-09-28 03:47:30,373 - INFO - Extracted race from 2024-12-15
+2025-09-28 03:47:30,373 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:30,374 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Rapid_Test
+2025-09-28 03:47:30,374 - INFO - Trying URL for War Strategy: https://www.horseracingnation.com/horse/War_Strategy
+2025-09-28 03:47:30,660 - INFO - Extracted horse info for War Strategy
+2025-09-28 03:47:30,661 - INFO - Found 1 race history rows
+2025-09-28 03:47:30,661 - WARNING - Skipping old race from 2014-10-17T00:00:00Z (year: 2014)
+2025-09-28 03:47:30,661 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:30,661 - INFO - No recent races at https://www.horseracingnation.com/horse/War_Strategy, trying next variant...
+2025-09-28 03:47:30,661 - INFO - Trying URL for War Strategy: https://www.horseracingnation.com/horse/War_Strategy_1
+2025-09-28 03:47:31,665 - INFO - Extracted horse info for War Strategy
+2025-09-28 03:47:31,666 - INFO - Found 20 race history rows
+2025-09-28 03:47:31,667 - INFO - Extracted race from 2025-08-16
+2025-09-28 03:47:31,667 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:31,667 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/War_Strategy_1
+2025-09-28 03:47:31,667 - INFO - Trying URL for Reload's Rascal: https://www.horseracingnation.com/horse/Reloads_Rascal
+2025-09-28 03:47:32,234 - INFO - Extracted horse info for Reload's Rascal
+2025-09-28 03:47:32,235 - INFO - Found 9 race history rows
+2025-09-28 03:47:32,236 - INFO - Extracted race from 2024-07-28
+2025-09-28 03:47:32,236 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:32,236 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Reloads_Rascal
+2025-09-28 03:47:32,236 - INFO - Trying URL for Souped Up: https://www.horseracingnation.com/horse/Souped_Up
+2025-09-28 03:47:33,430 - INFO - Extracted horse info for Souped Up
+2025-09-28 03:47:33,431 - INFO - Found 18 race history rows
+2025-09-28 03:47:33,431 - INFO - Extracted race from 2024-12-12
+2025-09-28 03:47:33,432 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:33,432 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Souped_Up
+2025-09-28 03:47:33,432 - INFO - Trying URL for El CapoAuthentic: https://www.horseracingnation.com/horse/El_CapoAuthentic
+2025-09-28 03:47:33,570 - WARNING - Error fetching https://www.horseracingnation.com/horse/El_CapoAuthentic: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/El_CapoAuthentic
+2025-09-28 03:47:33,570 - INFO - Trying URL for El CapoAuthentic: https://www.horseracingnation.com/horse/El_CapoAuthentic_1
+2025-09-28 03:47:33,715 - WARNING - Error fetching https://www.horseracingnation.com/horse/El_CapoAuthentic_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/El_CapoAuthentic_1
+2025-09-28 03:47:33,715 - INFO - Trying URL for El CapoAuthentic: https://www.horseracingnation.com/horse/El_CapoAuthentic_2
+2025-09-28 03:47:33,862 - WARNING - Error fetching https://www.horseracingnation.com/horse/El_CapoAuthentic_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/El_CapoAuthentic_2
+2025-09-28 03:47:33,863 - INFO - Trying URL for El CapoAuthentic: https://www.horseracingnation.com/horse/El_CapoAuthentic_3
+2025-09-28 03:47:34,009 - WARNING - Error fetching https://www.horseracingnation.com/horse/El_CapoAuthentic_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/El_CapoAuthentic_3
+2025-09-28 03:47:34,009 - INFO - Trying URL for El CapoAuthentic: https://www.horseracingnation.com/horse/El_CapoAuthentic_4
+2025-09-28 03:47:34,154 - WARNING - Error fetching https://www.horseracingnation.com/horse/El_CapoAuthentic_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/El_CapoAuthentic_4
+2025-09-28 03:47:34,154 - INFO - Trying URL for El CapoAuthentic: https://www.horseracingnation.com/horse/El_CapoAuthentic_5
+2025-09-28 03:47:34,301 - WARNING - Error fetching https://www.horseracingnation.com/horse/El_CapoAuthentic_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/El_CapoAuthentic_5
+2025-09-28 03:47:34,301 - ERROR - No valid horse profile found for El CapoAuthentic after trying all variants
+2025-09-28 03:47:34,301 - INFO - Trying URL for Speights Will: https://www.horseracingnation.com/horse/Speights_Will
+2025-09-28 03:47:34,735 - INFO - Extracted horse info for Speights Will
+2025-09-28 03:47:34,736 - INFO - Found 5 race history rows
+2025-09-28 03:47:34,736 - INFO - Extracted race from 2025-09-14
+2025-09-28 03:47:34,737 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:34,737 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Speights_Will
+2025-09-28 03:47:34,737 - INFO - Trying URL for Gelato: https://www.horseracingnation.com/horse/Gelato
+2025-09-28 03:47:34,965 - INFO - Extracted horse info for Gelato
+2025-09-28 03:47:34,966 - INFO - Found 0 race history rows
+2025-09-28 03:47:34,966 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:34,966 - INFO - No recent races at https://www.horseracingnation.com/horse/Gelato, trying next variant...
+2025-09-28 03:47:34,966 - INFO - Trying URL for Gelato: https://www.horseracingnation.com/horse/Gelato_1
+2025-09-28 03:47:35,289 - INFO - Extracted horse info for Gelato
+2025-09-28 03:47:35,289 - INFO - Found 0 race history rows
+2025-09-28 03:47:35,290 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:35,290 - INFO - No recent races at https://www.horseracingnation.com/horse/Gelato_1, trying next variant...
+2025-09-28 03:47:35,290 - INFO - Trying URL for Gelato: https://www.horseracingnation.com/horse/Gelato_2
+2025-09-28 03:47:35,655 - INFO - Extracted horse info for Gelato
+2025-09-28 03:47:35,656 - INFO - Found 5 race history rows
+2025-09-28 03:47:35,656 - INFO - Extracted race from 2025-08-16T00:00:00Z
+2025-09-28 03:47:35,657 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:35,657 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Gelato_2
+2025-09-28 03:47:35,657 - INFO - Trying URL for Catch the AceAstern: https://www.horseracingnation.com/horse/Catch_the_AceAstern
+2025-09-28 03:47:35,793 - WARNING - Error fetching https://www.horseracingnation.com/horse/Catch_the_AceAstern: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Catch_the_AceAstern
+2025-09-28 03:47:35,793 - INFO - Trying URL for Catch the AceAstern: https://www.horseracingnation.com/horse/Catch_the_AceAstern_1
+2025-09-28 03:47:35,934 - WARNING - Error fetching https://www.horseracingnation.com/horse/Catch_the_AceAstern_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Catch_the_AceAstern_1
+2025-09-28 03:47:35,935 - INFO - Trying URL for Catch the AceAstern: https://www.horseracingnation.com/horse/Catch_the_AceAstern_2
+2025-09-28 03:47:36,071 - WARNING - Error fetching https://www.horseracingnation.com/horse/Catch_the_AceAstern_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Catch_the_AceAstern_2
+2025-09-28 03:47:36,072 - INFO - Trying URL for Catch the AceAstern: https://www.horseracingnation.com/horse/Catch_the_AceAstern_3
+2025-09-28 03:47:36,212 - WARNING - Error fetching https://www.horseracingnation.com/horse/Catch_the_AceAstern_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Catch_the_AceAstern_3
+2025-09-28 03:47:36,212 - INFO - Trying URL for Catch the AceAstern: https://www.horseracingnation.com/horse/Catch_the_AceAstern_4
+2025-09-28 03:47:36,349 - WARNING - Error fetching https://www.horseracingnation.com/horse/Catch_the_AceAstern_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Catch_the_AceAstern_4
+2025-09-28 03:47:36,350 - INFO - Trying URL for Catch the AceAstern: https://www.horseracingnation.com/horse/Catch_the_AceAstern_5
+2025-09-28 03:47:36,486 - WARNING - Error fetching https://www.horseracingnation.com/horse/Catch_the_AceAstern_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Catch_the_AceAstern_5
+2025-09-28 03:47:36,486 - ERROR - No valid horse profile found for Catch the AceAstern after trying all variants
+2025-09-28 03:47:36,487 - INFO - Trying URL for Ideologist: https://www.horseracingnation.com/horse/Ideologist
+2025-09-28 03:47:36,796 - INFO - Extracted horse info for Ideologist
+2025-09-28 03:47:36,796 - INFO - Found 1 race history rows
+2025-09-28 03:47:36,797 - INFO - Extracted race from 2025-08-16
+2025-09-28 03:47:36,797 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:36,797 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Ideologist
+2025-09-28 03:47:36,797 - INFO - Trying URL for Instant Response: https://www.horseracingnation.com/horse/Instant_Response
+2025-09-28 03:47:37,493 - INFO - Extracted horse info for Instant Response
+2025-09-28 03:47:37,494 - INFO - Found 3 race history rows
+2025-09-28 03:47:37,494 - INFO - Extracted race from 2025-09-11
+2025-09-28 03:47:37,494 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:37,494 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Instant_Response
+2025-09-28 03:47:37,495 - INFO - Trying URL for Apeldoorn: https://www.horseracingnation.com/horse/Apeldoorn
+2025-09-28 03:47:37,838 - INFO - Extracted horse info for Apeldoorn
+2025-09-28 03:47:37,838 - INFO - Found 0 race history rows
+2025-09-28 03:47:37,839 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:37,839 - INFO - No recent races at https://www.horseracingnation.com/horse/Apeldoorn, trying next variant...
+2025-09-28 03:47:37,839 - INFO - Trying URL for Apeldoorn: https://www.horseracingnation.com/horse/Apeldoorn_1
+2025-09-28 03:47:38,261 - INFO - Extracted horse info for Apeldoorn
+2025-09-28 03:47:38,262 - INFO - Found 2 race history rows
+2025-09-28 03:47:38,262 - INFO - Extracted race from 2025-08-31
+2025-09-28 03:47:38,262 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:38,262 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Apeldoorn_1
+2025-09-28 03:47:38,263 - INFO - Trying URL for Fleet of FootCupid: https://www.horseracingnation.com/horse/Fleet_of_FootCupid
+2025-09-28 03:47:38,404 - WARNING - Error fetching https://www.horseracingnation.com/horse/Fleet_of_FootCupid: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Fleet_of_FootCupid
+2025-09-28 03:47:38,404 - INFO - Trying URL for Fleet of FootCupid: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_1
+2025-09-28 03:47:38,556 - WARNING - Error fetching https://www.horseracingnation.com/horse/Fleet_of_FootCupid_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_1
+2025-09-28 03:47:38,557 - INFO - Trying URL for Fleet of FootCupid: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_2
+2025-09-28 03:47:38,735 - WARNING - Error fetching https://www.horseracingnation.com/horse/Fleet_of_FootCupid_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_2
+2025-09-28 03:47:38,735 - INFO - Trying URL for Fleet of FootCupid: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_3
+2025-09-28 03:47:38,911 - WARNING - Error fetching https://www.horseracingnation.com/horse/Fleet_of_FootCupid_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_3
+2025-09-28 03:47:38,911 - INFO - Trying URL for Fleet of FootCupid: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_4
+2025-09-28 03:47:39,054 - WARNING - Error fetching https://www.horseracingnation.com/horse/Fleet_of_FootCupid_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_4
+2025-09-28 03:47:39,054 - INFO - Trying URL for Fleet of FootCupid: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_5
+2025-09-28 03:47:39,195 - WARNING - Error fetching https://www.horseracingnation.com/horse/Fleet_of_FootCupid_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Fleet_of_FootCupid_5
+2025-09-28 03:47:39,195 - ERROR - No valid horse profile found for Fleet of FootCupid after trying all variants
+2025-09-28 03:47:39,195 - INFO - Trying URL for Wonderful QualityEssential Quality: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality
+2025-09-28 03:47:39,343 - WARNING - Error fetching https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality
+2025-09-28 03:47:39,344 - INFO - Trying URL for Wonderful QualityEssential Quality: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_1
+2025-09-28 03:47:39,499 - WARNING - Error fetching https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_1: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_1
+2025-09-28 03:47:39,500 - INFO - Trying URL for Wonderful QualityEssential Quality: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_2
+2025-09-28 03:47:39,640 - WARNING - Error fetching https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_2: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_2
+2025-09-28 03:47:39,640 - INFO - Trying URL for Wonderful QualityEssential Quality: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_3
+2025-09-28 03:47:39,795 - WARNING - Error fetching https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_3: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_3
+2025-09-28 03:47:39,796 - INFO - Trying URL for Wonderful QualityEssential Quality: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_4
+2025-09-28 03:47:39,936 - WARNING - Error fetching https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_4: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_4
+2025-09-28 03:47:39,936 - INFO - Trying URL for Wonderful QualityEssential Quality: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_5
+2025-09-28 03:47:40,076 - WARNING - Error fetching https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_5: 404 Client Error: Not Found for url: https://www.horseracingnation.com/horse/Wonderful_QualityEssential_Quality_5
+2025-09-28 03:47:40,076 - ERROR - No valid horse profile found for Wonderful QualityEssential Quality after trying all variants
+2025-09-28 03:47:40,077 - INFO - Trying URL for Deputy Daddy: https://www.horseracingnation.com/horse/Deputy_Daddy
+2025-09-28 03:47:40,640 - INFO - Extracted horse info for Deputy Daddy
+2025-09-28 03:47:40,641 - INFO - Found 8 race history rows
+2025-09-28 03:47:40,641 - INFO - Extracted race from 2025-09-09
+2025-09-28 03:47:40,641 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:40,642 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Deputy_Daddy
+2025-09-28 03:47:40,642 - INFO - Trying URL for Hanlan: https://www.horseracingnation.com/horse/Hanlan
+2025-09-28 03:47:40,887 - INFO - Extracted horse info for Hanlan
+2025-09-28 03:47:40,888 - INFO - Found 1 race history rows
+2025-09-28 03:47:40,888 - WARNING - Skipping old race from 2006-02-15T00:00:00Z (year: 2006)
+2025-09-28 03:47:40,888 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:40,888 - INFO - No recent races at https://www.horseracingnation.com/horse/Hanlan, trying next variant...
+2025-09-28 03:47:40,889 - INFO - Trying URL for Hanlan: https://www.horseracingnation.com/horse/Hanlan_1
+2025-09-28 03:47:41,815 - INFO - Extracted horse info for Hanlan
+2025-09-28 03:47:41,816 - INFO - Found 16 race history rows
+2025-09-28 03:47:41,816 - INFO - Extracted race from 2025-09-01
+2025-09-28 03:47:41,816 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:41,817 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Hanlan_1
+2025-09-28 03:47:41,817 - INFO - Trying URL for Mannix: https://www.horseracingnation.com/horse/Mannix
+2025-09-28 03:47:42,173 - INFO - Extracted horse info for Mannix
+2025-09-28 03:47:42,174 - INFO - Found 0 race history rows
+2025-09-28 03:47:42,174 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:42,174 - INFO - No recent races at https://www.horseracingnation.com/horse/Mannix, trying next variant...
+2025-09-28 03:47:42,174 - INFO - Trying URL for Mannix: https://www.horseracingnation.com/horse/Mannix_1
+2025-09-28 03:47:42,375 - INFO - Extracted horse info for Mannix
+2025-09-28 03:47:42,376 - INFO - Found 0 race history rows
+2025-09-28 03:47:42,376 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:42,376 - INFO - No recent races at https://www.horseracingnation.com/horse/Mannix_1, trying next variant...
+2025-09-28 03:47:42,376 - INFO - Trying URL for Mannix: https://www.horseracingnation.com/horse/Mannix_2
+2025-09-28 03:47:44,521 - INFO - Extracted horse info for Mannix
+2025-09-28 03:47:44,523 - INFO - Found 37 race history rows
+2025-09-28 03:47:44,523 - INFO - Extracted race from 2025-08-22
+2025-09-28 03:47:44,523 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:44,523 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Mannix_2
+2025-09-28 03:47:44,524 - INFO - Trying URL for Indian Peak: https://www.horseracingnation.com/horse/Indian_Peak
+2025-09-28 03:47:46,179 - INFO - Extracted horse info for Indian Peak
+2025-09-28 03:47:46,181 - INFO - Found 44 race history rows
+2025-09-28 03:47:46,181 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:47:46,181 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:46,182 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Indian_Peak
+2025-09-28 03:47:46,182 - INFO - Trying URL for Pat's Gamble: https://www.horseracingnation.com/horse/Pats_Gamble
+2025-09-28 03:47:46,796 - INFO - Extracted horse info for Pat's Gamble
+2025-09-28 03:47:46,798 - INFO - Found 18 race history rows
+2025-09-28 03:47:46,798 - INFO - Extracted race from 2025-09-01
+2025-09-28 03:47:46,798 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:46,798 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Pats_Gamble
+2025-09-28 03:47:46,799 - INFO - Trying URL for Dark Screen: https://www.horseracingnation.com/horse/Dark_Screen
+2025-09-28 03:47:47,353 - INFO - Extracted horse info for Dark Screen
+2025-09-28 03:47:47,354 - INFO - Found 8 race history rows
+2025-09-28 03:47:47,355 - INFO - Extracted race from 2025-09-09
+2025-09-28 03:47:47,355 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:47,355 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Dark_Screen
+2025-09-28 03:47:47,355 - INFO - Trying URL for Last American Exit: https://www.horseracingnation.com/horse/Last_American_Exit
+2025-09-28 03:47:48,833 - INFO - Extracted horse info for Last American Exit
+2025-09-28 03:47:48,834 - INFO - Found 47 race history rows
+2025-09-28 03:47:48,834 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:47:48,834 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:48,834 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Last_American_Exit
+2025-09-28 03:47:48,835 - INFO - Trying URL for Armstrong: https://www.horseracingnation.com/horse/Armstrong
+2025-09-28 03:47:49,112 - INFO - Extracted horse info for Armstrong
+2025-09-28 03:47:49,113 - INFO - Found 1 race history rows
+2025-09-28 03:47:49,113 - WARNING - Skipping old race from 2013-11-22T00:00:00Z (year: 2013)
+2025-09-28 03:47:49,113 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:49,113 - INFO - No recent races at https://www.horseracingnation.com/horse/Armstrong, trying next variant...
+2025-09-28 03:47:49,113 - INFO - Trying URL for Armstrong: https://www.horseracingnation.com/horse/Armstrong_1
+2025-09-28 03:47:49,359 - INFO - Extracted horse info for Armstrong
+2025-09-28 03:47:49,360 - INFO - Found 1 race history rows
+2025-09-28 03:47:49,361 - INFO - Extracted race from 2020-08-09T00:00:00Z
+2025-09-28 03:47:49,361 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:49,361 - INFO - No recent races at https://www.horseracingnation.com/horse/Armstrong_1, trying next variant...
+2025-09-28 03:47:49,361 - INFO - Trying URL for Armstrong: https://www.horseracingnation.com/horse/Armstrong_2
+2025-09-28 03:47:50,078 - INFO - Extracted horse info for Armstrong
+2025-09-28 03:47:50,079 - INFO - Found 16 race history rows
+2025-09-28 03:47:50,079 - INFO - Extracted race from 2025-08-10
+2025-09-28 03:47:50,079 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:50,079 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Armstrong_2
+2025-09-28 03:47:50,080 - INFO - Trying URL for Friendly Ghost: https://www.horseracingnation.com/horse/Friendly_Ghost
+2025-09-28 03:47:50,391 - INFO - Extracted horse info for Friendly Ghost
+2025-09-28 03:47:50,392 - INFO - Found 12 race history rows
+2025-09-28 03:47:50,392 - WARNING - Skipping old race from 2015-11-28T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,392 - WARNING - Skipping old race from 2015-10-24T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,392 - WARNING - Skipping old race from 2015-10-10T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,393 - WARNING - Skipping old race from 2015-09-04T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,393 - WARNING - Skipping old race from 2015-08-06T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,393 - WARNING - Skipping old race from 2015-07-16T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,393 - WARNING - Skipping old race from 2015-06-20T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,393 - WARNING - Skipping old race from 2015-05-25T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,394 - WARNING - Skipping old race from 2015-05-08T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,394 - WARNING - Skipping old race from 2015-03-27T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,394 - WARNING - Skipping old race from 2015-03-08T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,394 - WARNING - Skipping old race from 2015-01-25T00:00:00Z (year: 2015)
+2025-09-28 03:47:50,394 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:50,394 - INFO - No recent races at https://www.horseracingnation.com/horse/Friendly_Ghost, trying next variant...
+2025-09-28 03:47:50,394 - INFO - Trying URL for Friendly Ghost: https://www.horseracingnation.com/horse/Friendly_Ghost_1
+2025-09-28 03:47:50,830 - INFO - Extracted horse info for Friendly Ghost
+2025-09-28 03:47:50,831 - INFO - Found 6 race history rows
+2025-09-28 03:47:50,831 - INFO - Extracted race from 2025-08-24
+2025-09-28 03:47:50,831 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:50,832 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Friendly_Ghost_1
+2025-09-28 03:47:50,832 - INFO - Trying URL for Summer Commander: https://www.horseracingnation.com/horse/Summer_Commander
+2025-09-28 03:47:51,593 - INFO - Extracted horse info for Summer Commander
+2025-09-28 03:47:51,594 - INFO - Found 15 race history rows
+2025-09-28 03:47:51,594 - INFO - Extracted race from 2025-08-24
+2025-09-28 03:47:51,594 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:51,594 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Summer_Commander
+2025-09-28 03:47:51,595 - INFO - Trying URL for Scat Girl: https://www.horseracingnation.com/horse/Scat_Girl
+2025-09-28 03:47:52,477 - INFO - Extracted horse info for Scat Girl
+2025-09-28 03:47:52,478 - INFO - Found 16 race history rows
+2025-09-28 03:47:52,478 - INFO - Extracted race from 2025-09-06
+2025-09-28 03:47:52,478 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:52,479 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Scat_Girl
+2025-09-28 03:47:52,479 - INFO - Trying URL for D'aurum: https://www.horseracingnation.com/horse/Daurum
+2025-09-28 03:47:53,250 - INFO - Extracted horse info for D'aurum
+2025-09-28 03:47:53,251 - INFO - Found 9 race history rows
+2025-09-28 03:47:53,251 - INFO - Extracted race from 2025-08-21
+2025-09-28 03:47:53,251 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:53,252 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Daurum
+2025-09-28 03:47:53,252 - INFO - Trying URL for Borealis Trail: https://www.horseracingnation.com/horse/Borealis_Trail
+2025-09-28 03:47:53,749 - INFO - Extracted horse info for Borealis Trail
+2025-09-28 03:47:53,750 - INFO - Found 4 race history rows
+2025-09-28 03:47:53,750 - INFO - Extracted race from 2025-08-03
+2025-09-28 03:47:53,750 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:53,751 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Borealis_Trail
+2025-09-28 03:47:53,751 - INFO - Trying URL for Ciunas: https://www.horseracingnation.com/horse/Ciunas
+2025-09-28 03:47:54,214 - INFO - Extracted horse info for Ciunas
+2025-09-28 03:47:54,214 - INFO - Found 2 race history rows
+2025-09-28 03:47:54,215 - INFO - Extracted race from 2025-08-24
+2025-09-28 03:47:54,215 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:54,215 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Ciunas
+2025-09-28 03:47:54,215 - INFO - Trying URL for Aristella: https://www.horseracingnation.com/horse/Aristella
+2025-09-28 03:47:54,817 - INFO - Extracted horse info for Aristella
+2025-09-28 03:47:54,818 - INFO - Found 10 race history rows
+2025-09-28 03:47:54,818 - INFO - Extracted race from 2025-09-06
+2025-09-28 03:47:54,818 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:54,818 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Aristella
+2025-09-28 03:47:54,819 - INFO - Trying URL for Watsonville Red: https://www.horseracingnation.com/horse/Watsonville_Red
+2025-09-28 03:47:55,381 - INFO - Extracted horse info for Watsonville Red
+2025-09-28 03:47:55,382 - INFO - Found 9 race history rows
+2025-09-28 03:47:55,382 - INFO - Extracted race from 2025-08-16
+2025-09-28 03:47:55,382 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:55,383 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Watsonville_Red
+2025-09-28 03:47:55,383 - INFO - Trying URL for Faber: https://www.horseracingnation.com/horse/Faber
+2025-09-28 03:47:55,701 - INFO - Extracted horse info for Faber
+2025-09-28 03:47:55,702 - INFO - Found 0 race history rows
+2025-09-28 03:47:55,702 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:47:55,702 - INFO - No recent races at https://www.horseracingnation.com/horse/Faber, trying next variant...
+2025-09-28 03:47:55,702 - INFO - Trying URL for Faber: https://www.horseracingnation.com/horse/Faber_1
+2025-09-28 03:47:56,977 - INFO - Extracted horse info for Faber
+2025-09-28 03:47:56,978 - INFO - Found 11 race history rows
+2025-09-28 03:47:56,978 - INFO - Extracted race from 2025-09-09
+2025-09-28 03:47:56,978 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:56,978 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Faber_1
+2025-09-28 03:47:56,979 - INFO - Trying URL for Sedburys Ghost: https://www.horseracingnation.com/horse/Sedburys_Ghost
+2025-09-28 03:47:57,537 - INFO - Extracted horse info for Sedburys Ghost
+2025-09-28 03:47:57,538 - INFO - Found 6 race history rows
+2025-09-28 03:47:57,538 - INFO - Extracted race from 2025-08-16
+2025-09-28 03:47:57,538 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:57,538 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Sedburys_Ghost
+2025-09-28 03:47:57,539 - INFO - Trying URL for Tom's Magic: https://www.horseracingnation.com/horse/Toms_Magic
+2025-09-28 03:47:58,514 - INFO - Extracted horse info for Tom's Magic
+2025-09-28 03:47:58,515 - INFO - Found 6 race history rows
+2025-09-28 03:47:58,515 - INFO - Extracted race from 2025-08-16
+2025-09-28 03:47:58,515 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:58,516 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Toms_Magic
+2025-09-28 03:47:58,516 - INFO - Trying URL for Runnin' Rocket: https://www.horseracingnation.com/horse/Runnin_Rocket
+2025-09-28 03:47:59,211 - INFO - Extracted horse info for Runnin' Rocket
+2025-09-28 03:47:59,212 - INFO - Found 15 race history rows
+2025-09-28 03:47:59,212 - INFO - Extracted race from 2025-05-04
+2025-09-28 03:47:59,212 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:59,212 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Runnin_Rocket
+2025-09-28 03:47:59,213 - INFO - Trying URL for Garden of War: https://www.horseracingnation.com/horse/Garden_of_War
+2025-09-28 03:47:59,789 - INFO - Extracted horse info for Garden of War
+2025-09-28 03:47:59,791 - INFO - Found 6 race history rows
+2025-09-28 03:47:59,791 - INFO - Extracted race from 2025-08-30
+2025-09-28 03:47:59,791 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:47:59,791 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Garden_of_War
+2025-09-28 03:47:59,791 - INFO - Trying URL for Old Chestnut: https://www.horseracingnation.com/horse/Old_Chestnut
+2025-09-28 03:48:02,008 - INFO - Extracted horse info for Old Chestnut
+2025-09-28 03:48:02,009 - INFO - Found 44 race history rows
+2025-09-28 03:48:02,009 - INFO - Extracted race from 2025-08-16
+2025-09-28 03:48:02,009 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:02,010 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Old_Chestnut
+2025-09-28 03:48:02,010 - INFO - Trying URL for Babbo: https://www.horseracingnation.com/horse/Babbo
+2025-09-28 03:48:04,693 - INFO - Extracted horse info for Babbo
+2025-09-28 03:48:04,694 - INFO - Found 15 race history rows
+2025-09-28 03:48:04,694 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:48:04,694 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:04,695 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Babbo
+2025-09-28 03:48:04,695 - INFO - Trying URL for Giant Teddy: https://www.horseracingnation.com/horse/Giant_Teddy
+2025-09-28 03:48:06,929 - INFO - Extracted horse info for Giant Teddy
+2025-09-28 03:48:06,931 - INFO - Found 29 race history rows
+2025-09-28 03:48:06,931 - INFO - Extracted race from 2025-09-01
+2025-09-28 03:48:06,931 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:06,931 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Giant_Teddy
+2025-09-28 03:48:06,932 - INFO - Trying URL for Rat Portage: https://www.horseracingnation.com/horse/Rat_Portage
+2025-09-28 03:48:08,282 - INFO - Extracted horse info for Rat Portage
+2025-09-28 03:48:08,283 - INFO - Found 24 race history rows
+2025-09-28 03:48:08,284 - INFO - Extracted race from 2025-09-01
+2025-09-28 03:48:08,284 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:08,284 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Rat_Portage
+2025-09-28 03:48:08,284 - INFO - Trying URL for Poseidon Steel: https://www.horseracingnation.com/horse/Poseidon_Steel
+2025-09-28 03:48:09,468 - INFO - Extracted horse info for Poseidon Steel
+2025-09-28 03:48:09,469 - INFO - Found 23 race history rows
+2025-09-28 03:48:09,469 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:48:09,469 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:09,469 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Poseidon_Steel
+2025-09-28 03:48:09,470 - INFO - Trying URL for Society's Thunder: https://www.horseracingnation.com/horse/Societys_Thunder
+2025-09-28 03:48:10,750 - INFO - Extracted horse info for Society's Thunder
+2025-09-28 03:48:10,751 - INFO - Found 27 race history rows
+2025-09-28 03:48:10,752 - INFO - Extracted race from 2025-08-16
+2025-09-28 03:48:10,752 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:10,752 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Societys_Thunder
+2025-09-28 03:48:10,752 - INFO - Trying URL for Daddy Has Diamonds: https://www.horseracingnation.com/horse/Daddy_Has_Diamonds
+2025-09-28 03:48:11,295 - INFO - Extracted horse info for Daddy Has Diamonds
+2025-09-28 03:48:11,295 - INFO - Found 7 race history rows
+2025-09-28 03:48:11,296 - INFO - Extracted race from 2025-09-07
+2025-09-28 03:48:11,296 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:11,296 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Daddy_Has_Diamonds
+2025-09-28 03:48:11,296 - INFO - Trying URL for Awesome Rainbow: https://www.horseracingnation.com/horse/Awesome_Rainbow
+2025-09-28 03:48:11,906 - INFO - Extracted horse info for Awesome Rainbow
+2025-09-28 03:48:11,908 - INFO - Found 12 race history rows
+2025-09-28 03:48:11,908 - INFO - Extracted race from 2025-09-09
+2025-09-28 03:48:11,908 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:11,908 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Awesome_Rainbow
+2025-09-28 03:48:11,908 - INFO - Trying URL for Demba: https://www.horseracingnation.com/horse/Demba
+2025-09-28 03:48:12,429 - INFO - Extracted horse info for Demba
+2025-09-28 03:48:12,430 - INFO - Found 13 race history rows
+2025-09-28 03:48:12,430 - INFO - Extracted race from 2025-07-18
+2025-09-28 03:48:12,430 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:12,430 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Demba
+2025-09-28 03:48:12,431 - INFO - Trying URL for Sunday's Well: https://www.horseracingnation.com/horse/Sundays_Well
+2025-09-28 03:48:12,821 - INFO - Extracted horse info for Sunday's Well
+2025-09-28 03:48:12,822 - INFO - Found 4 race history rows
+2025-09-28 03:48:12,823 - INFO - Extracted race from 2025-09-09
+2025-09-28 03:48:12,823 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:12,823 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Sundays_Well
+2025-09-28 03:48:12,823 - INFO - Trying URL for Glasweigian: https://www.horseracingnation.com/horse/Glasweigian
+2025-09-28 03:48:13,696 - INFO - Extracted horse info for Glasweigian
+2025-09-28 03:48:13,697 - INFO - Found 12 race history rows
+2025-09-28 03:48:13,697 - INFO - Extracted race from 2025-08-10
+2025-09-28 03:48:13,697 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:13,697 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Glasweigian
+2025-09-28 03:48:13,697 - INFO - Trying URL for Dark Danger: https://www.horseracingnation.com/horse/Dark_Danger
+2025-09-28 03:48:14,467 - INFO - Extracted horse info for Dark Danger
+2025-09-28 03:48:14,468 - INFO - Found 2 race history rows
+2025-09-28 03:48:14,468 - WARNING - Skipping old race from 2011-09-18T00:00:00Z (year: 2011)
+2025-09-28 03:48:14,469 - WARNING - Skipping old race from 2011-06-09T00:00:00Z (year: 2011)
+2025-09-28 03:48:14,469 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:48:14,469 - INFO - No recent races at https://www.horseracingnation.com/horse/Dark_Danger, trying next variant...
+2025-09-28 03:48:14,469 - INFO - Trying URL for Dark Danger: https://www.horseracingnation.com/horse/Dark_Danger_1
+2025-09-28 03:48:15,116 - INFO - Extracted horse info for Dark Danger
+2025-09-28 03:48:15,117 - INFO - Found 8 race history rows
+2025-09-28 03:48:15,117 - INFO - Extracted race from 2025-07-26
+2025-09-28 03:48:15,117 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:15,117 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Dark_Danger_1
+2025-09-28 03:48:15,118 - INFO - Trying URL for Paynes Spirit: https://www.horseracingnation.com/horse/Paynes_Spirit
+2025-09-28 03:48:15,458 - INFO - Extracted horse info for Paynes Spirit
+2025-09-28 03:48:15,459 - INFO - Found 4 race history rows
+2025-09-28 03:48:15,459 - INFO - Extracted race from 2025-09-05
+2025-09-28 03:48:15,459 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:15,459 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Paynes_Spirit
+2025-09-28 03:48:15,460 - INFO - Trying URL for Philip Banks: https://www.horseracingnation.com/horse/Philip_Banks
+2025-09-28 03:48:15,731 - INFO - Extracted horse info for Philip Banks
+2025-09-28 03:48:15,731 - INFO - Found 2 race history rows
+2025-09-28 03:48:15,732 - INFO - Extracted race from 2025-08-10
+2025-09-28 03:48:15,732 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:15,732 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Philip_Banks
+2025-09-28 03:48:15,732 - INFO - Trying URL for Roar of the Crowd: https://www.horseracingnation.com/horse/Roar_of_the_Crowd
+2025-09-28 03:48:16,054 - INFO - Extracted horse info for Roar of the Crowd
+2025-09-28 03:48:16,055 - INFO - Found 10 race history rows
+2025-09-28 03:48:16,055 - WARNING - Skipping old race from 2012-08-30T00:00:00Z (year: 2012)
+2025-09-28 03:48:16,055 - WARNING - Skipping old race from 2012-08-12T00:00:00Z (year: 2012)
+2025-09-28 03:48:16,055 - WARNING - Skipping old race from 2012-07-20T00:00:00Z (year: 2012)
+2025-09-28 03:48:16,056 - WARNING - Skipping old race from 2011-01-13T00:00:00Z (year: 2011)
+2025-09-28 03:48:16,056 - WARNING - Skipping old race from 2011-01-02T00:00:00Z (year: 2011)
+2025-09-28 03:48:16,056 - WARNING - Skipping old race from 2010-10-22T00:00:00Z (year: 2010)
+2025-09-28 03:48:16,056 - WARNING - Skipping old race from 2010-09-12T00:00:00Z (year: 2010)
+2025-09-28 03:48:16,056 - WARNING - Skipping old race from 2010-08-19T00:00:00Z (year: 2010)
+2025-09-28 03:48:16,057 - WARNING - Skipping old race from 2010-07-09T00:00:00Z (year: 2010)
+2025-09-28 03:48:16,057 - WARNING - Skipping old race from 2010-06-19T00:00:00Z (year: 2010)
+2025-09-28 03:48:16,057 - INFO - Extracted 0 races from history (latest only)
+2025-09-28 03:48:16,057 - INFO - No recent races at https://www.horseracingnation.com/horse/Roar_of_the_Crowd, trying next variant...
+2025-09-28 03:48:16,057 - INFO - Trying URL for Roar of the Crowd: https://www.horseracingnation.com/horse/Roar_of_the_Crowd_1
+2025-09-28 03:48:16,835 - INFO - Extracted horse info for Roar of the Crowd
+2025-09-28 03:48:16,837 - INFO - Found 18 race history rows
+2025-09-28 03:48:16,837 - INFO - Extracted race from 2025-09-01
+2025-09-28 03:48:16,837 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:16,837 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Roar_of_the_Crowd_1
+2025-09-28 03:48:16,837 - INFO - Trying URL for Mymathes Correct: https://www.horseracingnation.com/horse/Mymathes_Correct
+2025-09-28 03:48:17,277 - INFO - Extracted horse info for Mymathes Correct
+2025-09-28 03:48:17,277 - INFO - Found 5 race history rows
+2025-09-28 03:48:17,278 - INFO - Extracted race from 2025-09-09
+2025-09-28 03:48:17,278 - INFO - Extracted 1 races from history (latest only)
+2025-09-28 03:48:17,278 - INFO - Found valid horse profile at: https://www.horseracingnation.com/horse/Mymathes_Correct

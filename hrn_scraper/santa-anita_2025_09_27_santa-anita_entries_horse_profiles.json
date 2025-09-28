@@ -1,0 +1,2148 @@
+{
+  "Tiger of the Sea": {
+    "horse_info": {
+      "name": "Tiger of the Sea",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Klein, Alan Phillip and Lebherz, Philip",
+      "trainer": "Brian J. Koriner",
+      "breeder": "Jeff Ganje",
+      "sire": "Smiling Tiger",
+      "dam": "Carmen's Mystery",
+      "dam_sire": "War Front"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "3",
+        "speed_figure": "114",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Dialing Destiny": {
+    "horse_info": {
+      "name": "Dialing Destiny",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Williamson Racing LLC",
+      "trainer": "Peter Miller",
+      "breeder": "Williamson Racing, LLC",
+      "sire": "Texas Ryano",
+      "dam": "Dial A Date",
+      "dam_sire": "Artie Schiller"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "6",
+        "speed_figure": "110",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "2"
+      }
+    ]
+  },
+  "Mia Pia": {
+    "horse_info": {
+      "name": "Mia Pia",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Matson Racing and Naify, Marsha",
+      "trainer": "Karen Headley",
+      "breeder": "Matson Racing & Marsha Naify",
+      "sire": "Surf Cat",
+      "dam": "Sister Esperanza",
+      "dam_sire": "Strong Hope"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "5",
+        "speed_figure": "110",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "3"
+      }
+    ]
+  },
+  "Surfin Candy": {
+    "horse_info": {
+      "name": "Surfin Candy",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Rex Racing LLC",
+      "trainer": "Sean McCarthy",
+      "breeder": "Kurt Rexius",
+      "sire": "Danzing Candy",
+      "dam": "Surfing The Menu",
+      "dam_sire": "Surf Cat"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "11",
+        "speed_figure": "98",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "4"
+      }
+    ]
+  },
+  "Mendelssohns Angel": {
+    "horse_info": {
+      "name": "Mendelssohns Angel",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Four Quarters Corp.",
+      "trainer": "Brendan W. Galvin",
+      "breeder": "Four Quarters Corp.",
+      "sire": "Mendelssohn",
+      "dam": "Angel Alessandra",
+      "dam_sire": "Ghostzapper"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "1",
+        "speed_figure": "114",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Pavel's Etoile": {
+    "horse_info": {
+      "name": "Pavel's Etoile",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Reddam Racing LLC",
+      "trainer": "Antonio C. Garcia",
+      "breeder": "Reddam Racing, LLC",
+      "sire": "Pavel",
+      "dam": "La Premiere Etoile",
+      "dam_sire": "Square Eddie"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "2",
+        "speed_figure": "114",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "6"
+      }
+    ]
+  },
+  "Della Terra": {
+    "horse_info": {
+      "name": "Della Terra",
+      "age": "4",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Tanya Freeman",
+      "trainer": "Mark Glatt",
+      "breeder": "Tanya Rae Freeman",
+      "sire": "Clubhouse Ride",
+      "dam": "A Kiss For Maria",
+      "dam_sire": "First Defence"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "4",
+        "speed_figure": "111",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "8"
+      }
+    ]
+  },
+  "Naturally Blonde": {
+    "horse_info": {
+      "name": "Naturally Blonde",
+      "age": "4",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "10S Racing, Battle Born Racing Stable and Malmstrom, Brent J.",
+      "trainer": "Jeff Mullins",
+      "breeder": "Mr. & Mrs. Donald Valpredo",
+      "sire": "Practical Joke",
+      "dam": "Elusive Temper",
+      "dam_sire": "Elusive Quality"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "9",
+        "speed_figure": "105",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "9"
+      }
+    ]
+  },
+  "Sally's Wish": {
+    "horse_info": {
+      "name": "Sally's Wish",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Packsaddle Road LLC",
+      "trainer": "D. Wayne Baker",
+      "breeder": "Packsaddle Road, LLC",
+      "sire": "Vronsky",
+      "dam": "Southfield Fog",
+      "dam_sire": "Formal Gold"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "7",
+        "speed_figure": "109",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "10"
+      }
+    ]
+  },
+  "Sparta F. C.": {
+    "horse_info": {
+      "name": "Sparta F. C.",
+      "age": "4",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Jones, Robert M., Kasinak, Bonnie, Kasinak, Kenneth C. and Wilson, Hal",
+      "trainer": "Jeff Mullins",
+      "breeder": "Premier Thoroughbreds LLC",
+      "sire": "Astern",
+      "dam": "Lake Local",
+      "dam_sire": "Street Boss"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "10",
+        "speed_figure": "103",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Turf-Firm",
+        "race_type": "SA MSW (09/27/2025-R1)",
+        "time": "1:08.61",
+        "race_number": "1",
+        "program_number": "11"
+      }
+    ]
+  },
+  "Lawless World": {
+    "horse_info": {
+      "name": "Lawless World",
+      "age": "4",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "David Hinkins",
+      "trainer": "Adan Farias",
+      "breeder": "Mullikin Thoroughbreds",
+      "sire": "World of Trouble",
+      "dam": "Lawless Lily",
+      "dam_sire": "Medallist"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "3",
+        "speed_figure": "112",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA AOC (09/27/2025-R2)",
+        "time": "1:09.48",
+        "race_number": "2",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Miracle Mark": {
+    "horse_info": {
+      "name": "Miracle Mark",
+      "age": "4",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Old Bones Racing Stable LLC and Slam Dunk Racing",
+      "trainer": "Philip D'Amato",
+      "breeder": "Nick Cosato",
+      "sire": "Constitution",
+      "dam": "Melody's Spirit",
+      "dam_sire": "Scat Daddy"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "5",
+        "speed_figure": "110",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA AOC (09/27/2025-R2)",
+        "time": "1:09.48",
+        "race_number": "2",
+        "program_number": "2"
+      }
+    ]
+  },
+  "Berlin Wall": {
+    "horse_info": {
+      "name": "Berlin Wall",
+      "age": "3",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "Thomsen Racing LLC and Halasz, Thomas E.",
+      "trainer": "Steve R. Knapp",
+      "breeder": "Richard Barton Enterprises",
+      "sire": "Practical Joke",
+      "dam": "Caymanbird",
+      "dam_sire": "Uncle Mo"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "2",
+        "speed_figure": "114",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA AOC (09/27/2025-R2)",
+        "time": "1:09.48",
+        "race_number": "2",
+        "program_number": "3"
+      }
+    ]
+  },
+  "Code Duello": {
+    "horse_info": {
+      "name": "Code Duello",
+      "age": "7",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Flawless Racing, Flanagan, Brian and Jarvis, Michael",
+      "trainer": "Craig Dollase",
+      "breeder": "Sandra Sexton & Silver Fern Farm",
+      "sire": "Honor Code",
+      "dam": "Caroni",
+      "dam_sire": "Rubiano"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "6",
+        "speed_figure": "105",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA AOC (09/27/2025-R2)",
+        "time": "1:09.48",
+        "race_number": "2",
+        "program_number": "4"
+      }
+    ]
+  },
+  "Ghost of Midnight": {
+    "horse_info": {
+      "name": "Ghost of Midnight",
+      "age": "7",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Kirkwood, Allan K. and Kirkwood, Saundra S.",
+      "trainer": "Mark Glatt",
+      "breeder": null,
+      "sire": "Ghostzapper",
+      "dam": "[Add Data]",
+      "dam_sire": "[Add Data]"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "1",
+        "speed_figure": "116",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA AOC (09/27/2025-R2)",
+        "time": "1:09.48",
+        "race_number": "2",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Grubauer": {
+    "horse_info": {
+      "name": "Grubauer",
+      "age": "4",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Dunn Bar Ranch LLC, Jethorse LLC, Hodge, Allen F. and McCanna, Tim",
+      "trainer": "Tim McCanna",
+      "breeder": null,
+      "sire": "Frosted",
+      "dam": "Conquest Sweetride",
+      "dam_sire": "Candy Ride"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "4",
+        "speed_figure": "111",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA AOC (09/27/2025-R2)",
+        "time": "1:09.48",
+        "race_number": "2",
+        "program_number": "6"
+      }
+    ]
+  },
+  "Tammy Baby": {
+    "horse_info": {
+      "name": "Tammy Baby",
+      "age": "2",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Williams, Larry D. and Williams, Marianne",
+      "trainer": "Jeff Bonde",
+      "breeder": "Mr. & Mrs. Larry D. Williams",
+      "sire": "Tamarando",
+      "dam": "Lucky Babe",
+      "dam_sire": "Lucky Pulpit"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "4",
+        "speed_figure": "68",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA MSW (09/27/2025-R3)",
+        "time": "1:11.73",
+        "race_number": "3",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Jacklyn Lucas": {
+    "horse_info": {
+      "name": "Jacklyn Lucas",
+      "age": "2",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Nicholas B. Alexander",
+      "trainer": "Steven Miyadi",
+      "breeder": "Nick Alexander",
+      "sire": "Grazen",
+      "dam": "Malibu Holiday",
+      "dam_sire": "Harlan's Holiday"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "2",
+        "speed_figure": "81",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA MSW (09/27/2025-R3)",
+        "time": "1:11.73",
+        "race_number": "3",
+        "program_number": "2"
+      }
+    ]
+  },
+  "Billie Holiday": {
+    "horse_info": {
+      "name": "Billie Holiday",
+      "age": "2",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Nicholas B. Alexander",
+      "trainer": "Steven Miyadi",
+      "breeder": "Nick Alexander",
+      "sire": "Grazen",
+      "dam": "Miranda Rose",
+      "dam_sire": "Tribal Rule"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "3",
+        "speed_figure": "80",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA MSW (09/27/2025-R3)",
+        "time": "1:11.73",
+        "race_number": "3",
+        "program_number": "3"
+      }
+    ]
+  },
+  "Final Table Lady": {
+    "horse_info": {
+      "name": "Final Table Lady",
+      "age": "2",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Kahlden, Lawrence A. and Wiener, Brett",
+      "trainer": "Jorge Periban",
+      "breeder": "Brett Wiener & Lawrence Kahlden",
+      "sire": "Stay Thirsty",
+      "dam": "Hawk's Journey",
+      "dam_sire": "Good Journey"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "5",
+        "speed_figure": "64",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA MSW (09/27/2025-R3)",
+        "time": "1:11.73",
+        "race_number": "3",
+        "program_number": "4"
+      }
+    ]
+  },
+  "Cashed": {
+    "horse_info": {
+      "name": "Cashed",
+      "age": "2",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Reddam Racing LLC",
+      "trainer": "Doug F. O'Neill",
+      "breeder": "Reddam Racing, LLC",
+      "sire": "I'll Have Another",
+      "dam": "Cash Offer",
+      "dam_sire": "Shackleford"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "1",
+        "speed_figure": "85",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA MSW (09/27/2025-R3)",
+        "time": "1:11.73",
+        "race_number": "3",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Cash in Toknight": {
+    "horse_info": {
+      "name": "Cash in Toknight",
+      "age": "2",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Here We Go Brothers",
+      "trainer": "Doug F. O'Neill",
+      "breeder": "Reddam Racing, LLC",
+      "sire": "Pavel",
+      "dam": "Cash Shredder",
+      "dam_sire": "Sightseeing"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-21",
+        "race_date": "2025-09-21",
+        "finish_position": "4",
+        "speed_figure": "67",
+        "track": "LRC",
+        "distance": "5 1/2F",
+        "surface": "Dirt-Fast",
+        "race_type": "Msw",
+        "time": "1:04.38",
+        "race_number": "3",
+        "program_number": "6"
+      }
+    ]
+  },
+  "Zio Jo": {
+    "horse_info": {
+      "name": "Zio Jo",
+      "age": "5",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Joseph A. Navarro",
+      "trainer": "Doug F. O'Neill",
+      "breeder": "Elm Racing, LLC & Mulholland Springs LLC",
+      "sire": "Nyquist",
+      "dam": "Senorita Corredora",
+      "dam_sire": "El Corredor"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "4",
+        "speed_figure": "124",
+        "track": "SA",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 City of Hope Mile (G2)",
+        "time": "1:34.13",
+        "race_number": "4",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Scoobie Quando": {
+    "horse_info": {
+      "name": "Scoobie Quando",
+      "age": "5",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "Warren, Andrew N. and Warren, Rania",
+      "trainer": "Michael W. McCarthy",
+      "breeder": "CHC Inc.",
+      "sire": "Uncle Mo",
+      "dam": "Daveron",
+      "dam_sire": "Black Sam Bellamy"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "5",
+        "speed_figure": "123",
+        "track": "SA",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 City of Hope Mile (G2)",
+        "time": "1:34.13",
+        "race_number": "4",
+        "program_number": "2"
+      }
+    ]
+  },
+  "Johannes": {
+    "horse_info": {
+      "name": "Johannes",
+      "age": "5",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "CUYATHY LLC",
+      "trainer": "Tim Yakteen",
+      "breeder": "Cuyathy, LLC",
+      "sire": "Nyquist",
+      "dam": "Cuyathy",
+      "dam_sire": "Congrats"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "1",
+        "speed_figure": "127",
+        "track": "SA",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 City of Hope Mile (G2)",
+        "time": "1:34.13",
+        "race_number": "4",
+        "program_number": "3"
+      }
+    ]
+  },
+  "Final Boss": {
+    "horse_info": {
+      "name": "Final Boss",
+      "age": "4",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "By Talla Racing LLC and West Point Thoroughbreds",
+      "trainer": "John W. Sadler",
+      "breeder": "Rockingham Ranch",
+      "sire": "American Pharoah",
+      "dam": "Screaming Skylar",
+      "dam_sire": "Smart Strike"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "6",
+        "speed_figure": "121",
+        "track": "SA",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 City of Hope Mile (G2)",
+        "time": "1:34.13",
+        "race_number": "4",
+        "program_number": "4"
+      }
+    ]
+  },
+  "Almendares": {
+    "horse_info": {
+      "name": "Almendares",
+      "age": "5",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "Saul Gevertz, Ray Pagano,  Michael Nentwig, CYBT, McLean Racing Stables",
+      "trainer": "Philip D'Amato",
+      "breeder": null,
+      "sire": "Havana Grey",
+      "dam": "Glace",
+      "dam_sire": "Verglas"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27T00:00:00Z",
+        "race_date": "2025-09-27T00:00:00Z",
+        "finish_position": "3rd",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "1 mile",
+        "surface": "Turf",
+        "race_type": "2025 City of Hope Mile (G2)",
+        "time": "1:34.13",
+        "race_number": "4",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Cabo Spirit": {
+    "horse_info": {
+      "name": "Cabo Spirit",
+      "age": "6",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Kretz Racing LLC",
+      "trainer": "George Papaprodromou",
+      "breeder": "WinStar Farm, LLC",
+      "sire": "Pioneerof the Nile",
+      "dam": "Fancy Day",
+      "dam_sire": "Shamardal"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "2",
+        "speed_figure": "125",
+        "track": "SA",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 City of Hope Mile (G2)",
+        "time": "1:34.13",
+        "race_number": "4",
+        "program_number": "6"
+      }
+    ]
+  },
+  "Provenance": {
+    "horse_info": {
+      "name": "Provenance",
+      "age": "2",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "Spendthrift Farm LLC",
+      "trainer": "Bob Baffert",
+      "breeder": "Spendthrift Farm, LLC",
+      "sire": "Into Mischief",
+      "dam": "Monomoy Girl",
+      "dam_sire": "Tapizar"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "1",
+        "speed_figure": "104",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA MSW (09/27/2025-R5)",
+        "time": "1:10.40",
+        "race_number": "5",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Plagarist": {
+    "horse_info": {
+      "name": "Plagarist",
+      "age": "2",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "Muir Hut Stables LLC",
+      "trainer": "Mark Glatt",
+      "breeder": "Brereton C. Jones",
+      "sire": "Beau Liam",
+      "dam": "Creative Trick",
+      "dam_sire": "Creative Cause"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "2",
+        "speed_figure": "100",
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA MSW (09/27/2025-R5)",
+        "time": "1:10.40",
+        "race_number": "5",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Rastaman Vibe": {
+    "horse_info": {
+      "name": "Rastaman Vibe",
+      "age": "4",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "Coast Racing, Monty Silverstone LLC, and Thomsen Racing LLC",
+      "trainer": "Steve R. Knapp",
+      "breeder": "Gainesway Thoroughbreds LTD.",
+      "sire": "More Than Ready",
+      "dam": "Kichita",
+      "dam_sire": "Kitten's Joy"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "7",
+        "speed_figure": "109",
+        "track": "SA",
+        "distance": "1 1/4 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 John Henry Turf Championship (G2)",
+        "time": "1:58.74",
+        "race_number": "6",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Balladeer": {
+    "horse_info": {
+      "name": "Balladeer",
+      "age": "6",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "Nguyen, Calvin and Tran, Joey C.",
+      "trainer": "George Papaprodromou",
+      "breeder": "Bonne Chance Farm, LLC",
+      "sire": "Distorted Humor",
+      "dam": "Golden Ballad",
+      "dam_sire": "Galileo"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "5",
+        "speed_figure": "111",
+        "track": "SA",
+        "distance": "1 1/4 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 John Henry Turf Championship (G2)",
+        "time": "1:58.74",
+        "race_number": "6",
+        "program_number": "2"
+      }
+    ]
+  },
+  "Spycatcher": {
+    "horse_info": {
+      "name": "Spycatcher",
+      "age": "7",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Highclere Thoroughbred Racing",
+      "trainer": "Karl R. Burke",
+      "breeder": null,
+      "sire": "Vadamos",
+      "dam": "Damask",
+      "dam_sire": "Red Clubs"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-09T00:00:00Z",
+        "race_date": "2025-08-09T00:00:00Z",
+        "finish_position": "9th",
+        "speed_figure": null,
+        "track": "CUR",
+        "distance": "6 f",
+        "surface": "Turf",
+        "race_type": "2025 Phoenix Sprint Stakes (G3)",
+        "time": "1:08.91",
+        "race_number": "6",
+        "program_number": "3"
+      }
+    ]
+  },
+  "Dicey Mo Chara": {
+    "horse_info": {
+      "name": "Dicey Mo Chara",
+      "age": "7",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Red Baron's Barn LLC and Rancho Temescal LLC",
+      "trainer": "Leonard Powell",
+      "breeder": null,
+      "sire": "Adaay",
+      "dam": "Leonica",
+      "dam_sire": "Lion Cavern"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "6",
+        "speed_figure": "110",
+        "track": "SA",
+        "distance": "1 1/4 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 John Henry Turf Championship (G2)",
+        "time": "1:58.74",
+        "race_number": "6",
+        "program_number": "4"
+      }
+    ]
+  },
+  "Mondego": {
+    "horse_info": {
+      "name": "Mondego",
+      "age": "5",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "Cheyenne Stables LLC",
+      "trainer": "Michael W. McCarthy",
+      "breeder": null,
+      "sire": "Lope de Vega",
+      "dam": "Free Rein",
+      "dam_sire": "Dansili"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27T00:00:00Z",
+        "race_date": "2025-09-27T00:00:00Z",
+        "finish_position": "4th",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "1  1/4 m",
+        "surface": "Turf",
+        "race_type": "2025 John Henry Turf Championship (G2)",
+        "time": "1:58.74",
+        "race_number": "6",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Stay Hot": {
+    "horse_info": {
+      "name": "Stay Hot",
+      "age": "4",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "Burns Racing LLC, Exline-Border Racing LLC, Estate of Brereton C. Jones and Hudock, William Dan",
+      "trainer": "Peter Eurton",
+      "breeder": "Brereton C. Jones",
+      "sire": "Summer Front",
+      "dam": "Etsu",
+      "dam_sire": "Smart Strike"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "2",
+        "speed_figure": "115",
+        "track": "SA",
+        "distance": "1 1/4 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 John Henry Turf Championship (G2)",
+        "time": "1:58.74",
+        "race_number": "6",
+        "program_number": "6"
+      }
+    ]
+  },
+  "Gold Phoenix": {
+    "horse_info": {
+      "name": "Gold Phoenix",
+      "age": "7",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Agave Racing Stable, Little Red Feather Racing, Sterling Stables LLC and Naify, Marsha",
+      "trainer": "Philip D'Amato",
+      "breeder": null,
+      "sire": "Belardo",
+      "dam": "Magnifica",
+      "dam_sire": "Mizzen Mast"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "1",
+        "speed_figure": "117",
+        "track": "SA",
+        "distance": "1 1/4 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 John Henry Turf Championship (G2)",
+        "time": "1:58.74",
+        "race_number": "6",
+        "program_number": "7"
+      }
+    ]
+  },
+  "Kahuna Magic": {
+    "horse_info": {
+      "name": "Kahuna Magic",
+      "age": "7",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Ingordo, Dorothy, Jones, James F. and Jones, Jeffrey R.",
+      "trainer": "John A. Shirreffs",
+      "breeder": "Mr. & Mrs. J. S. Moss",
+      "sire": "Into Mischief",
+      "dam": "Katie's Garden",
+      "dam_sire": "Elusive Quality"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "2nd",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA SOC (09/27/2025-R7)",
+        "time": "1:09.97",
+        "race_number": "7",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Major Tom": {
+    "horse_info": {
+      "name": "Major Tom",
+      "age": "5",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Hay Day Racing",
+      "trainer": "George L. Lopez",
+      "breeder": null,
+      "sire": "Ransom the Moon",
+      "dam": "Taptam",
+      "dam_sire": "Pleasant Tap"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "4th",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA SOC (09/27/2025-R7)",
+        "time": "1:09.97",
+        "race_number": "7",
+        "program_number": "2"
+      }
+    ]
+  },
+  "Supernal": {
+    "horse_info": {
+      "name": "Supernal",
+      "age": "4",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "R3 Racing LLC",
+      "trainer": "Doug F. O'Neill",
+      "breeder": "Perry L. Martin",
+      "sire": "Sky Mesa",
+      "dam": "Cuddle Alert",
+      "dam_sire": "Bedford Falls"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-30",
+        "race_date": "2025-08-30",
+        "finish_position": "10",
+        "speed_figure": "99",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "DMR AOC (08/30/2025-R3)",
+        "time": "1:35.67",
+        "race_number": "7",
+        "program_number": "3"
+      }
+    ]
+  },
+  "Devil Among Us": {
+    "horse_info": {
+      "name": "Devil Among Us",
+      "age": "5",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Battle Born Racing Stable",
+      "trainer": "Antonio C. Garcia",
+      "breeder": "Robert Mitchell",
+      "sire": "Ministers Wild Cat",
+      "dam": "Devilish Pro",
+      "dam_sire": "Eddington"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "5th",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA SOC (09/27/2025-R7)",
+        "time": "1:09.97",
+        "race_number": "7",
+        "program_number": "4"
+      }
+    ]
+  },
+  "Raging Waters": {
+    "horse_info": {
+      "name": "Raging Waters",
+      "age": "7",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Steve R. Knapp",
+      "trainer": "Steve R. Knapp",
+      "breeder": "Tommy Town Thoroughbreds, LLC",
+      "sire": "Ministers Wild Cat",
+      "dam": "Calm The Sea",
+      "dam_sire": "Stormy Atlantic"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "6th",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA SOC (09/27/2025-R7)",
+        "time": "1:09.97",
+        "race_number": "7",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Hot Box": {
+    "horse_info": {
+      "name": "Hot Box",
+      "age": "7",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "James E. Crotts",
+      "trainer": "James E. Crotts",
+      "breeder": "Kristin Mulhall",
+      "sire": "Heat Shield",
+      "dam": "Heat Exposure",
+      "dam_sire": "Street Cry"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "8th",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA SOC (09/27/2025-R7)",
+        "time": "1:09.97",
+        "race_number": "7",
+        "program_number": "6"
+      }
+    ]
+  },
+  "Four O Six Creed": {
+    "horse_info": {
+      "name": "Four O Six Creed",
+      "age": "5",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Les Blake",
+      "trainer": "Jeff Mullins",
+      "breeder": "Spendthrift Farm, LLC",
+      "sire": "Jimmy Creed",
+      "dam": "She's All Ready",
+      "dam_sire": "Girolamo"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "1st",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA SOC (09/27/2025-R7)",
+        "time": "1:09.97",
+        "race_number": "7",
+        "program_number": "7"
+      }
+    ]
+  },
+  "Ballyvaughan Gig": {
+    "horse_info": {
+      "name": "Ballyvaughan Gig",
+      "age": "5",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Molloy, John A. and O'Leary, Timothy Francis",
+      "trainer": "Isidro Tamayo",
+      "breeder": null,
+      "sire": "Gig Harbor",
+      "dam": "[Add Data]",
+      "dam_sire": "[Add Data]"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "7th",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA SOC (09/27/2025-R7)",
+        "time": "1:09.97",
+        "race_number": "7",
+        "program_number": "8"
+      }
+    ]
+  },
+  "Tiger in My Tank": {
+    "horse_info": {
+      "name": "Tiger in My Tank",
+      "age": "4",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Mia Familia Racing Stable",
+      "trainer": "Librado Barocio",
+      "breeder": "Mr. & Mrs. Larry D. Williams",
+      "sire": "Smiling Tiger",
+      "dam": "Marks Mine",
+      "dam_sire": "Benchmark"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-27",
+        "race_date": "2025-09-27",
+        "finish_position": "3rd",
+        "speed_figure": null,
+        "track": "SA",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "SA SOC (09/27/2025-R7)",
+        "time": "1:09.97",
+        "race_number": "7",
+        "program_number": "9"
+      }
+    ]
+  },
+  "Reef Runner": {
+    "horse_info": {
+      "name": "Reef Runner",
+      "age": "4",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Lieblong, Alex and Lieblong, JoAnn",
+      "trainer": "David Fawkes",
+      "breeder": "Alex Lieblong & JoAnn Lieblong",
+      "sire": "The Big Beast",
+      "dam": "Paradise Bay",
+      "dam_sire": "Blame"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-30",
+        "race_date": "2025-08-30",
+        "finish_position": "2",
+        "speed_figure": "92",
+        "track": "DMR",
+        "distance": "5 f",
+        "surface": "Turf-Firm",
+        "race_type": "2025 Green Flash Handicap (G3)",
+        "time": "0:55.90",
+        "race_number": "8",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Nesso's Lastharrah": {
+    "horse_info": {
+      "name": "Nesso's Lastharrah",
+      "age": "4",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "Mark D. and Patricia L. Cofer Trust",
+      "trainer": "Peter Eurton",
+      "breeder": "Amaty Racing Stables",
+      "sire": "Sharp Azteca",
+      "dam": "Nesso",
+      "dam_sire": "Roman Ruler"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-15",
+        "race_date": "2025-08-15",
+        "finish_position": "1",
+        "speed_figure": "119",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "DMR AOC (08/15/2025-R8)",
+        "time": "1:35.55",
+        "race_number": "8",
+        "program_number": "2"
+      }
+    ]
+  },
+  "Mucho Del Oro": {
+    "horse_info": {
+      "name": "Mucho Del Oro",
+      "age": "7",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Purple Rein Racing",
+      "trainer": "George Papaprodromou",
+      "breeder": "BHMFR, LLC",
+      "sire": "Mucho Macho Man",
+      "dam": "Repeta",
+      "dam_sire": "Broken Vow"
+    },
+    "race_history": [
+      {
+        "date": "2025-07-20",
+        "race_date": "2025-07-20",
+        "finish_position": "5",
+        "speed_figure": "114",
+        "track": "DMR",
+        "distance": "6 1/2F",
+        "surface": "Dirt-Fast",
+        "race_type": "DMR AOC (07/20/2025-R10)",
+        "time": "1:15.92",
+        "race_number": "8",
+        "program_number": "3"
+      }
+    ]
+  },
+  "Sorrento Sky": {
+    "horse_info": {
+      "name": "Sorrento Sky",
+      "age": "4",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "Saul Gevertz,  Michael Nentwig, CYBT",
+      "trainer": "Philip D'Amato",
+      "breeder": null,
+      "sire": "Prince Of Lir",
+      "dam": "Briarfield Lady",
+      "dam_sire": "Battle Of Marengo"
+    },
+    "race_history": [
+      {
+        "date": "2024-12-01T00:00:00Z",
+        "race_date": "2024-12-01T00:00:00Z",
+        "finish_position": "2nd",
+        "speed_figure": null,
+        "track": "DMR",
+        "distance": "5  f",
+        "surface": "Turf",
+        "race_type": "2024 Stormy Liberal (LS)",
+        "time": "0:56.32",
+        "race_number": "8",
+        "program_number": "4"
+      }
+    ]
+  },
+  "Yellow Card": {
+    "horse_info": {
+      "name": "Yellow Card",
+      "age": "4",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "James M. Daniell",
+      "trainer": "Michael W. McCarthy",
+      "breeder": "Tiffiney K. Veloudis",
+      "sire": "Lost Treasure",
+      "dam": "Paris Girl",
+      "dam_sire": "Pulpit"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-23",
+        "race_date": "2025-08-23",
+        "finish_position": "1",
+        "speed_figure": "77",
+        "track": "DMR",
+        "distance": "5 f",
+        "surface": "Turf-Firm",
+        "race_type": "DMR AOC (08/23/2025-R8)",
+        "time": "0:57.00",
+        "race_number": "8",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Beyond Brilliant": {
+    "horse_info": {
+      "name": "Beyond Brilliant",
+      "age": "7",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "C R K Stable LLC",
+      "trainer": "John A. Shirreffs",
+      "breeder": "Fred W. Hertrich lll, John D. Fielding& Robert L. Tribbett",
+      "sire": "Twirling Candy",
+      "dam": "Summer On The Lawn",
+      "dam_sire": "First Defence"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-30",
+        "race_date": "2025-08-30",
+        "finish_position": "3",
+        "speed_figure": "90",
+        "track": "DMR",
+        "distance": "5 f",
+        "surface": "Turf-Firm",
+        "race_type": "2025 Green Flash Handicap (G3)",
+        "time": "0:55.90",
+        "race_number": "8",
+        "program_number": "6"
+      }
+    ]
+  },
+  "Kale's Angel": {
+    "horse_info": {
+      "name": "Kale's Angel",
+      "age": "3",
+      "sex": "Gelding",
+      "status": "Active",
+      "owner": "Kagele, Tom and Marchosky, Ernest",
+      "trainer": "Peter Miller",
+      "breeder": "Brereton C. Jones",
+      "sire": "Complexity",
+      "dam": "Love Affair",
+      "dam_sire": "Malibu Moon"
+    },
+    "race_history": [
+      {
+        "date": "2025-07-18",
+        "race_date": "2025-07-18",
+        "finish_position": "8",
+        "speed_figure": "99",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 Oceanside (LS)",
+        "time": "1:36.32",
+        "race_number": "8",
+        "program_number": "7"
+      }
+    ]
+  },
+  "First Peace": {
+    "horse_info": {
+      "name": "First Peace",
+      "age": "5",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "Rancho Temescal LLC, Red Baron's Barn LLC and Orr, Rodney E.",
+      "trainer": "Mark Glatt",
+      "breeder": "Christopher L. Baker &Mullikin Thoroughbreds",
+      "sire": "Funtastic",
+      "dam": "Peace Opportunity",
+      "dam_sire": "Point of Entry"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-30",
+        "race_date": "2025-08-30",
+        "finish_position": "11",
+        "speed_figure": "80",
+        "track": "DMR",
+        "distance": "5 f",
+        "surface": "Turf-Firm",
+        "race_type": "2025 Green Flash Handicap (G3)",
+        "time": "0:55.90",
+        "race_number": "8",
+        "program_number": "8"
+      }
+    ]
+  },
+  "Gaming": {
+    "horse_info": {
+      "name": "Gaming",
+      "age": "3",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "Pegram, Michael E., Watson, Karl and Weitman, Paul",
+      "trainer": "Bob Baffert",
+      "breeder": "Mt Brilliant Farm & Ranch, LLC",
+      "sire": "Game Winner",
+      "dam": "So Stylish",
+      "dam_sire": "Johannesburg"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-31",
+        "race_date": "2025-08-31",
+        "finish_position": "3",
+        "speed_figure": "103",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Dirt-Fast",
+        "race_type": "2025 Shared Belief Stakes (LS)",
+        "time": "1:35.12",
+        "race_number": "9",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Ultimate Gamble": {
+    "horse_info": {
+      "name": "Ultimate Gamble",
+      "age": "5",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "Red Baron's Barn LLC and Rancho Temescal LLC",
+      "trainer": "Mark Glatt",
+      "breeder": "Machmer Hall, Carrie Brogden & CraigBrogden",
+      "sire": "Medaglia d'Oro",
+      "dam": "Eltimaas",
+      "dam_sire": "Ghostzapper"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-30",
+        "race_date": "2025-08-30",
+        "finish_position": "3",
+        "speed_figure": "115",
+        "track": "DMR",
+        "distance": "1 1/4 m",
+        "surface": "Dirt-Fast",
+        "race_type": "2025 Pacific Classic (G1)",
+        "time": "2:01.00",
+        "race_number": "9",
+        "program_number": "2"
+      }
+    ]
+  },
+  "Privman": {
+    "horse_info": {
+      "name": "Privman",
+      "age": "3",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "SF Racing LLC, Starlight Racing, Madaket Stables LLC, Stonestreet Stables LLC, Bashor, Dianne, Determined Stables, Masterson, Robert E., Ryan, Tom J., Waves Edge Capital LLC and Donovan, Catherine",
+      "trainer": "Bob Baffert",
+      "breeder": "Betz/B&K Canetti/J.Betz/D.J.Stables/Graves/GTL",
+      "sire": "Justify",
+      "dam": "Mo Knows",
+      "dam_sire": "Uncle Mo"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-09",
+        "race_date": "2025-08-09",
+        "finish_position": "1",
+        "speed_figure": "118",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Dirt-Fast",
+        "race_type": "DMR AOC (08/09/2025-R6)",
+        "time": "1:36.35",
+        "race_number": "9",
+        "program_number": "3"
+      }
+    ]
+  },
+  "First Mission": {
+    "horse_info": {
+      "name": "First Mission",
+      "age": "5",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "Godolphin, LLC",
+      "trainer": "Brad H. Cox",
+      "breeder": "Godolphin",
+      "sire": "Street Sense",
+      "dam": "Elude",
+      "dam_sire": "Medaglia d'Oro"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-16",
+        "race_date": "2025-08-16",
+        "finish_position": "2",
+        "speed_figure": "129",
+        "track": "MTH",
+        "distance": "1 1/16M",
+        "surface": "Dirt-Fast",
+        "race_type": "2025 Philip H. Iselin (G3)",
+        "time": "1:44.27",
+        "race_number": "9",
+        "program_number": "4"
+      }
+    ]
+  },
+  "Nevada Beach": {
+    "horse_info": {
+      "name": "Nevada Beach",
+      "age": "3",
+      "sex": "Colt",
+      "status": "Active",
+      "owner": "Pegram, Michael E., Watson, Karl and Weitman, Paul",
+      "trainer": "Bob Baffert",
+      "breeder": "Paul Tackett Revocable Trust, PhilTackett Estate & Christy Tackett",
+      "sire": "Omaha Beach",
+      "dam": "Morrow Cove",
+      "dam_sire": "Yes It's True"
+    },
+    "race_history": [
+      {
+        "date": "2025-06-28",
+        "race_date": "2025-06-28",
+        "finish_position": "1",
+        "speed_figure": "124",
+        "track": "LRC",
+        "distance": "1 1/8 m",
+        "surface": "Dirt-Fast",
+        "race_type": "2025 Los Alamitos Derby (LS)",
+        "time": "1:47.59",
+        "race_number": "9",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Express Train": {
+    "horse_info": {
+      "name": "Express Train",
+      "age": "8",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "C R K Stable LLC",
+      "trainer": "John A. Shirreffs",
+      "breeder": "Dixiana Farms LLC",
+      "sire": "Union Rags",
+      "dam": "I'm A Flake",
+      "dam_sire": "Mineshaft"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-23",
+        "race_date": "2025-08-23",
+        "finish_position": "3",
+        "speed_figure": "119",
+        "track": "DMR",
+        "distance": "7 f",
+        "surface": "Dirt-Fast",
+        "race_type": "2025 Pat O'Brien Stakes (G2)",
+        "time": "1:21.53",
+        "race_number": "9",
+        "program_number": "6"
+      }
+    ]
+  },
+  "Full Serrano": {
+    "horse_info": {
+      "name": "Full Serrano",
+      "age": "6",
+      "sex": "Horse",
+      "status": "Active",
+      "owner": "Hronis Racing LLC",
+      "trainer": "John W. Sadler",
+      "breeder": null,
+      "sire": "Full Mast",
+      "dam": "Serra Do Mar",
+      "dam_sire": "Jump Start"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-01",
+        "race_date": "2025-09-01",
+        "finish_position": "1",
+        "speed_figure": "125",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Dirt-Fast",
+        "race_type": "DMR AOC (09/01/2025-R2)",
+        "time": "1:35.11",
+        "race_number": "9",
+        "program_number": "7"
+      }
+    ]
+  },
+  "Warming": {
+    "horse_info": {
+      "name": "Warming",
+      "age": "4",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Salem Rashid bin Ghadayer",
+      "trainer": "George Boughey",
+      "breeder": null,
+      "sire": "Too Darn Hot",
+      "dam": "Cape Bunting",
+      "dam_sire": "Cape Cross"
+    },
+    "race_history": [
+      {
+        "date": "2024-01-04T00:00:00Z",
+        "race_date": "2024-01-04T00:00:00Z",
+        "finish_position": "3rd",
+        "speed_figure": null,
+        "track": "NCS",
+        "distance": "6 f",
+        "surface": "Synthetic",
+        "race_type": "Allow",
+        "time": "1:17.87",
+        "race_number": "10",
+        "program_number": "1"
+      }
+    ]
+  },
+  "Practical Dream": {
+    "horse_info": {
+      "name": "Practical Dream",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Amestoy, Leslie A., Amestoy, Jr., Pierre Jean and Beasley, Roger K.",
+      "trainer": "Tim Yakteen",
+      "breeder": "Gary Broad - Walmac Farm, LLC",
+      "sire": "Practical Joke",
+      "dam": "Imforeal",
+      "dam_sire": "In Excess"
+    },
+    "race_history": [
+      {
+        "date": "2025-07-24",
+        "race_date": "2025-07-24",
+        "finish_position": "4",
+        "speed_figure": "100",
+        "track": "DMR",
+        "distance": "6F",
+        "surface": "Dirt-Fast",
+        "race_type": "DMR AOC (07/24/2025-R7)",
+        "time": "1:09.73",
+        "race_number": "10",
+        "program_number": "2"
+      }
+    ]
+  },
+  "Schilflied": {
+    "horse_info": {
+      "name": "Schilflied",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "TCK USA",
+      "trainer": "Patrick Gallagher",
+      "breeder": "Spendthrift Farm, LLC",
+      "sire": "Mendelssohn",
+      "dam": "Part Of The Charm",
+      "dam_sire": "Tapit"
+    },
+    "race_history": [
+      {
+        "date": "2025-07-26",
+        "race_date": "2025-07-26",
+        "finish_position": "8",
+        "speed_figure": "91",
+        "track": "DMR",
+        "distance": "5 f",
+        "surface": "Turf-Firm",
+        "race_type": "2025 Daisycutter Handicap (LS)",
+        "time": "0:56.88",
+        "race_number": "10",
+        "program_number": "3"
+      }
+    ]
+  },
+  "Innovative": {
+    "horse_info": {
+      "name": "Innovative",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Little Red Feather Racing and Sterling Stables, LLC",
+      "trainer": "Philip D'Amato",
+      "breeder": "Hartmut H. Malluche & Silesia Farm",
+      "sire": "Complexity",
+      "dam": "Lantiz",
+      "dam_sire": "Tizway"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-09",
+        "race_date": "2025-08-09",
+        "finish_position": "1",
+        "speed_figure": "114",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "DMR AOC (08/09/2025-R5)",
+        "time": "1:35.47",
+        "race_number": "10",
+        "program_number": "4"
+      }
+    ]
+  },
+  "Lee's Baby Girl": {
+    "horse_info": {
+      "name": "Lee's Baby Girl",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Thomas Randall Sanford",
+      "trainer": "Carla Gaines",
+      "breeder": "Ron Boone Family Trust",
+      "sire": "Malibu Moon",
+      "dam": "Rapid Racer",
+      "dam_sire": "Forest Wildcat"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-05",
+        "race_date": "2025-09-05",
+        "finish_position": "1",
+        "speed_figure": "84",
+        "track": "DMR",
+        "distance": "5 f",
+        "surface": "Turf-Firm",
+        "race_type": "DMR AOC (09/05/2025-R2)",
+        "time": "0:57.45",
+        "race_number": "10",
+        "program_number": "5"
+      }
+    ]
+  },
+  "Casalu": {
+    "horse_info": {
+      "name": "Casalu",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Pegram, Michael E., Watson, Karl and Weitman, Paul",
+      "trainer": "Bob Baffert",
+      "breeder": "LLP Performance Horses, LLC",
+      "sire": "Caracaro",
+      "dam": "Key D'oro",
+      "dam_sire": "Medaglia d'Oro"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-16",
+        "race_date": "2025-08-16",
+        "finish_position": "8",
+        "speed_figure": "111",
+        "track": "DMR",
+        "distance": "1 1/8 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 Del Mar Oaks (G1)",
+        "time": "1:48.45",
+        "race_number": "10",
+        "program_number": "6"
+      }
+    ]
+  },
+  "Donttellourwives": {
+    "horse_info": {
+      "name": "Donttellourwives",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Gans, Doug, Jacobs, Gary and Katz, Larry M.",
+      "trainer": "Leonard Powell",
+      "breeder": "Cheryl Ann Curtin",
+      "sire": "Khozan",
+      "dam": "My Princess Dawn",
+      "dam_sire": "Master Command"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-24",
+        "race_date": "2025-08-24",
+        "finish_position": "4",
+        "speed_figure": "100",
+        "track": "DMR",
+        "distance": "6 1/2F",
+        "surface": "Dirt-Fast",
+        "race_type": "2025 Rancho Bernardo Handicap (G3)",
+        "time": "1:15.44",
+        "race_number": "10",
+        "program_number": "7"
+      }
+    ]
+  },
+  "Favor to You": {
+    "horse_info": {
+      "name": "Favor to You",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Estate of Brereton C. Jones, Little Red Feather Racing and Madaket Stables LLC",
+      "trainer": "Philip D'Amato",
+      "breeder": "University of Kentucky",
+      "sire": "Divisidero",
+      "dam": "So Beautiful",
+      "dam_sire": "Arch"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-11",
+        "race_date": "2025-08-11",
+        "finish_position": "3",
+        "speed_figure": "67",
+        "track": "ELP",
+        "distance": "5 1/2F",
+        "surface": "Turf-Firm",
+        "race_type": "ELP ALW (08/11/2025-R2)",
+        "time": "1:01.50",
+        "race_number": "10",
+        "program_number": "8"
+      }
+    ]
+  },
+  "Eiffel": {
+    "horse_info": {
+      "name": "Eiffel",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Little Red Feather Racing, Johnston, Kellie and Tiger Racing, Inc",
+      "trainer": "Mike Puype",
+      "breeder": "Repole Stable, Inc.",
+      "sire": "City of Light",
+      "dam": "On The Good List",
+      "dam_sire": "Speightstown"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-01",
+        "race_date": "2025-09-01",
+        "finish_position": "8",
+        "speed_figure": "92",
+        "track": "DMR",
+        "distance": "1 1/16M",
+        "surface": "Turf-Firm",
+        "race_type": "DMR AOC (09/01/2025-R7)",
+        "time": "1:43.50",
+        "race_number": "10",
+        "program_number": "9"
+      }
+    ]
+  },
+  "A Thousand Miles": {
+    "horse_info": {
+      "name": "A Thousand Miles",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Bryon Seymore",
+      "trainer": "Vann Belvoir",
+      "breeder": "John Hess & Riley Hess",
+      "sire": "Thousand Words",
+      "dam": "Swiss Army Wife",
+      "dam_sire": "Colonel John"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-30",
+        "race_date": "2025-08-30",
+        "finish_position": "7",
+        "speed_figure": "83",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Dirt-Fast",
+        "race_type": "2025 Torrey Pines (G3)",
+        "time": "1:36.99",
+        "race_number": "10",
+        "program_number": "10"
+      }
+    ]
+  },
+  "Wink and a Grin": {
+    "horse_info": {
+      "name": "Wink and a Grin",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Harris Farms, Inc.",
+      "trainer": "Carla Gaines",
+      "breeder": "Harris Farms, Inc.",
+      "sire": "Smiling Tiger",
+      "dam": "Style Award",
+      "dam_sire": "Acclamation"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-17",
+        "race_date": "2025-08-17",
+        "finish_position": "4",
+        "speed_figure": "110",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Turf-Firm",
+        "race_type": "2025 Solana Beach  (RS)",
+        "time": "1:34.92",
+        "race_number": "10",
+        "program_number": "11"
+      }
+    ]
+  },
+  "Tight Squeeze": {
+    "horse_info": {
+      "name": "Tight Squeeze",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Legacy Ranch, Inc.",
+      "trainer": "John W. Sadler",
+      "breeder": "Legacy Ranch, Inc.",
+      "sire": "Sir Prancealot",
+      "dam": "Intimate Obsession",
+      "dam_sire": "Elusive Quality"
+    },
+    "race_history": [
+      {
+        "date": "2025-09-05",
+        "race_date": "2025-09-05",
+        "finish_position": "3",
+        "speed_figure": "80",
+        "track": "DMR",
+        "distance": "5 f",
+        "surface": "Turf-Firm",
+        "race_type": "DMR AOC (09/05/2025-R2)",
+        "time": "0:57.45",
+        "race_number": "10",
+        "program_number": "12"
+      }
+    ]
+  },
+  "Miso Phansy": {
+    "horse_info": {
+      "name": "Miso Phansy",
+      "age": "3",
+      "sex": "Filly",
+      "status": "Active",
+      "owner": "Ciaglia Racing LLC and Christensen, Robin",
+      "trainer": "Leonard Powell",
+      "breeder": "Ciaglia Racing LLC",
+      "sire": "Karakontie",
+      "dam": "Sandy Cheeks",
+      "dam_sire": "Souvenir Copy"
+    },
+    "race_history": [
+      {
+        "date": "2025-08-21",
+        "race_date": "2025-08-21",
+        "finish_position": "3",
+        "speed_figure": "86",
+        "track": "DMR",
+        "distance": "1 m",
+        "surface": "Dirt-Fast",
+        "race_type": "DMR AOC (08/21/2025-R5)",
+        "time": "1:38.25",
+        "race_number": "10",
+        "program_number": "13"
+      }
+    ]
+  }
+}
