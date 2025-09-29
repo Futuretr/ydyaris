@@ -55,7 +55,12 @@ TRACK_MAPPING = {
     'mountaineer': 'Mountaineer Casino Racetrack',
     'los-alamitos': 'Los Alamitos Race Course',
     'horseshoe-indianapolis': 'Horseshoe Indianapolis',
-    'finger-lakes': 'Finger Lakes'
+    'finger-lakes': 'Finger Lakes',
+    'tampa-bay-downs': 'Tampa Bay Downs',
+    'parx-racing': 'Parx Racing',
+    'thistledown': 'Thistledown',
+    'fort-erie': 'Fort Erie',
+    'presque-isle-downs': 'Presque Isle Downs'
 }
 
 @app.route('/')
@@ -171,6 +176,21 @@ def scrape_and_save():
                             'success': False, 
                             'message': f'{track_name} için bugün yarış bulunamadı veya scraping başarısız oldu.'
                         })
+                        
+                    # Entries dosyasının içeriğini kontrol et (boş mu?)
+                    try:
+                        import pandas as pd
+                        df = pd.read_csv(entries_file)
+                        if len(df) == 0:
+                            return jsonify({
+                                'success': False, 
+                                'message': f'{track_name} için bugün yarış bulunamadı. Entries dosyası boş.'
+                            })
+                    except Exception as e:
+                        return jsonify({
+                            'success': False, 
+                            'message': f'{track_name} entries dosyası okunamadı: {str(e)}'
+                        })
                 else:
                     return jsonify({
                         'success': False, 
@@ -258,6 +278,13 @@ def scrape_single_track_data(track_code, date_str):
             'remington-park': 'https://entries.horseracingnation.com/entries-results/remington-park',
             'mountaineer': 'https://entries.horseracingnation.com/entries-results/mountaineer',
             'los-alamitos': 'https://entries.horseracingnation.com/entries-results/los-alamitos',
+            'finger-lakes': 'https://entries.horseracingnation.com/entries-results/finger-lakes',
+            'tampa-bay-downs': 'https://entries.horseracingnation.com/entries-results/tampa-bay-downs',
+            'parx-racing': 'https://entries.horseracingnation.com/entries-results/parx-racing',
+            'thistledown': 'https://entries.horseracingnation.com/entries-results/thistledown',
+            'fort-erie': 'https://entries.horseracingnation.com/entries-results/fort-erie',
+            'presque-isle-downs': 'https://entries.horseracingnation.com/entries-results/presque-isle-downs',
+            'horseshoe-indianapolis': 'https://entries.horseracingnation.com/entries-results/horseshoe-indianapolis',
             # Diğer trackler için fallback
             'del-mar': 'https://entries.horseracingnation.com/entries-results/del-mar',
             'keeneland': 'https://entries.horseracingnation.com/entries-results/keeneland',
